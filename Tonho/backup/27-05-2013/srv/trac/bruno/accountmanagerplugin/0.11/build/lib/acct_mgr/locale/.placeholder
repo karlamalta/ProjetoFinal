@@ -1,0 +1,4 @@
+# DO NOT REMOVE
+
+# This file helps setuptools to always include the 'locale' directory on
+# packaging, so Trac doesn't blow-up on loading plugins from Python eggs.

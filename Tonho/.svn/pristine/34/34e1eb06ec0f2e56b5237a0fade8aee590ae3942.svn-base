@@ -1,0 +1,130 @@
+Metadata-Version: 1.1
+Name: TracFeaturePlugin
+Version: 0.2.6
+Summary: Provides support for feature reference in SPLIT.
+Home-page: http://trac-hacks.org/wiki/TracTicketReferencePlugin
+Author: Bruno Cabral
+Author-email: bcabral@uw.edu
+License: Apache License 2.0
+Description: Notes
+        =====
+        
+        `TracTicketReferencePlugin`_ adds simple ticket cross-reference for Trac.
+        
+        Note: TracTicketReference requires Trac 0.12 or higher.
+        
+        .. _TracTicketReferencePlugin: http://trac-hacks.org/wiki/TracTicketReferencePlugin
+        
+        What is it?
+        -----------
+        
+        This plugin adds "Relationships" fields to each ticket, enabling you
+        to express cross-reference between tickets.
+        
+        Features
+        --------
+        
+        * Provide simple cross-reference as Trac custom field (``ticketref``)
+        * Create new ticket with related ticket's field value
+        * Picking up the referred ticket in comment
+        
+        Configuration
+        =============
+        
+        To enable the plugin::
+        
+            [components]
+            ticketref.* = enabled
+        
+            [ticket-custom]
+            ticketref = textarea
+            ticketref.label = Relationships
+            ticketref.cols = 68
+            ticketref.rows = 1
+        
+        If you want to show more small field, change as follows::
+        
+            [ticket-custom]
+            ticketref = text
+            ticketref.label = Relationships
+        
+        i18n/l10n Support
+        -----------------
+        
+        This plugin is able to localize field label or message.
+        You can translate into your language using ``ticketref/locale/messages.pot``.
+        And then, I'm willing to merge your contribution into the distribution.
+        So, let me know if you localized ``ticketref/locale/messages.pot``.
+        
+        See also `Localization (L10N) of Trac`_.
+        
+        .. _Localization (L10N) of Trac: http://trac.edgewall.org/wiki/TracL10N
+        
+        Acknowledgment
+        ==============
+        
+        This plugin was inspired by `MasterTicketsPlugin`_.
+        
+        .. _MasterTicketsPlugin: http://trac-hacks.org/wiki/MasterTicketsPlugin
+        
+        ChangeLog
+        =========
+        
+        0.2.6 (2013-02-27)
+        ------------------
+        
+        * fixed to check 'all_columns' is exist in data dictionary related to #3
+        
+        0.2.5 (2013-02-26)
+        ------------------
+        
+        * fix to be able to select a column or a row in query-result page
+          (see also #3)
+        
+        0.2.4 (2012-09-20)
+        ------------------
+        
+        * fix to avoid SQL injection attacks (see also #2)
+        
+        0.2.3 (2012-03-25)
+        ------------------
+        
+        * fix to show warnings when the relationships field is updated
+          at the same time (see also #1)
+        * fix to save proper oldvalue/newvalue when the relationships field
+          is updated
+        * add unit test
+        
+        0.2.2 (2012-01-30)
+        ------------------
+        
+        * add "cc" to make the new ticket with relationships
+        * fix bugs (pick up ticket id in comment, avoid own ticket id)
+        
+        0.2.1 (2012-01-22)
+        ------------------
+        
+        * support whitespace as separator for describing relationships
+        * fix bugs (non integer validation, show the relationships field in query)
+        
+        0.2.0 (2012-01-20)
+        ------------------
+        
+        * create new ticket with related ticket's field value
+        * picking up the referred ticket in comment
+        * i18n/l10n support
+        
+        0.1.0 (2012-01-15)
+        ------------------
+        * first release
+        
+Keywords: trac,plugin,ticket,cross-reference
+Platform: UNKNOWN
+Classifier: Framework :: Trac
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development

@@ -1,0 +1,29 @@
+id: 0-18.0.r18/0
+type: dir
+count: 0
+cpath: /SOPLE-TestBed
+copyroot: 0 /
+
+PLAIN
+K 13
+SOPLE-TestBed
+V 16
+dir 0-18.0.r18/0
+K 7
+reqtool
+V 18
+dir 0-1.0.r17/1813
+END
+ENDREP
+id: 0.0.r18/167
+type: dir
+pred: 0.0.r17/2013
+count: 18
+text: 18 73 81 81 d3901062ea202d2b0bde992eb4678a2f
+cpath: /
+copyroot: 0 /
+
+_0.0.t17-j add-dir false false /SOPLE-TestBed
+
+
+167 297

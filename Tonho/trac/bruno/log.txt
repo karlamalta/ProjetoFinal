@@ -1,0 +1,12 @@
+tracd -p 8080 --basic-auth="trac,C:\ProjetoEsa\Tonho\trac\trac.htpasswd,SPLICE" C:\ProjetoEsa\Tonho\trac\
+
+tracd -p 8080 C:\ProjetoEsa\Tonho\trac\
+
+
+trac-admin C:\ProjetoEsa\Tonho\trac\ permission add admin TRAC_ADMIN
+
+compile plugin
+python setup.py bdist_egg
+
+set 
+restrict_owner = true

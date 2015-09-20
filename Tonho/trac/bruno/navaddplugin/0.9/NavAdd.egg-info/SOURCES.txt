@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+NavAdd.egg-info/PKG-INFO
+NavAdd.egg-info/SOURCES.txt
+NavAdd.egg-info/dependency_links.txt
+NavAdd.egg-info/entry_points.txt
+NavAdd.egg-info/top_level.txt
+navadd/__init__.py
+navadd/navadd.py

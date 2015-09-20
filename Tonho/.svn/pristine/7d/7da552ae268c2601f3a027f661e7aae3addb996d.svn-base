@@ -1,0 +1,193 @@
+PLAIN
+K 13
+.___init__.py
+V 21
+file in-1.0.r1/424565
+K 10
+._admin.py
+V 21
+file ih-1.0.r1/428122
+K 11
+._models.py
+V 21
+file i9-1.0.r1/426961
+K 12
+._models.pyc
+V 21
+file if-1.0.r1/427800
+K 10
+._tests.py
+V 21
+file hv-1.0.r1/425212
+K 10
+._views.py
+V 21
+file il-1.0.r1/428763
+K 11
+__init__.py
+V 21
+file i7-1.0.r1/426699
+K 12
+__init__.pyc
+V 21
+file ib-1.0.r1/427282
+K 8
+admin.py
+V 21
+file i1-1.0.r1/425986
+K 9
+admin.pyc
+V 21
+file i3-1.0.r1/426250
+K 9
+models.py
+V 21
+file hx-1.0.r1/425466
+K 10
+models.pyc
+V 21
+file hz-1.0.r1/425731
+K 8
+tests.py
+V 21
+file id-1.0.r1/427537
+K 8
+views.py
+V 21
+file i5-1.0.r1/426504
+END
+ENDREP
+id: hr-1.0.r17/615
+type: dir
+pred: hr-1.0.r16/659
+count: 2
+text: 17 0 602 602 5d41fa07cd4df9b36f53590917279610
+cpath: /reqtool/management
+copyroot: 0 /
+
+PLAIN
+K 19
+._RELEASE_NOTES.txt
+V 21
+file iz-1.0.r1/338606
+K 13
+.___init__.py
+V 21
+file bl-1.0.r1/422620
+K 11
+._dbdump.py
+V 21
+file iv-1.0.r1/338109
+K 14
+._features.ods
+V 21
+file ix-1.0.r1/430425
+K 11
+._manage.py
+V 21
+file h1-1.0.r1/439088
+K 14
+._odsparser.py
+V 21
+file hn-1.0.r1/423440
+K 13
+._settings.py
+V 21
+file bn-1.0.r1/422932
+K 9
+._urls.py
+V 20
+file 7-1.0.r1/365933
+K 17
+RELEASE_NOTES.txt
+V 21
+file bp-1.0.r1/423178
+K 11
+__init__.py
+V 21
+file bx-1.0.r1/430980
+K 10
+bugtracker
+V 19
+dir 9-1.0.r1/438885
+K 12
+dashboard.py
+V 21
+file ip-1.0.r1/429861
+K 9
+dbdump.py
+V 21
+file bj-1.0.r1/422050
+K 12
+features.ods
+V 21
+file h3-1.0.r1/422306
+K 3
+fur
+V 18
+dir 1j-1.0.r15/956
+K 3
+lib
+V 20
+dir h5-1.0.r1/442590
+K 9
+manage.py
+V 21
+file it-1.0.r1/338353
+K 10
+management
+V 18
+dir hr-1.0.r17/615
+K 12
+odsparser.py
+V 21
+file gv-1.0.r1/365675
+K 12
+reqtool_test
+V 20
+file 2-1.0.r1/430738
+K 11
+settings.py
+V 21
+file gt-1.0.r1/431165
+K 6
+static
+V 20
+dir bz-1.0.r1/365543
+K 9
+templates
+V 20
+dir 3n-1.0.r1/421915
+K 7
+urls.py
+V 21
+file bv-1.0.r1/424314
+END
+ENDREP
+id: 0-1.0.r17/1813
+type: dir
+pred: 0-1.0.r16/1859
+count: 16
+text: 17 768 1032 1032 4674a6bc01727e8aba90ed525b9d883d
+cpath: /reqtool
+copyroot: 0 /
+
+PLAIN
+K 7
+reqtool
+V 18
+dir 0-1.0.r17/1813
+END
+ENDREP
+id: 0.0.r17/2013
+type: dir
+pred: 0.0.r16/2059
+count: 17
+text: 17 1960 40 40 e649704496035188a4f01816ed760dd9
+cpath: /
+copyroot: 0 /
+
+ij-1.0.r1/428442 delete-file false false /reqtool/management/._admin.pyc
+
+
+2013 2146

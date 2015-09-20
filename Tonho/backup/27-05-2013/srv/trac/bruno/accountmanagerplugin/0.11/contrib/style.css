@@ -1,0 +1,17 @@
+/* CSS definitions for AccountManagerPlugin */
+/* styles for login page - new style */
+/* Copy this file into your <env>/htdocs/ folder, add the style definitions
+   below to an existing one or include in another way, if you already have
+   some Trac customization in place. */
+
+body { background-color:#efefef; }
+div.login {
+    background-color:#ffffff;
+    margin:2em auto 0; width:420px;
+    border:1px solid #666666;
+    }
+div.login h1 { margin-top:1em; text-align:center; width:100%; }
+div#login_options ul { margin:1em 0pt; text-align:center; }
+.central { text-align:center; }
+.spacer { height:7em; }
+.textbox { text-indent:0.5em; margin:0 120px 0.5em; }

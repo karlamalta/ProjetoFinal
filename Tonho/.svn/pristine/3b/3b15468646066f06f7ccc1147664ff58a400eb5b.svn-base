@@ -1,0 +1,66 @@
+\documentclass[10pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx,url}
+\usepackage[brazil]{babel}
+\usepackage[linkcolor=blue,citecolor=blue,urlcolor=blue,colorlinks,pdfpagelabels]{hyperref}
+\usepackage[a4paper,top=3.5cm,left=3cm,right=3cm,bottom=2.5cm]{geometry}
+\usepackage{longtable}
+
+\title{Relatório de Requisitos (Módulo {{module}}-- draft} %mude para o titulo do seu relatorio 
+\author{RiSE/Medicware} %mude para os autores do relatorio
+
+\begin{document} 
+
+\maketitle
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+{% for requirement in requirements %}
+	\setcounter{section}{ {{requirement.id}}}
+	\section{~REQ:{{requirement.name}}}
+	\label{req{{requirement.id}}}
+	
+	\begin{longtable}{|p{2.5cm}|p{12cm}|}
+	\hline
+	\textbf {Descrição:} & {{requirement.description}} \\
+	\hline
+    \textbf{Variabilidade:} & {{requirement.variabilityType}}\\
+	\hline
+	\textbf{Prioridade:} & {{requirement.priority}}\\
+	\hline
+	\textbf{Features:} & 
+	{% for feat in requirement.features.all%}
+	  {{feat.name}} [{{feat.id}}]
+	{% endfor %}\\
+	{% if requirement.variationpoint_set.all %}
+	  \hline
+	  \textbf{Pontos de Variação:} &
+	 
+	  {% for varpoint in requirement.variationpoint_set.all %}
+	    \textbf{ {{varpoint.name}}: }{{varpoint.description}}\newline
+	    \emph{Cardinalidade mínima:} {{varpoint.cardinalityMin}}\newline
+	    \emph{Cardinalidade máxima:} {{varpoint.cardinalityMax}}
+		
+		{% if varpoint.variant_set.all %}
+		  \textbf{ Variantes:}
+	      {% for variant in varpoint.variant_set.all %}
+	        \textbf{ {{variant.name}}}: {{variant.description}}.
+	        {% if variant.feature %}
+	        \newline
+	        \emph{Feature:} {{variant.feature.name}}
+	        {% endif %}
+	      {% endfor %}
+	    {% endif %}
+	  {% endfor %}\\
+	{% endif %}
+	\hline
+	\end{longtable}
+
+{% endfor %}
+
+\end{document}

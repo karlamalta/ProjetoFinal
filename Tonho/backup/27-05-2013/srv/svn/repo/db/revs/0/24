@@ -1,0 +1,33 @@
+id: 0-24.0.r24/0
+type: dir
+count: 0
+cpath: /splice_logo
+copyroot: 0 /
+
+PLAIN
+K 13
+SOPLE-TestBed
+V 19
+dir 0-18.0.r23/7174
+K 7
+reqtool
+V 18
+dir 0-1.0.r17/1813
+K 11
+splice_logo
+V 16
+dir 0-24.0.r24/0
+END
+ENDREP
+id: 0.0.r24/207
+type: dir
+pred: 0.0.r23/7422
+count: 24
+text: 24 71 123 123 e91d95badc8ec88a4ebf06054d3db3e4
+cpath: /
+copyroot: 0 /
+
+_0.0.t23-p add-dir false false /splice_logo
+
+
+207 339

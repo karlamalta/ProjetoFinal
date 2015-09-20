@@ -1,0 +1,21 @@
+{% extends "admin/base_site.html" %}
+{% load i18n %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+     <a href="../../../">{% trans "Home" %}</a> &rsaquo;
+     <a href="../../">{{ app_label|capfirst }}</a> &rsaquo;
+     <a href="../">{{ opts.verbose_name_plural|capfirst }}</a> &rsaquo;
+     {% trans 'Show Test Cases' %}
+</div>
+{% endblock %}
+
+{% block content %}
+    <p></p>
+    {% for usecase_tests in usecase_tests.items %}
+        <b>{{usecase_name}}</b>
+        <ul>{{ usecase_tests|unordered_list }}</ul>
+    {% endfor %}
+	
+
+{% endblock %}

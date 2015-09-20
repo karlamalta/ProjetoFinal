@@ -1,0 +1,33 @@
+{% extends "admin/base_site.html" %}
+{% load i18n %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+     <a href="../../../">{% trans "Home" %}</a> &rsaquo;
+     <a href="../../">{{ app_label|capfirst }}</a> &rsaquo;
+     <a href="../">{{ opts.verbose_name_plural|capfirst }}</a> &rsaquo;
+     {{ feature|truncatewords:"18" }}
+</div>
+{% endblock %}
+
+{% block content %}<div id="content-main">
+{% block object-tools %}
+  <ul class="object-tools">
+  <li><a href="?_change=" class="historylink">{% trans "Edit" %}</a></li>
+  <li><a href="{{add_issue_link}}" class="historylink">{% trans "Add issue" %}</a></li>
+  <li><a href="history/" class="historylink">{% trans "History" %}</a></li>
+  {% if has_absolute_url %}<li><a href="../../../r/{{ content_type_id }}/{{ object_id }}/" class="viewsitelink">{% trans "View on site" %}</a></li>{% endif%}
+  </ul>
+{% endblock %}
+
+<p></p>
+<div class="module">
+<h2>Actor Details<a href="?_change=">(edit)</a></h2>
+<table>
+	<tr>
+		<td><b>Description:</b></td> <td>{{actor.description}}</td>
+	</tr>
+
+</table> 
+</div>
+{% endblock %}

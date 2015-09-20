@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: NavAdd
+Version: 0.1
+Summary: A plugin for adding navigation items into one of the navigation bars.
+Home-page: http://trac-hacks.org/wiki/NavAddPlugin
+Author: Michael Renzmann
+Author-email: mrenzmann@otaku42.de
+License: BSD
+Description: UNKNOWN
+Keywords: trac navigation main meta
+Platform: UNKNOWN

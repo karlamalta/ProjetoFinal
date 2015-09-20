@@ -1,0 +1,134 @@
+PLAIN
+K 13
+.___init__.py
+V 21
+file bl-1.0.r1/422620
+K 11
+._dbdump.py
+V 21
+file iv-1.0.r1/338109
+K 14
+._features.ods
+V 21
+file ix-1.0.r1/430425
+K 11
+._manage.py
+V 21
+file h1-1.0.r1/439088
+K 14
+._odsparser.py
+V 21
+file hn-1.0.r1/423440
+K 13
+._settings.py
+V 21
+file bn-1.0.r1/422932
+K 9
+._urls.py
+V 20
+file 7-1.0.r1/365933
+K 17
+RELEASE_NOTES.txt
+V 21
+file bp-1.0.r1/423178
+K 11
+__init__.py
+V 21
+file bx-1.0.r1/430980
+K 10
+bugtracker
+V 19
+dir 9-1.0.r1/438885
+K 12
+dashboard.py
+V 21
+file ip-1.0.r1/429861
+K 9
+dbdump.py
+V 21
+file bj-1.0.r1/422050
+K 12
+features.ods
+V 21
+file h3-1.0.r1/422306
+K 3
+fur
+V 18
+dir 1j-1.0.r15/956
+K 3
+lib
+V 20
+dir h5-1.0.r1/442590
+K 9
+manage.py
+V 21
+file it-1.0.r1/338353
+K 10
+management
+V 18
+dir hr-1.0.r17/615
+K 12
+odsparser.py
+V 21
+file gv-1.0.r1/365675
+K 12
+reqtool_test
+V 20
+file 2-1.0.r1/430738
+K 11
+settings.py
+V 21
+file gt-1.0.r1/431165
+K 6
+static
+V 20
+dir bz-1.0.r1/365543
+K 9
+templates
+V 20
+dir 3n-1.0.r1/421915
+K 7
+urls.py
+V 21
+file bv-1.0.r1/424314
+END
+ENDREP
+id: 0-1.0.r31/993
+type: dir
+pred: 0-1.0.r17/1813
+count: 17
+text: 31 0 980 980 ef5ccab26b18cbb09cd57617aefab2f4
+cpath: /reqtool
+copyroot: 0 /
+
+PLAIN
+K 12
+RescueMe-SPL
+V 23
+dir 0-27.0.r27/10623298
+K 13
+SOPLE-TestBed
+V 22
+dir 0-29.0.r29/7900205
+K 7
+reqtool
+V 17
+dir 0-1.0.r31/993
+K 11
+splice_logo
+V 20
+dir 0-26.0.r30/25245
+END
+ENDREP
+id: 0.0.r31/1324
+type: dir
+pred: 0.0.r30/25590
+count: 31
+text: 31 1135 176 176 b9a13f9aee9db00a52f695e6dcc51587
+cpath: /
+copyroot: 0 /
+
+iz-1.0.r1/338606 delete-file false false /reqtool/._RELEASE_NOTES.txt
+
+
+1324 1460

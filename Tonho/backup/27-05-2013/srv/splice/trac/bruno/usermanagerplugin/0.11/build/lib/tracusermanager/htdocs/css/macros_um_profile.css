@@ -1,0 +1,58 @@
+
+div.um_profile_macro table{
+	border-collapse:separate;
+}
+
+div.um_profile_macro table td, div.um_profile_macro table tr{
+	padding:0;
+	border-width:0 1px;
+}
+
+div.um_profile_macro table tfoot th{
+	background-color:#F7F7F0;
+	text-align:right;
+	font-size:11px;
+	font-weight:bold;
+	padding:2px 0.5em;
+}
+
+div.um_profile_macro span.expander{
+	cursor:pointer;
+	background:url(../img/expander_normal.png) no-repeat 0% 50% ;
+	padding-left:16px;
+}
+
+div.um_profile_macro span.expander_open{
+	background:url(../img/expander_open.png) no-repeat 0% 50% ;
+}
+
+div.um_profile_macro .um_profile{
+	background:#F7F7F7 none repeat scroll 0%;
+	padding:10px;
+	text-align:left;	
+}
+
+div.um_profile_macro .um_profile .um_profile_picture{
+	float:left;
+	width:100px;
+	min-height:100px;
+	margin:0px 10px 10px 0px;
+	border:1px solid #D7D7D7;
+}
+
+div.um_profile_macro .um_profile .um_profile_picture img{
+	width:100px;
+	height:auto;
+}
+
+div.um_profile_macro .um_profile .um_profile_field{
+	list-style-type:none;
+	margin-bottom:2px;
+	text-align:justify;
+}
+
+div.um_profile_macro .um_profile .um_profile_field label {
+	margin:0px 5px;
+	font-weight:bold;	
+	float:left;
+}

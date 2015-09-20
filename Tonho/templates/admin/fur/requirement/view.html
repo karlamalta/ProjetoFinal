@@ -1,0 +1,61 @@
+{% extends "admin/base_site.html" %}
+{% load i18n %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+     <a href="../../../">{% trans "Home" %}</a> &rsaquo;
+     <a href="../../">{{ app_label|capfirst }}</a> &rsaquo;
+     <a href="../">{{ opts.verbose_name_plural|capfirst }}</a> &rsaquo;
+     {{ feature|truncatewords:"18" }}
+</div>
+{% endblock %}
+
+{% block content %}<div id="content-main">
+{% block object-tools %}
+  <ul class="object-tools"><li><a href="history/" class="historylink">{% trans "History" %}</a></li>
+  {% if has_absolute_url %}<li><a href="../../../r/{{ content_type_id }}/{{ object_id }}/" class="viewsitelink">{% trans "View on site" %}</a></li>{% endif%}
+  </ul>
+{% endblock %}
+
+<p></p>
+<div class="module">
+<h2>Requirement Details <a href="?_change=">(edit)</a></h2>
+<table>
+	<tr>
+		<td><b>Description:</b></td> <td>{{requirement.description}}</td>
+	</tr>
+	<tr>
+		<td><b>Status:</b></td> <td>{{requirement.status}}</td>
+	</tr>
+	<Tr>
+		<td><b>VariabilityType:</b></td> <td> <a href="{{ requirement.variabilityType.get_absolute_url }}">{{ requirement.variabilityType }}</a></td>
+	</tr>
+	<Tr>
+		<td><b>Priority:</b></td> <td><a href="{{ requirement.priority.get_absolute_url }}">{{ requirement.priority }}</a></td>
+	</tr>
+
+	<tr>
+		<td><b>Related features:</b></td> 
+		<td>
+		    {% for feature in requirement.features.all %}
+		 	<ul><a href="{{ feature.get_absolute_url }}">{{ feature.name }}</a></ul>
+		    {% endfor %}
+		</td>
+	</tr>
+	<tr>
+		<td><b>Variation Points:</b></td> 
+		<td>
+		    {% for variation in requirement.variationpoint_set.all %}
+		 	<ul><a href="{{ variation.get_absolute_url }}">{{ variation.name }}</a></ul>
+		    {% endfor %}
+		</td>
+	</tr>
+	<tr>
+		<td><b>Screen path:</b></td> <td>{{requirement.scerenPath}}</td>
+	</tr>
+	<tr>
+		<td><b>Observations:</b></td> <td>{{requirement.observations}}</td>
+	</tr>
+</table> 
+</div>
+{% endblock %}

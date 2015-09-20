@@ -1,0 +1,78 @@
+{% load latextags %}
+
+\documentclass[10pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx,url}
+\usepackage[brazil]{babel}
+\usepackage[linkcolor=blue,citecolor=blue,urlcolor=blue,colorlinks,pdfpagelabels]{hyperref}
+\usepackage[a4paper,top=3.5cm,left=3cm,right=3cm,bottom=2.5cm]{geometry}
+
+\title{Relatório de TestCases -- draft} %mude para o titulo do seu relatorio
+\author{RiSE/Medicware} %mude para os autores do relatorio
+
+\begin{document} 
+
+\maketitle
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+{% for test in testcase %}
+	\setcounter{section}{ {{test.id|add:'-1'}}}
+	\section{~TC:{{test.name}}}
+	\label{tc{{test.id}}}
+
+	\textbf {Resumo:} {{test.summary}}
+	
+	\begin{description}
+  	  \item[Tipo de variabilidade:]  {{test.variabilityType}}
+	\end{description}
+	
+	  {% if test.testType == 'positive'%}
+	    \noindent
+	    \textbf{Tipo de Teste:} Positivo \\
+	  {% endif %}
+	
+	  {% if test.testType == 'negative' %}
+	    \noident
+	    \textbf{Tipo de Teste:} Negativo \\
+	  {%endif%}
+	
+	  {% if test.testType == 'undefined' %}
+	    \noindent
+	    \textbf{Tipo de Teste:} Indefinido \\
+	  {%endif%}
+	
+	\noindent
+	\textbf{Casos de uso:} {{test.usecase.id}} - {{test.usecase.name}}
+    \\
+    \noindent
+	\textbf{Responsavel:} {{test.priority.id}} - {{test.priority.name}}
+	
+	\noindent
+	\textbf{Pré-condição:} 
+	\begin{itemize}
+      {{test.preCondition|itemsnewline}}
+	\end{itemize}
+	
+	\noindent
+  	\textbf{Pós-condição:} 
+  	\begin{itemize}
+       {{test.posCondition|itemsnewline}}
+	\end{itemize}
+  	
+  	\noindent
+  	\textbf{Passos:} 
+  	
+  	\begin{itemize}
+  	  {{test.steps|itemsnewline}}
+  	\end{itemize} 
+
+{% endfor %}
+\newline 
+
+\end{document}

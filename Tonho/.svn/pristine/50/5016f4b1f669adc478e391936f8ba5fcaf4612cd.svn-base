@@ -1,0 +1,122 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:py="http://genshi.edgewall.org/"
+      xmlns:i18n="http://genshi.edgewall.org/i18n"
+      py:strip="">
+      
+      
+           <!--! Add site-specific style sheet -->
+  <head py:match="head" py:attrs="select('@*')">
+    ${select('*|comment()|text()')}
+    <link rel="stylesheet" type="text/css"
+          href="${href.chrome('site/css/style.css')}" />
+    <link rel="stylesheet" type="text/css"
+          href="${href.chrome('site/css/styles.css')}" />
+
+          
+              <link rel="stylesheet" type="text/css"
+          href="${href.chrome('site/css/topbar1.css')}" />
+
+          <link href="${href.chrome('site/css/bootstrap-responsive.min.css')}" rel="stylesheet" />
+
+	<link href="${href.chrome('site/css/font-awesome.css')}" rel="stylesheet"/>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+	<!--[if lt IE 8]>
+	  <link href="${href.chrome('site/css/font-awesome-ie7.css')}" rel="stylesheet"/>
+    <![endif]-->
+
+    <link href="${href.chrome('site/css/base.css')}" rel="stylesheet"/>
+	<link href="${href.chrome('site/css/blue.css')}" rel="stylesheet"/>
+          
+          
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+   
+   
+
+          
+          
+  </head>   
+
+  
+  
+  <div py:def="navigation(category)" id="${category}" class="nav">
+    <ul py:if="chrome.nav[category]">
+      <li py:for="idx, item in  enumerate(chrome.nav[category])"
+          class="${classes(first_last(idx, chrome.nav[category]), active=item.active)}">${item.label}</li>
+    </ul>
+  </div>
+
+  
+  <py:match path="body" once="true" buffer="false"><body>
+    
+     
+    
+    <div class="pre-content">
+
+    <div py:if="req.environ['PATH_INFO'] == '/'" class="title">Developer Corner</div>
+    <div py:if="req.environ['PATH_INFO'].startswith('/wiki')" class="title">Wiki</div>
+    <div py:if="req.environ['PATH_INFO'].startswith('/timeline')" class="title">Timeline</div>
+    <div py:if="req.environ['PATH_INFO'].startswith('/roadmap')" class="title">Roadmap</div>
+    <div py:if="req.environ['PATH_INFO'].startswith('/browser')" class="title">Source Code</div>
+    <div py:if="req.environ['PATH_INFO'].startswith('/report')" class="title">Tickets</div>
+    <div py:if="req.environ['PATH_INFO'].startswith('/newticket')" class="title">Tickets</div>
+    <div py:if="req.environ['PATH_INFO'].startswith('/search')" class="title">Search</div>
+                  
+        <div class="max-width-limit"> 
+            <form id="search" action="${href.search()}" method="get">
+            <div py:if="not defined('trac_error_rendering') and 'SEARCH_VIEW' in perm">
+              <label for="proj-search">Search:</label>
+              <input type="text" id="proj-search" name="q" size="18" accesskey="f" value="" />
+              <input type="submit" value="${_('Search')}" />
+            </div>
+            </form>         
+            ${navigation('mainnav')}
+        </div>
+
+    </div>
+    
+    <div class="content">
+
+    <div id="main" class="${classes(uisymbols=req.session.get('ui.use_symbols'),
+                                    uinohelp=req.session.get('ui.hide_help'))}">
+
+      <div id="ctxtnav" class="nav">
+        <ul py:if="chrome.ctxtnav"  class="leftnav">
+          <li py:for="i, elm in enumerate(chrome.ctxtnav)"
+              class="${classes(first_last(i, chrome.ctxtnav))}">$elm</li>
+        </ul>
+        
+        <div class="rightnav">
+            ${navigation('metanav')}
+        </div>
+        <xi:include py:if="value_of('resourcepath_template')" href="${resourcepath_template}" />
+
+      </div>
+
+      <div id="warning" py:if="chrome.warnings" class="system-message">
+        <a class="trac-close-msg" href="#" title="Hide this warning"><span>close</span></a>
+        <py:choose test="len(chrome.warnings)">
+          <strong>Warning:</strong>
+          <py:when test="1">${chrome.warnings[0]}</py:when>
+          <py:otherwise><ul><li py:for="warning in chrome.warnings">$warning</li></ul></py:otherwise>
+        </py:choose>
+      </div>
+      <div id="notice" py:if="chrome.notices" class="system-message">
+        <a class="trac-close-msg" href="#" title="Hide this notice"><span>close</span></a>
+        <py:choose test="len(chrome.notices)">
+          <py:when test="1">${chrome.notices[0]}</py:when>
+          <py:otherwise><ul><li py:for="notice in chrome.notices">$notice</li></ul></py:otherwise>
+        </py:choose>
+      </div>
+
+      ${select('*|text()|comment()')}
+    </div>
+
+    </div>
+  </body></py:match>
+</html>

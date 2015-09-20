@@ -1,0 +1,139 @@
+/* General
+-------------------------------------------------- */
+body {
+	background: url("../img/noise.png") repeat scroll 0 0 #FFFFFF;	
+}
+h2 {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
+
+#Head .SiteSearch .InputBox {
+    height: 14px;
+}
+
+
+.MeMenu hr {
+    margin: 1px 0;
+}
+.MeMenu ul {
+    margin: 0 0 0px 0px;
+}
+
+ul {
+    margin: 0 0 10px 10px;
+    padding: 0;
+}
+
+/* Navbar
+-------------------------------------------------- */
+.navbar-inner {
+    background: none repeat scroll 0 0 #000000;
+}
+.navbar .brand {
+    color: #FFFFFF;
+}
+.navbar .nav > li > a {
+    color: #D6DFE5;
+}
+.navbar .nav > li > a:hover {
+    color: #FFFFFF;	
+}
+.navbar .nav > li.active > a,
+.navbar .nav > li.active:hover > a,
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 2px solid #308CCF;
+    color: #FFFFFF;
+}
+
+/* Landing
+-------------------------------------------------- */
+#landing {
+    background: none repeat scroll 0 0 #F1F1F1;
+}
+#landing h1 {
+    color: #308CCF;
+}
+#landing p {
+    color: #394755;
+}
+#landing .carousel-control {
+    color: #0088CC;
+}
+#landing .carousel-control:hover {
+    color: #17405E;
+}
+
+/* Call to Action Headline
+-------------------------------------------------- */
+#headline {
+    background: none repeat scroll 0 0 #394755;
+    color: #FFFFFF;
+}
+
+/* Page Header
+-------------------------------------------------- */
+#header {
+    background: none repeat scroll 0 0 #F1F1F1;
+}
+#header h1 {
+    color: #308CCF;
+}
+
+/* Main Content
+-------------------------------------------------- */
+#content {
+    background: url("../img/noise.png") repeat scroll 0 0 #FFFFFF;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    color: #394755;
+}
+.bouncy:hover i {
+    color: #0074CC;
+}
+
+/* Footer
+-------------------------------------------------- */
+#footer {
+	background: none repeat scroll 0 0 #F1F1F1;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+    color: #17405E;
+}
+#footer h3  {
+    color: #308CCF;
+}
+#footer a {
+    color: #17405E;	
+}
+#footer a:hover {
+    color: #333333;
+}
+
+/* Copywrite
+-------------------------------------------------- */
+#copywrite {
+	background: none repeat scroll 0 0 #020273;
+    color: #D6DFE5;
+}
+
+/* Mobile Defaults
+------------------------- */
+@media (max-width: 979px) {
+  .navbar .nav-collapse .nav > li.active > a,
+  .navbar .nav-collapse .nav > li.active:hover > a,  
+  .navbar .nav-collapse .nav .active > a,
+  .navbar .nav-collapse .nav .active > a:hover,
+  .navbar .nav-collapse .nav .active > a:focus {
+    background-color: #308CCF;	
+  }
+  .navbar .nav-collapse .nav > li > a:hover {
+    background-color: #308CCF;
+  }
+  .product-plan .feature .pull-right {
+    color: #308CCF;
+  }
+}

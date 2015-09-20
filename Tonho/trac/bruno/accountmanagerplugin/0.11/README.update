@@ -1,0 +1,173 @@
+This document contains information about upgrading AccountManagerPlugin to the
+last release.  It is provided to help anybody who is upgrading by specifically
+reminding of changes with potentially disruptive effect to existing
+installations.
+
+It goes back as far as release acct_mgr-0.2.  If you are upgrading from an
+even earlier release, start from a default configuration, please.
+Many valuable hints on AccountManager configuration are compiled into
+http://trac-hacks.org/wiki/CookBook/AccountManagerPluginConfiguration
+
+
+Upgrading acct_mgr-0.4 -> 0.4.1
+-------------------------------
+Run `python ./contrib/fix-session_attribute-failed_logins.py <env>` on any
+Trac environment, that had account locking enabled with time constraints
+before.  This is a one-time task, but running it multiple times does no harm.
+
+
+Upgrading acct_mgr-0.3.2 -> 0.4
+-------------------------------
+'password_file' is depreciated and no longer used by any authentication store
+provided by AccountManagerPlugin itself.
+
+New configuration options to supersed 'password_file' for affected stores:
+{{{
+#!diff
+ [account-manager]
+ password_store = HtDigestStore
+-password_file = <abs_path>/.htdigest
++htdigest_file = <abs_path>/.htdigest
+}}}
+
+{{{
+#!diff
+ [account-manager]
+ password_store = HtPasswdStore
+-password_file = <abs_path>/.htpasswd
++htpasswd_file = <abs_path>/.htpasswd
+}}}
+
+The password reset procedure has been re-designed from ground to make password
+resets recoverable, at least to prevent possible DoS attempted by malicious
+users on accounts connected to known email addresses.  It utilizes
+ResetPwStore, a SessionStore, as temporary cache for new auto-generated
+random passwords.  A subsequent login can succeed using old or new password.
+Only the password, that succeeds first, will be retained. So if the old
+password succeeds first, any cached new password is discharged.
+while a new password will get overwritten in any subsequent password reset, it
+replaces the old password only after being used for a successful login,
+and before it possibly gets overwritten itself by a newer one of course.
+
+Component rename:
+{{{
+#!diff
+ [components]
+-acct_mgr.admin.accountmanageradminpages
++acct_mgr.admin.accountmanageradminpanel
+-acct_mgr.admin.accountchangenotificationadminpage
++acct_mgr.admin.accountchangenotificationadminpanel
+}}}
+
+New user account registration has been restructured, moved to a separate
+place and even partly rewritten from scratch.
+
+Component move:
+{{{
+#!diff
+ [components]
+-acct_mgr.web_ui.emailverificationmodule
++acct_mgr.register.emailverificationmodule
+-acct_mgr.web_ui.registrationmodule
++acct_mgr.register.registrationmodule
+}}}
+
+`IAccountRegistrationInspector` is the interface, that allows for flexibility
+in registration form design as well as in registration request checks.
+
+Note: You'll certaily want to enable some/all of the new check classes in
+`acct_mgr.register`, if you want to use RegistrationModule at all.
+Don't forget to add all checks to the registration configuration too
+to actually apply them on subsequent requests (showing default value here):
+{{{
+#!ini
+[account-manager]
+register_check = BasicCheck, EmailCheck, UsernamePermCheck, RegExpCheck
+}}}
+
+Note: Email has been validated against a hard-coded regular expression before.
+Now the expression is configurable and this check moved into the RegExpCheck.
+
+
+Upgrading acct_mgr-0.3.1 -> 0.3.2
+---------------------------------
+"Account details" has been removed from panel list and made a true sub-page
+to "Users", just as it was meant to be right from the start.
+Internally form action of details page has changed from POST to GET.
+`get_user_attribute`, another method borrowed from/inspired by
+UserManagerPlugin, was added to the API.
+
+
+Upgrading acct_mgr-0.3 -> 0.3.1
+-------------------------------
+The release has been almost entirely dedicated to restore
+backwards-compatibility with Trac down to 0.11, but still watch out.
+
+Component rename:
+{{{
+#!diff
+ [components]
+-acct_mgr.admin.accountchangenotificationadminpanel
++acct_mgr.admin.accountchangenotificationadminpage
+}}}
+
+
+Upgrading acct_mgr-0.2.1 -> 0.3
+-------------------------------
+That translates to 2 years and well over 100 revisions without a release,
+so by 2011 a lot of existing applications use(d) code from the development
+branch `trunk` alias acct_mgr-0.2.1dev at some stage in-between.
+The transition to `0.11` branch has been done early in the process too.
+
+Component rename:
+{{{
+#!diff
+ [components]
+-acct_mgr.admin.accountmanageradminpage
++acct_mgr.admin.accountmanageradminpages
+}}}
+
+AccountGuard is an new feature with some related options to protect accounts
+against brute-force attacks on user passwords.
+
+The login page becomes more customizable i.e. with `login_opt_list` option.
+
+Full i18n support has been added, that is utilized starting with Trac 0.12
+to show localized versions of all pages, provided that requested translations
+have been done and included into the source.
+
+Internally some variables `user` have been renamed to `username` in contrast
+to `name` for users pre-/surname and nickname.  This raises various problems
+for other plugins replacing parts of this plugin and/or re-using it's methods.
+
+This is the first release cryptographically signed by the maintainer, and
+contributed scripts allow to check md5 and sha1 checksums of downloaded
+sources against included lists (CLI only).  These lists should be verified
+in turn with an OpenPGP program like GnuPG.
+
+
+Upgrading acct_mgr-0.2 -> 0.2.1
+-------------------------------
+For this plugin it covers development dedicated to the `0.10` branch.
+
+Email notification of account related events added, that require corresponding
+new configuration options to be configured properly.
+
+
+Upgrading from before acct_mgr-0.2
+----------------------------------
+This covers 1 1/2 years of development by 2 different developers within
+several branches, starting from `0.9`.  It has been finalized with the
+ClearSilver-to-Genshi port for Trac 0.11 and acct_mgr-0.2 was pushed out
+without much noise after the initial release and three intermediate
+maintenance releases.
+
+Most notably a SessionStore implementation has been introduced for storing
+user passwords as a Trac session attribute.  This was meant as an alternative
+to file based stores, where they cause data loss on concurrent changes.
+Please note, that the file stores have been changed since that time too to
+minimize such issues.
+
+Coming from a stage that early you'll get a whole-new plugin.  Restarting the
+whole configuration process should be less error prone and painful than
+following a multitude of incremental updates from here.

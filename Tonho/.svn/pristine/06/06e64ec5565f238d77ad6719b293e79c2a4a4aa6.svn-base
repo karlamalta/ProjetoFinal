@@ -1,0 +1,75 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_static admin_modify bootstrapped_goodies_tags %}
+{% load url from future %}
+{% load admin_urls %}
+
+{% block extrahead %}{{ block.super }}
+{% url 'admin:jsi18n' as jsi18nurl %}
+<script type="text/javascript" src="{{ jsi18nurl|default:"../../../jsi18n/" }}"></script>
+{{ media }}
+{% endblock %}
+
+{% block extrastyle %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{% static "admin/css/forms.css" %}" />{% endblock %}
+
+{% block coltype %}{% if ordered_objects %}colMS{% else %}colM{% endif %}{% endblock %}
+
+{% block bodyclass %}{{ opts.app_label }}-{{ opts.object_name.lower }} change-form{% endblock %}
+
+{% if not is_popup %}
+{% block breadcrumbs %}
+<ul class="breadcrumb">
+<li><a href="{% url 'admin:index' %}">{% trans 'Home' %}</a> <span class="divider">/</span></li>
+<li><a href="{% url 'admin:app_list' app_label=opts.app_label %}">{{ app_label|capfirst|escape }}</a> <span class="divider">/</span></li>
+<li><a href="{% url opts|admin_urlname:'changelist' %}">{{ opts.verbose_name_plural|capfirst }}</a> <span class="divider">/</span></li>
+<li>{% if add %}{% trans 'Add' %} {{ opts.verbose_name }}{% else %}{{ original|truncatewords:"18" }}{% endif %}</li>
+</ul>
+{% endblock %}
+{% endif %}
+
+{% block object-tools %}
+  <div class="pull-right">
+    {% block object-tools-items %}
+	<a href="?_change=" class="btn btn-primary default">Edit</a>
+    <a href="history/" class="btn btn-inverse historylink">{% trans "History" %}</a>
+    {% if has_absolute_url %}<a href="../../../r/{{ content_type_id }}/{{ object_id }}/" class="btn viewsitelink">{% trans "View on site" %}</a>{% endif%}
+    {% endblock %}
+  </div>
+{% endblock %}
+
+{% block content %}<div id="content-main">
+
+<p></p>
+<div class="module">
+<table class="table table-striped table-bordered">
+	<tr>
+		<td><b>User story:</b></td> <td><a href="{{acceptance_test.user_story.get_admin_url}}">{{acceptance_test.user_story.name}}</a></td>
+	</tr>
+	<tr>
+		<td><b>Given:</b></td> <td>{{acceptance_test.given}}</td>
+	</tr>
+	<tr>
+		<td><b>When:</b></td> <td>{{acceptance_test.when}}</td>
+	</tr>
+	
+	<tr>
+		<td><b>When:</b></td> <td>{{acceptance_test.when}}</td>
+	</tr>
+	
+		<tr>
+		<td><b>Then:</b></td> <td>{{acceptance_test.then}}</td>
+	</tr>
+	
+
+	<tr>
+		<td nowrap="nowrap"><b>Executions:</b></td> 
+		<td>
+		    {% for execution in acceptance_test.acceptancetestexecution_set.all %}
+		 <ul><a href="{{ execution.get_admin_url }}">{{ execution.date }}</a></ul>
+		    {% endfor %}
+		</td>
+	</tr>
+	
+
+</table> 
+</div>
+{% endblock %}

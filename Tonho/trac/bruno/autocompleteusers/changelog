@@ -1,0 +1,7 @@
+AutocompleteUsers (0.4.2) (not yet released) - trunk
+ resolved issues:  
+ 
+ new features:
+ * #6444: Reporter field on the ticket page is autocompleted.
+ * #7324: Users and groups on the admin permissions page are autocompleted.
+ * #10155: Reporter, owner and CC fields on the query page are autocompleted.

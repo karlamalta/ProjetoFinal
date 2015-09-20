@@ -1,0 +1,51 @@
+
+ChangeLog
+=========
+
+0.2.6 (2013-02-27)
+------------------
+
+* fixed to check 'all_columns' is exist in data dictionary related to #3
+
+0.2.5 (2013-02-26)
+------------------
+
+* fix to be able to select a column or a row in query-result page
+  (see also #3)
+
+0.2.4 (2012-09-20)
+------------------
+
+* fix to avoid SQL injection attacks (see also #2)
+
+0.2.3 (2012-03-25)
+------------------
+
+* fix to show warnings when the relationships field is updated
+  at the same time (see also #1)
+* fix to save proper oldvalue/newvalue when the relationships field
+  is updated
+* add unit test
+
+0.2.2 (2012-01-30)
+------------------
+
+* add "cc" to make the new ticket with relationships
+* fix bugs (pick up ticket id in comment, avoid own ticket id)
+
+0.2.1 (2012-01-22)
+------------------
+
+* support whitespace as separator for describing relationships
+* fix bugs (non integer validation, show the relationships field in query)
+
+0.2.0 (2012-01-20)
+------------------
+
+* create new ticket with related ticket's field value
+* picking up the referred ticket in comment
+* i18n/l10n support
+
+0.1.0 (2012-01-15)
+------------------
+* first release

@@ -1,0 +1,3 @@
+[trac.plugins]
+tractab = tractab.tractab
+

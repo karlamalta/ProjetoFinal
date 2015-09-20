@@ -1,0 +1,241 @@
+.header .searchform input {
+	margin: 0;}
+
+.header .searchform .input.search-icon {
+	padding: 0;}
+
+:link, :visited {
+	color: #000;
+	border-bottom: none;}
+
+:visited {
+	color: #000;
+}
+
+:link:hover, :visited:hover {
+	background-color: inherit;
+	color: #000;
+	text-decoration: underline;
+}
+
+:visited:hover {
+	color: #000;
+}
+
+.main .pre-content {
+	padding-bottom: 0;}
+
+    
+#search {
+    float: right;
+}
+
+.max-width-limit {
+	    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 770px;
+    overflow: hidden;
+    width: 90%;
+    }
+
+#mainnav {
+    border-radius: 0.0em;
+    box-shadow: none;
+	border: 0;
+	width: 90%;
+	margin: 0 auto;
+    padding: 0.2em 0;
+	background: none;}
+
+	#mainnav .active, #mainnav .active :link, #mainnav .active :visited {
+		border: 0;
+		background: #fff;
+		color: #000;}
+
+    .nav li {
+        border-right: 1px solid #D7D7D7;
+        display: inline;
+        padding: 0 0.75em;
+        white-space: nowrap;
+    }
+
+	#mainnav li {
+		margin: 0 0 0 1px;
+        padding: 0.25em 0;
+        background: none repeat scroll 0 0 transparent;
+		border: 0;
+        border-right: 1px solid #D7D7D7;
+        }
+        
+
+#mainnav .last, #mainnav .last *:link {
+    border: 0 none;
+}
+        
+
+		#mainnav li a, #mainnav li :link, #mainnav li :visited {
+			padding: 5px 10px;
+			border: 0;
+			color: #fff;
+			background: #00366d;}
+
+	#mainnav :link:hover, #mainnav :visited:hover {
+		background: #005ab5;
+        box-shadow: none;
+        text-shadow: none;
+		border: 0;}
+
+	#mainnav .active :link:hover, #mainnav .active :visited:hover {
+		background: inherit;
+		border: 0;}
+
+	#mainnav :link, #mainnav :visited {
+        box-shadow: none;
+		text-decoration: none;}
+
+	#mainnav ul {
+		padding: 3px 0;}
+
+.content .nav li {
+	padding: 0 0.75em;}
+
+
+.content :link, .content :visited {
+	text-decoration: none;
+	color: #900;
+	/*border-bottom: 1px dotted #bbb;*/
+}
+
+.content :visited {
+	color: #600;
+}
+
+.content :link:hover, .content :visited:hover {
+	color: #900;
+	text-decoration: underline;
+}
+
+.content :visited:hover {
+	color: #600;
+}
+
+.content h1 { font-size: 19px; margin: .15em 1em 0.5em 0 }
+.content h2 { font-size: 16px }
+.content h3 { font-size: 14px }
+
+.timeline h2 { 
+	font-size: 105%; 
+	border-bottom: 1px solid #D7D7D7;
+	margin: 2em 0 0.5em;}
+
+.timeline dl {
+	line-height: 1.3em;
+	margin: 1.3em;}
+
+.timeline dd {
+	color: #776;
+	font-size: 80%;
+	margin: 0 0 0.75em 6.1em;}
+
+#banner { padding-top: 15px }
+
+.wiki-toc, #prefs {
+	background-color: #eef1f3;
+	border: 1px solid #ddddcc;}
+
+.wiki-toc .active {
+	background-color: #fff9e5;}
+	
+#content.search #results dt a {
+	color: #b00;}
+
+#content.search #results .author, #results .date {
+	color: #999;}
+
+/* port to main styles.css file (main site) */
+.pre-content .icon {
+	float: right;
+	margin-top: -12px;}
+
+/* port to main styles.css file (main site) */
+.pre-content .icon img {
+	height: 54%;
+	width: 54%;}
+
+#content .paging .current {
+	background: #783c1f;
+	}
+
+.content .wikipage h1, .content .wikipage h2, .content .wikipage h3 {
+	margin-left: -18px;}
+
+#ctxtnav {
+	height: 2em;
+	padding: 5px 0 10px;
+	text-align: left;
+	position: relative;
+	overflow: hidden;}
+
+	#ctxtnav .leftnav  {
+		text-align: left;}
+
+	#ctxtnav .leftnav .first {
+		padding-left: 0;}
+
+	#ctxtnav .rightnav .last {
+		padding-right: 0;}
+
+.leftnav {
+	text-align: left;
+	float: left;
+	width: 50%;}
+
+
+.rightnav {
+	width: 50%;
+	text-align: right;
+	clear: right;
+	position: absolute;
+	right: 0;}
+
+.content .nav ul {
+	padding: 0;
+	margin: 0;}
+
+#acctmgr_loginform label {
+	float: left;
+	display: block;
+	padding-top: 4px;
+	width: 80px;}
+
+#acctmgr_loginform input[type='text'], #acctmgr_loginform input[type='password'] {
+	width: 160px;}
+
+
+#ticket {
+	background: #f7f2df;}
+
+pre.wiki, pre.literal-block {
+	background: #fcfcfc;}
+
+#ticket.ticketdraft { width: 700px; }
+
+table.progress td.closed {
+	background: #F3EEDB;}
+
+.content a.missing:link, .content a.missing:visited, .content a.missing, .content span.missing,
+.content a.forbidden, .content span.forbidden {
+	color: #999;
+}
+
+.content dt.wiki a, .content dt.attachment a {
+	border-bottom: 0;
+}
+
+.content strong, .content b { font-weight: bold; }
+.content em, .content i { font-style: italic; }
+
+.content .tickets tbody td a, .content .reports tbody td a,
+.content table.listing thead th a {
+	border-bottom: 0;
+}

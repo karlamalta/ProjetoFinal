@@ -1,0 +1,230 @@
+
+* {
+    font-weight: normal !important;
+}
+body {
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    padding-top: 60px;
+    position: relative;
+}
+hr.dashed {
+    border-bottom: 1px dashed #CCCCCC;
+    border-top: medium none;
+}
+.modal-flat {
+    margin-top: 10px;
+    position: relative;
+    z-index: 0;
+}
+body, button {
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+}
+.txt-lefty {
+    text-align: left;
+}
+.txt-middle {
+    text-align: center;
+}
+.txt-righty {
+    text-align: right;
+}
+.btn-action {
+    border-radius: 5px 5px 5px 5px;
+    font-size: 17px;
+    line-height: normal;
+    padding: 10px 30px;
+}
+.btn-flat {
+    border-radius: 0 0 0 0;
+}
+.btn-pillbox {
+    border-radius: 14px 14px 14px 14px;
+}
+.navbar-fixed-top {
+    margin-bottom: 0;
+}
+.navbar-inner {
+    border-bottom: 0 none;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    filter: none;
+    padding: 10px 0;
+}
+.navbar .brand {
+    font-size: 26px;
+    text-shadow: none;
+}
+.navbar .nav > li > a {
+    font-size: 16px;
+    font-weight: normal;
+    text-shadow: none;
+    transition: all 0.2s linear 0s;
+}
+.navbar .nav > li > a:hover {
+    transform: translateY(-5px);
+}
+.navbar .nav > li.active > a, .navbar .nav > li.active:hover > a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    box-shadow: none;
+    padding-bottom: 4px;
+}
+.btn-dropnav {
+    display: none;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 7px 10px;
+}
+.btn-dropnav .icon-bar {
+    background-color: #F5F5F5;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    display: block;
+    height: 2px;
+    width: 18px;
+}
+.btn-dropnav .icon-bar + .icon-bar {
+    margin-top: 3px;
+}
+#landing {
+    padding: 30px 0;
+}
+#landing .js-video iframe {
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+#landing .carousel {
+    margin-bottom: 0;
+}
+#landing .carousel .item > img {
+    margin: 0 auto;
+}
+#landing .carousel-control {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    border-radius: 0 0 0 0;
+    font-size: 30px;
+    height: auto;
+    margin-top: 0;
+    opacity: 1;
+    top: 50%;
+    width: auto;
+}
+#landing .carousel-control.left {
+    left: -17px;
+}
+#landing .carousel-control.right {
+    right: -17px;
+}
+#landing .carousel-control:hover {
+    opacity: 1;
+}
+#headline {
+    padding: 20px 0;
+}
+#headline p {
+    margin: 5px 0;
+}
+#header {
+    padding: 30px 0;
+}
+#content {
+    padding: 30px 0;
+}
+.icon_wrapper {
+    display: block;
+    height: 50px;
+}
+.icon_wrapper i {
+    display: inline-block;
+    font-size: 50px;
+    line-height: normal;
+    transition: all 0.2s linear 0s;
+}
+.bouncy:hover i {
+    transform: translateY(-5px);
+}
+.callout {
+    margin: 30px 0 0;
+    text-align: center;
+}
+#footer {
+    padding: 20px 0;
+}
+#footer h3 {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+#footer ul {
+    list-style: none outside none;
+    margin: 0;
+}
+#footer li {
+    padding: 0 0 5px;
+}
+#footer a {
+    transition: all 0.2s linear 0s;
+}
+#footer a:hover {
+    padding-left: 5px;
+    text-decoration: underline;
+}
+#copywrite p {
+    margin: 0;
+    padding: 10px 0;
+}
+#totop {
+    cursor: pointer;
+}
+body {
+    overflow-x: hidden;
+    padding-top: 0;
+}
+.navbar .btn-dropnav {
+    display: block;
+}
+.navbar .nav-collapse .nav > li > a {
+    display: inline-block;
+}
+.navbar .nav-collapse.nav .active > a {
+    margin-left: 5px;
+}
+.navbar .nav-collapse .nav > li.active > a, .navbar .nav-collapse .nav > li.active:hover > a, .navbar .nav-collapse .nav .active > a, .navbar .nav-collapse .nav .active > a:hover, .navbar .nav-collapse .nav .active > a:focus {
+    border-bottom: medium none;
+    padding: 9px 15px;
+    transform: translateX(0px);
+}
+.navbar .nav-collapse .nav > li > a:hover {
+    transform: translateX(5px);
+}
+#landing, #header, #content {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 30px 20px;
+}
+.product-plan .feature .pull-right {
+    float: none;
+}
+#headline, #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 20px;
+}
+#copywrite {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 0 20px;
+}
+#landing, #header, #content, #footer {
+    text-align: center;
+}
+.modal-flat {
+    left: 0;
+    margin-top: 10px;
+    position: relative;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+.product-plan {
+    margin-bottom: 10px;
+}
+#footer {
+    display: none;
+}

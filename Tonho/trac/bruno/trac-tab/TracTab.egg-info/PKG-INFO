@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: TracTab
+Version: 0.2.0dev
+Summary: Add a button to the mainnav and display a page withinan IFrame
+Home-page: http://trac-hacks.org/svn/tractabplugin
+Author: Ryan J Ollos
+Author-email: ryan.j.ollos.@gmail.com
+License: BSD 2-Clause
+Description: UNKNOWN
+Platform: UNKNOWN

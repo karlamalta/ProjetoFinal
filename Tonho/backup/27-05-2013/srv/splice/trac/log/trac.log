@@ -1,0 +1,1149 @@
+2013-05-21 16:12:07,849 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0.1] --------------------------------
+2013-05-21 16:12:07,859 Trac[loader] DEBUG: Adding plugin TracTab 0.2.0dev from c:\projetoesa\tonho\trac\plugins\tractab-0.2.0dev-py2.7.egg
+2013-05-21 16:12:07,859 Trac[loader] DEBUG: Adding plugin TracFeaturePlugin 0.2.6 from c:\projetoesa\tonho\trac\plugins\tracfeatureplugin-0.2.6-py2.7.egg
+2013-05-21 16:12:07,859 Trac[loader] DEBUG: Adding plugin TracAccountManager 0.4.3 from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:12:07,859 Trac[loader] DEBUG: Adding plugin TracUserManagerPlugin 0.5dev from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:12:07,869 Trac[loader] DEBUG: Loading acct_mgr.admin from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:12:07,880 Trac[loader] DEBUG: Loading acct_mgr.api from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:12:07,880 Trac[loader] DEBUG: Loading acct_mgr.db from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:12:07,880 Trac[loader] DEBUG: Loading acct_mgr.htfile from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:12:07,880 Trac[loader] DEBUG: Loading acct_mgr.http from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:12:07,880 Trac[loader] DEBUG: Loading acct_mgr.macros from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:12:07,884 Trac[loader] DEBUG: Loading acct_mgr.notification from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:12:07,884 Trac[loader] DEBUG: Loading acct_mgr.pwhash from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:12:07,884 Trac[loader] DEBUG: Loading acct_mgr.svnserve from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:12:07,884 Trac[loader] DEBUG: Loading acct_mgr.web_ui from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:12:07,884 Trac[loader] DEBUG: Loading ticketref.api from c:\projetoesa\tonho\trac\plugins\tracfeatureplugin-0.2.6-py2.7.egg
+2013-05-21 16:12:07,894 Trac[loader] DEBUG: Loading ticketref.web_ui from c:\projetoesa\tonho\trac\plugins\tracfeatureplugin-0.2.6-py2.7.egg
+2013-05-21 16:12:07,894 Trac[loader] DEBUG: Loading trac.about from c:\python27\lib\site-packages
+2013-05-21 16:12:07,894 Trac[loader] DEBUG: Loading trac.admin.console from c:\python27\lib\site-packages
+2013-05-21 16:12:07,900 Trac[loader] DEBUG: Loading trac.admin.web_ui from c:\python27\lib\site-packages
+2013-05-21 16:12:07,900 Trac[loader] DEBUG: Loading trac.attachment from c:\python27\lib\site-packages
+2013-05-21 16:12:07,900 Trac[loader] DEBUG: Loading trac.db.mysql from c:\python27\lib\site-packages
+2013-05-21 16:12:07,904 Trac[loader] DEBUG: Loading trac.db.postgres from c:\python27\lib\site-packages
+2013-05-21 16:12:07,904 Trac[loader] DEBUG: Loading trac.db.sqlite from c:\python27\lib\site-packages
+2013-05-21 16:12:07,910 Trac[loader] DEBUG: Loading trac.mimeview.patch from c:\python27\lib\site-packages
+2013-05-21 16:12:07,910 Trac[loader] DEBUG: Loading trac.mimeview.pygments from c:\python27\lib\site-packages
+2013-05-21 16:12:07,914 Trac[loader] DEBUG: Skipping "trac.mimeview.pygments = trac.mimeview.pygments [pygments]": ("DistributionNotFound: Pygments>=0.6" not found)
+2013-05-21 16:12:07,914 Trac[loader] DEBUG: Loading trac.mimeview.rst from c:\python27\lib\site-packages
+2013-05-21 16:12:07,920 Trac[loader] DEBUG: Skipping "trac.mimeview.rst = trac.mimeview.rst [rest]": ("DistributionNotFound: docutils>=0.3" not found)
+2013-05-21 16:12:07,920 Trac[loader] DEBUG: Loading trac.mimeview.txtl from c:\python27\lib\site-packages
+2013-05-21 16:12:07,924 Trac[loader] DEBUG: Skipping "trac.mimeview.txtl = trac.mimeview.txtl [textile]": ("DistributionNotFound: textile>=2.0" not found)
+2013-05-21 16:12:07,924 Trac[loader] DEBUG: Loading trac.prefs from c:\python27\lib\site-packages
+2013-05-21 16:12:07,930 Trac[loader] DEBUG: Loading trac.search from c:\python27\lib\site-packages
+2013-05-21 16:12:07,930 Trac[loader] DEBUG: Loading trac.ticket.admin from c:\python27\lib\site-packages
+2013-05-21 16:12:07,930 Trac[loader] DEBUG: Loading trac.ticket.batch from c:\python27\lib\site-packages
+2013-05-21 16:12:07,930 Trac[loader] DEBUG: Loading trac.ticket.query from c:\python27\lib\site-packages
+2013-05-21 16:12:07,934 Trac[loader] DEBUG: Loading trac.ticket.report from c:\python27\lib\site-packages
+2013-05-21 16:12:07,934 Trac[loader] DEBUG: Loading trac.ticket.roadmap from c:\python27\lib\site-packages
+2013-05-21 16:12:07,940 Trac[loader] DEBUG: Loading trac.ticket.web_ui from c:\python27\lib\site-packages
+2013-05-21 16:12:07,940 Trac[loader] DEBUG: Loading trac.timeline from c:\python27\lib\site-packages
+2013-05-21 16:12:07,944 Trac[loader] DEBUG: Loading trac.versioncontrol.admin from c:\python27\lib\site-packages
+2013-05-21 16:12:07,944 Trac[loader] DEBUG: Loading trac.versioncontrol.svn_authz from c:\python27\lib\site-packages
+2013-05-21 16:12:07,944 Trac[loader] DEBUG: Loading trac.versioncontrol.web_ui from c:\python27\lib\site-packages
+2013-05-21 16:12:07,950 Trac[loader] DEBUG: Loading trac.web.auth from c:\python27\lib\site-packages
+2013-05-21 16:12:07,950 Trac[loader] DEBUG: Loading trac.web.session from c:\python27\lib\site-packages
+2013-05-21 16:12:07,950 Trac[loader] DEBUG: Loading trac.wiki.admin from c:\python27\lib\site-packages
+2013-05-21 16:12:07,950 Trac[loader] DEBUG: Loading trac.wiki.interwiki from c:\python27\lib\site-packages
+2013-05-21 16:12:07,954 Trac[loader] DEBUG: Loading trac.wiki.macros from c:\python27\lib\site-packages
+2013-05-21 16:12:07,954 Trac[loader] DEBUG: Loading trac.wiki.web_api from c:\python27\lib\site-packages
+2013-05-21 16:12:07,954 Trac[loader] DEBUG: Loading trac.wiki.web_ui from c:\python27\lib\site-packages
+2013-05-21 16:12:07,954 Trac[loader] DEBUG: Loading tracopt.mimeview.enscript from c:\python27\lib\site-packages
+2013-05-21 16:12:07,954 Trac[loader] DEBUG: Loading tracopt.mimeview.php from c:\python27\lib\site-packages
+2013-05-21 16:12:07,960 Trac[loader] DEBUG: Loading tracopt.mimeview.silvercity from c:\python27\lib\site-packages
+2013-05-21 16:12:07,964 Trac[loader] DEBUG: Skipping "tracopt.mimeview.silvercity = tracopt.mimeview.silvercity [silvercity]": ("DistributionNotFound: SilverCity>=0.9.4" not found)
+2013-05-21 16:12:07,964 Trac[loader] DEBUG: Loading tracopt.perm.authz_policy from c:\python27\lib\site-packages
+2013-05-21 16:12:07,964 Trac[loader] DEBUG: Loading tracopt.perm.config_perm_provider from c:\python27\lib\site-packages
+2013-05-21 16:12:07,964 Trac[loader] DEBUG: Loading tracopt.ticket.clone from c:\python27\lib\site-packages
+2013-05-21 16:12:07,964 Trac[loader] DEBUG: Loading tracopt.ticket.commit_updater from c:\python27\lib\site-packages
+2013-05-21 16:12:07,970 Trac[loader] DEBUG: Loading tracopt.ticket.deleter from c:\python27\lib\site-packages
+2013-05-21 16:12:07,970 Trac[loader] DEBUG: Loading tracopt.versioncontrol.git.git_fs from c:\python27\lib\site-packages
+2013-05-21 16:12:07,974 Trac[loader] DEBUG: Loading tracopt.versioncontrol.svn.svn_fs from c:\python27\lib\site-packages
+2013-05-21 16:12:07,974 Trac[loader] DEBUG: Loading tracopt.versioncontrol.svn.svn_prop from c:\python27\lib\site-packages
+2013-05-21 16:12:07,974 Trac[loader] DEBUG: Loading tractab from c:\projetoesa\tonho\trac\plugins\tractab-0.2.0dev-py2.7.egg
+2013-05-21 16:12:07,974 Trac[loader] DEBUG: Loading tracusermanager.account from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:12:07,980 Trac[loader] DEBUG: Loading tracusermanager.admin from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:12:07,980 Trac[loader] DEBUG: Loading tracusermanager.api from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:12:07,980 Trac[loader] DEBUG: Loading tracusermanager.permissions from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:12:07,980 Trac[loader] DEBUG: Loading tracusermanager.profile from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:12:07,984 Trac[default_workflow] DEBUG: Workflow actions at initialization: {u'resolve': {u'operations': [u'set_resolution'], 'name': u'resolve', 'default': 0, 'newstate': u'closed', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], u'permissions': [u'TICKET_MODIFY']}, u'accept': {u'operations': [u'set_owner_to_self'], 'name': u'accept', 'default': 0, 'newstate': u'accepted', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], u'permissions': [u'TICKET_MODIFY']}, u'leave': {u'operations': [u'leave_status'], 'name': u'leave', u'default': 1, 'newstate': u'*', 'oldstates': [u'*'], 'permissions': []}, u'reopen': {u'operations': [u'del_resolution'], 'name': u'reopen', 'default': 0, 'newstate': u'reopened', 'oldstates': [u'closed'], u'permissions': [u'TICKET_CREATE']}, u'reassign': {u'operations': [u'set_owner'], 'name': u'reassign', 'default': 0, 'newstate': u'assigned', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], u'permissions': [u'TICKET_MODIFY']}, '_reset': {'operations': ['reset_workflow'], 'name': 'reset', 'default': 0, 'newstate': 'new', 'oldstates': [], 'permissions': []}}
+
+2013-05-21 16:12:07,990 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-05-21 16:12:07,990 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/ticket/4'">
+2013-05-21 16:12:07,994 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:12:07,994 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:07,994 Trac[api] DEBUG: action controllers for ticket workflow: ['ConfigurableTicketWorkflow']
+2013-05-21 16:12:08,009 Trac[default_workflow] DEBUG: render_ticket_action_control: action "leave"
+2013-05-21 16:12:08,009 Trac[default_workflow] DEBUG: render_ticket_action_control: action "resolve"
+2013-05-21 16:12:08,009 Trac[default_workflow] DEBUG: render_ticket_action_control: action "reassign"
+2013-05-21 16:12:08,009 Trac[default_workflow] DEBUG: render_ticket_action_control: action "accept"
+2013-05-21 16:12:08,009 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:12:08,015 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /ticket/4, ticket.html
+2013-05-21 16:12:08,180 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:12:08,180 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields start
+2013-05-21 16:12:08,180 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields end
+2013-05-21 16:12:08,180 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:12:08,535 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/ticket/4'">
+2013-05-21 16:12:08,539 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:12:08,539 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:08,549 Trac[default_workflow] DEBUG: render_ticket_action_control: action "leave"
+2013-05-21 16:12:08,549 Trac[default_workflow] DEBUG: render_ticket_action_control: action "resolve"
+2013-05-21 16:12:08,549 Trac[default_workflow] DEBUG: render_ticket_action_control: action "reassign"
+2013-05-21 16:12:08,549 Trac[default_workflow] DEBUG: render_ticket_action_control: action "accept"
+2013-05-21 16:12:08,549 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:12:08,555 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /ticket/4, ticket.html
+2013-05-21 16:12:08,555 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:12:08,555 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields start
+2013-05-21 16:12:08,559 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields end
+2013-05-21 16:12:08,559 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:12:08,815 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/trac.css'">
+2013-05-21 16:12:08,819 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/ticket.css'">
+2013-05-21 16:12:08,819 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/ticketref/ticket.css'">
+2013-05-21 16:12:08,825 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery.js'">
+2013-05-21 16:12:08,825 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:08,825 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/babel.js'">
+2013-05-21 16:12:08,825 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/trac.js'">
+2013-05-21 16:12:08,839 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:08,839 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:08,845 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:08,845 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:08,865 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/search.js'">
+2013-05-21 16:12:08,880 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/folding.js'">
+2013-05-21 16:12:08,894 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/wikitoolbar.js'">
+2013-05-21 16:12:08,894 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:08,894 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/resizer.js'">
+2013-05-21 16:12:08,900 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:08,900 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/auto_preview.js'">
+2013-05-21 16:12:08,904 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:08,914 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:08,914 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:08,924 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:08,940 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/ticketref/ticket.js'">
+2013-05-21 16:12:08,950 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/threaded_comments.js'">
+2013-05-21 16:12:08,964 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/code.css'">
+2013-05-21 16:12:08,980 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:08,980 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:09,000 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:09,599 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/project.png'">
+2013-05-21 16:12:09,599 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/trac_logo_mini.png'">
+2013-05-21 16:12:09,605 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:09,605 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:09,660 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/topbar_gradient.png'">
+2013-05-21 16:12:09,660 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/topbar_gradient2.png'">
+2013-05-21 16:12:09,660 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/feed.png'">
+2013-05-21 16:12:09,664 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/edit_toolbar.png'">
+2013-05-21 16:12:09,664 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/grip.png'">
+2013-05-21 16:12:09,664 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/collapsed.png'">
+2013-05-21 16:12:09,670 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:09,670 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:09,670 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:09,670 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:09,704 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:09,704 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:09,720 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/expanded.png'">
+2013-05-21 16:12:09,740 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:16,250 Trac[main] DEBUG: Dispatching <RequestWithSession "POST '/ticket/4'">
+2013-05-21 16:12:16,256 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:12:16,256 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:16,260 Trac[api] DEBUG: TicketRefsPlugin: ticket are changing
+2013-05-21 16:12:16,266 Trac[api] ERROR: TicketRefsPlugin: ticket_changed coercing to Unicode: need string or buffer, int found
+2013-05-21 16:12:16,266 Trac[api] DEBUG: TicketRefsPlugin: ticket are changed
+2013-05-21 16:12:16,311 Trac[web_ui] DEBUG: Side effect for ConfigurableTicketWorkflow
+2013-05-21 16:12:16,331 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/ticket/4'">
+2013-05-21 16:12:16,331 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:12:16,331 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:12:16,341 Trac[default_workflow] DEBUG: render_ticket_action_control: action "leave"
+2013-05-21 16:12:16,341 Trac[default_workflow] DEBUG: render_ticket_action_control: action "resolve"
+2013-05-21 16:12:16,341 Trac[default_workflow] DEBUG: render_ticket_action_control: action "reassign"
+2013-05-21 16:12:16,341 Trac[default_workflow] DEBUG: render_ticket_action_control: action "accept"
+2013-05-21 16:12:16,341 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:12:16,345 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /ticket/4, ticket.html
+2013-05-21 16:12:16,345 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:12:16,345 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields start
+2013-05-21 16:12:16,345 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /ticket/4, None
+2013-05-21 16:12:16,351 Trac[main] ERROR: Internal Server Error: 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\trac\web\main.py", line 497, in _dispatch_request
+    dispatcher.dispatch(req)
+  File "C:\Python27\lib\site-packages\trac\web\main.py", line 233, in dispatch
+    content_type)
+  File "C:\Python27\lib\site-packages\trac\web\chrome.py", line 983, in render_template
+    stream |= self._filter_stream(req, method, filename, stream, data)
+  File "C:\Python27\lib\site-packages\genshi\core.py", line 133, in __or__
+    return Stream(_ensure(function(self)), serializer=self.serializer)
+  File "C:\Python27\lib\site-packages\trac\web\chrome.py", line 1162, in inner
+    data)
+  File "build\bdist.win32\egg\ticketref\web_ui.py", line 46, in filter_stream
+    self._filter_fields(req, data)
+  File "build\bdist.win32\egg\ticketref\web_ui.py", line 75, in _filter_fields
+    verbose_link=True)
+  File "build\bdist.win32\egg\ticketref\web_ui.py", line 122, in _link_refs
+    c.execute("SELECT id,name FROM projects_feature WHERE id =%s" % refs_text)
+  File "C:\Python27\lib\site-packages\trac\db\util.py", line 66, in execute
+    return self.cursor.execute(sql)
+  File "C:\Python27\lib\site-packages\trac\db\sqlite_backend.py", line 78, in execute
+    result = PyFormatCursor.execute(self, *args)
+  File "C:\Python27\lib\site-packages\trac\db\sqlite_backend.py", line 56, in execute
+    args or [])
+  File "C:\Python27\lib\site-packages\trac\db\sqlite_backend.py", line 48, in _rollback_on_error
+    return function(self, *args, **kwargs)
+OperationalError: no such column: Teste
+2013-05-21 16:12:16,421 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:16:17,441 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0.1] --------------------------------
+2013-05-21 16:16:17,457 Trac[loader] DEBUG: Adding plugin TracTab 0.2.0dev from c:\projetoesa\tonho\trac\plugins\tractab-0.2.0dev-py2.7.egg
+2013-05-21 16:16:17,457 Trac[loader] DEBUG: Adding plugin TracFeaturePlugin 0.2.6 from c:\projetoesa\tonho\trac\plugins\tracfeatureplugin-0.2.6-py2.7.egg
+2013-05-21 16:16:17,457 Trac[loader] DEBUG: Adding plugin TracAccountManager 0.4.3 from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:16:17,457 Trac[loader] DEBUG: Adding plugin TracUserManagerPlugin 0.5dev from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:16:17,461 Trac[loader] DEBUG: Loading acct_mgr.admin from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:16:17,471 Trac[loader] DEBUG: Loading acct_mgr.api from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:16:17,471 Trac[loader] DEBUG: Loading acct_mgr.db from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:16:17,471 Trac[loader] DEBUG: Loading acct_mgr.htfile from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:16:17,471 Trac[loader] DEBUG: Loading acct_mgr.http from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:16:17,476 Trac[loader] DEBUG: Loading acct_mgr.macros from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:16:17,476 Trac[loader] DEBUG: Loading acct_mgr.notification from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:16:17,476 Trac[loader] DEBUG: Loading acct_mgr.pwhash from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:16:17,476 Trac[loader] DEBUG: Loading acct_mgr.svnserve from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:16:17,476 Trac[loader] DEBUG: Loading acct_mgr.web_ui from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:16:17,476 Trac[loader] DEBUG: Loading ticketref.api from c:\projetoesa\tonho\trac\plugins\tracfeatureplugin-0.2.6-py2.7.egg
+2013-05-21 16:16:17,486 Trac[loader] DEBUG: Loading ticketref.web_ui from c:\projetoesa\tonho\trac\plugins\tracfeatureplugin-0.2.6-py2.7.egg
+2013-05-21 16:16:17,486 Trac[loader] DEBUG: Loading trac.about from c:\python27\lib\site-packages
+2013-05-21 16:16:17,486 Trac[loader] DEBUG: Loading trac.admin.console from c:\python27\lib\site-packages
+2013-05-21 16:16:17,492 Trac[loader] DEBUG: Loading trac.admin.web_ui from c:\python27\lib\site-packages
+2013-05-21 16:16:17,492 Trac[loader] DEBUG: Loading trac.attachment from c:\python27\lib\site-packages
+2013-05-21 16:16:17,492 Trac[loader] DEBUG: Loading trac.db.mysql from c:\python27\lib\site-packages
+2013-05-21 16:16:17,496 Trac[loader] DEBUG: Loading trac.db.postgres from c:\python27\lib\site-packages
+2013-05-21 16:16:17,496 Trac[loader] DEBUG: Loading trac.db.sqlite from c:\python27\lib\site-packages
+2013-05-21 16:16:17,502 Trac[loader] DEBUG: Loading trac.mimeview.patch from c:\python27\lib\site-packages
+2013-05-21 16:16:17,502 Trac[loader] DEBUG: Loading trac.mimeview.pygments from c:\python27\lib\site-packages
+2013-05-21 16:16:17,506 Trac[loader] DEBUG: Skipping "trac.mimeview.pygments = trac.mimeview.pygments [pygments]": ("DistributionNotFound: Pygments>=0.6" not found)
+2013-05-21 16:16:17,506 Trac[loader] DEBUG: Loading trac.mimeview.rst from c:\python27\lib\site-packages
+2013-05-21 16:16:17,512 Trac[loader] DEBUG: Skipping "trac.mimeview.rst = trac.mimeview.rst [rest]": ("DistributionNotFound: docutils>=0.3" not found)
+2013-05-21 16:16:17,512 Trac[loader] DEBUG: Loading trac.mimeview.txtl from c:\python27\lib\site-packages
+2013-05-21 16:16:17,516 Trac[loader] DEBUG: Skipping "trac.mimeview.txtl = trac.mimeview.txtl [textile]": ("DistributionNotFound: textile>=2.0" not found)
+2013-05-21 16:16:17,516 Trac[loader] DEBUG: Loading trac.prefs from c:\python27\lib\site-packages
+2013-05-21 16:16:17,522 Trac[loader] DEBUG: Loading trac.search from c:\python27\lib\site-packages
+2013-05-21 16:16:17,522 Trac[loader] DEBUG: Loading trac.ticket.admin from c:\python27\lib\site-packages
+2013-05-21 16:16:17,522 Trac[loader] DEBUG: Loading trac.ticket.batch from c:\python27\lib\site-packages
+2013-05-21 16:16:17,522 Trac[loader] DEBUG: Loading trac.ticket.query from c:\python27\lib\site-packages
+2013-05-21 16:16:17,526 Trac[loader] DEBUG: Loading trac.ticket.report from c:\python27\lib\site-packages
+2013-05-21 16:16:17,526 Trac[loader] DEBUG: Loading trac.ticket.roadmap from c:\python27\lib\site-packages
+2013-05-21 16:16:17,532 Trac[loader] DEBUG: Loading trac.ticket.web_ui from c:\python27\lib\site-packages
+2013-05-21 16:16:17,536 Trac[loader] DEBUG: Loading trac.timeline from c:\python27\lib\site-packages
+2013-05-21 16:16:17,536 Trac[loader] DEBUG: Loading trac.versioncontrol.admin from c:\python27\lib\site-packages
+2013-05-21 16:16:17,536 Trac[loader] DEBUG: Loading trac.versioncontrol.svn_authz from c:\python27\lib\site-packages
+2013-05-21 16:16:17,536 Trac[loader] DEBUG: Loading trac.versioncontrol.web_ui from c:\python27\lib\site-packages
+2013-05-21 16:16:17,542 Trac[loader] DEBUG: Loading trac.web.auth from c:\python27\lib\site-packages
+2013-05-21 16:16:17,546 Trac[loader] DEBUG: Loading trac.web.session from c:\python27\lib\site-packages
+2013-05-21 16:16:17,546 Trac[loader] DEBUG: Loading trac.wiki.admin from c:\python27\lib\site-packages
+2013-05-21 16:16:17,546 Trac[loader] DEBUG: Loading trac.wiki.interwiki from c:\python27\lib\site-packages
+2013-05-21 16:16:17,546 Trac[loader] DEBUG: Loading trac.wiki.macros from c:\python27\lib\site-packages
+2013-05-21 16:16:17,546 Trac[loader] DEBUG: Loading trac.wiki.web_api from c:\python27\lib\site-packages
+2013-05-21 16:16:17,546 Trac[loader] DEBUG: Loading trac.wiki.web_ui from c:\python27\lib\site-packages
+2013-05-21 16:16:17,546 Trac[loader] DEBUG: Loading tracopt.mimeview.enscript from c:\python27\lib\site-packages
+2013-05-21 16:16:17,552 Trac[loader] DEBUG: Loading tracopt.mimeview.php from c:\python27\lib\site-packages
+2013-05-21 16:16:17,552 Trac[loader] DEBUG: Loading tracopt.mimeview.silvercity from c:\python27\lib\site-packages
+2013-05-21 16:16:17,556 Trac[loader] DEBUG: Skipping "tracopt.mimeview.silvercity = tracopt.mimeview.silvercity [silvercity]": ("DistributionNotFound: SilverCity>=0.9.4" not found)
+2013-05-21 16:16:17,556 Trac[loader] DEBUG: Loading tracopt.perm.authz_policy from c:\python27\lib\site-packages
+2013-05-21 16:16:17,556 Trac[loader] DEBUG: Loading tracopt.perm.config_perm_provider from c:\python27\lib\site-packages
+2013-05-21 16:16:17,556 Trac[loader] DEBUG: Loading tracopt.ticket.clone from c:\python27\lib\site-packages
+2013-05-21 16:16:17,562 Trac[loader] DEBUG: Loading tracopt.ticket.commit_updater from c:\python27\lib\site-packages
+2013-05-21 16:16:17,562 Trac[loader] DEBUG: Loading tracopt.ticket.deleter from c:\python27\lib\site-packages
+2013-05-21 16:16:17,562 Trac[loader] DEBUG: Loading tracopt.versioncontrol.git.git_fs from c:\python27\lib\site-packages
+2013-05-21 16:16:17,566 Trac[loader] DEBUG: Loading tracopt.versioncontrol.svn.svn_fs from c:\python27\lib\site-packages
+2013-05-21 16:16:17,566 Trac[loader] DEBUG: Loading tracopt.versioncontrol.svn.svn_prop from c:\python27\lib\site-packages
+2013-05-21 16:16:17,572 Trac[loader] DEBUG: Loading tractab from c:\projetoesa\tonho\trac\plugins\tractab-0.2.0dev-py2.7.egg
+2013-05-21 16:16:17,572 Trac[loader] DEBUG: Loading tracusermanager.account from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:16:17,572 Trac[loader] DEBUG: Loading tracusermanager.admin from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:16:17,572 Trac[loader] DEBUG: Loading tracusermanager.api from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:16:17,572 Trac[loader] DEBUG: Loading tracusermanager.permissions from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:16:17,572 Trac[loader] DEBUG: Loading tracusermanager.profile from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:16:17,576 Trac[default_workflow] DEBUG: Workflow actions at initialization: {u'resolve': {u'operations': [u'set_resolution'], 'name': u'resolve', 'default': 0, 'newstate': u'closed', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], u'permissions': [u'TICKET_MODIFY']}, u'accept': {u'operations': [u'set_owner_to_self'], 'name': u'accept', 'default': 0, 'newstate': u'accepted', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], u'permissions': [u'TICKET_MODIFY']}, u'leave': {u'operations': [u'leave_status'], 'name': u'leave', u'default': 1, 'newstate': u'*', 'oldstates': [u'*'], 'permissions': []}, u'reopen': {u'operations': [u'del_resolution'], 'name': u'reopen', 'default': 0, 'newstate': u'reopened', 'oldstates': [u'closed'], u'permissions': [u'TICKET_CREATE']}, u'reassign': {u'operations': [u'set_owner'], 'name': u'reassign', 'default': 0, 'newstate': u'assigned', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], u'permissions': [u'TICKET_MODIFY']}, '_reset': {'operations': ['reset_workflow'], 'name': 'reset', 'default': 0, 'newstate': 'new', 'oldstates': [], 'permissions': []}}
+
+2013-05-21 16:16:17,582 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-05-21 16:16:17,582 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/ticket/4'">
+2013-05-21 16:16:17,586 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:16:17,592 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:17,592 Trac[api] DEBUG: action controllers for ticket workflow: ['ConfigurableTicketWorkflow']
+2013-05-21 16:16:17,601 Trac[default_workflow] DEBUG: render_ticket_action_control: action "leave"
+2013-05-21 16:16:17,601 Trac[default_workflow] DEBUG: render_ticket_action_control: action "resolve"
+2013-05-21 16:16:17,607 Trac[default_workflow] DEBUG: render_ticket_action_control: action "reassign"
+2013-05-21 16:16:17,607 Trac[default_workflow] DEBUG: render_ticket_action_control: action "accept"
+2013-05-21 16:16:17,607 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:16:17,611 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /ticket/4, ticket.html
+2013-05-21 16:16:17,772 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:16:17,772 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields start
+2013-05-21 16:16:17,776 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields end
+2013-05-21 16:16:17,776 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:16:18,065 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/trac.css'">
+2013-05-21 16:16:18,065 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/ticket.css'">
+2013-05-21 16:16:18,069 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/ticketref/ticket.css'">
+2013-05-21 16:16:18,069 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery.js'">
+2013-05-21 16:16:18,069 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:18,069 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/babel.js'">
+2013-05-21 16:16:18,075 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/trac.js'">
+2013-05-21 16:16:18,079 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:18,095 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:18,095 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:18,095 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:18,099 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/search.js'">
+2013-05-21 16:16:18,140 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:18,144 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/folding.js'">
+2013-05-21 16:16:18,144 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/wikitoolbar.js'">
+2013-05-21 16:16:18,144 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/resizer.js'">
+2013-05-21 16:16:18,160 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:18,160 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/auto_preview.js'">
+2013-05-21 16:16:18,160 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:18,164 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:18,164 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:18,164 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/ticketref/ticket.js'">
+2013-05-21 16:16:18,174 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:18,210 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/threaded_comments.js'">
+2013-05-21 16:16:18,210 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/code.css'">
+2013-05-21 16:16:18,224 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:18,224 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:18,244 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:18,845 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/trac_logo_mini.png'">
+2013-05-21 16:16:18,845 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/project.png'">
+2013-05-21 16:16:18,851 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:18,851 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:18,875 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/topbar_gradient2.png'">
+2013-05-21 16:16:18,875 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/topbar_gradient.png'">
+2013-05-21 16:16:18,875 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:18,875 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:18,905 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/feed.png'">
+2013-05-21 16:16:18,905 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/edit_toolbar.png'">
+2013-05-21 16:16:18,905 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/collapsed.png'">
+2013-05-21 16:16:18,905 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/grip.png'">
+2013-05-21 16:16:18,905 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/expanded.png'">
+2013-05-21 16:16:18,911 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:18,911 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:18,911 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:18,911 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:18,911 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:27,308 Trac[main] DEBUG: Dispatching <RequestWithSession "POST '/ticket/4'">
+2013-05-21 16:16:27,308 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:16:27,312 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:27,312 Trac[web_ui] DEBUG: Side effect for ConfigurableTicketWorkflow
+2013-05-21 16:16:27,342 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/ticket/4'">
+2013-05-21 16:16:27,342 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:16:27,342 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:27,352 Trac[default_workflow] DEBUG: render_ticket_action_control: action "leave"
+2013-05-21 16:16:27,352 Trac[default_workflow] DEBUG: render_ticket_action_control: action "resolve"
+2013-05-21 16:16:27,352 Trac[default_workflow] DEBUG: render_ticket_action_control: action "reassign"
+2013-05-21 16:16:27,358 Trac[default_workflow] DEBUG: render_ticket_action_control: action "accept"
+2013-05-21 16:16:27,358 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:16:27,358 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /ticket/4, ticket.html
+2013-05-21 16:16:27,358 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:16:27,358 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields start
+2013-05-21 16:16:27,358 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields end
+2013-05-21 16:16:27,358 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:16:44,460 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/ticket/4'">
+2013-05-21 16:16:44,460 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:16:44,460 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:44,474 Trac[default_workflow] DEBUG: render_ticket_action_control: action "leave"
+2013-05-21 16:16:44,474 Trac[default_workflow] DEBUG: render_ticket_action_control: action "resolve"
+2013-05-21 16:16:44,474 Trac[default_workflow] DEBUG: render_ticket_action_control: action "reassign"
+2013-05-21 16:16:44,474 Trac[default_workflow] DEBUG: render_ticket_action_control: action "accept"
+2013-05-21 16:16:44,474 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:16:44,480 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /ticket/4, ticket.html
+2013-05-21 16:16:44,480 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:16:44,480 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields start
+2013-05-21 16:16:44,480 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields end
+2013-05-21 16:16:44,480 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:16:44,740 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/trac.css'">
+2013-05-21 16:16:44,744 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/ticket.css'">
+2013-05-21 16:16:44,744 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/ticketref/ticket.css'">
+2013-05-21 16:16:44,744 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery.js'">
+2013-05-21 16:16:44,744 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/babel.js'">
+2013-05-21 16:16:44,744 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/trac.js'">
+2013-05-21 16:16:44,750 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:44,750 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:44,750 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:44,750 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:44,750 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:44,809 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/search.js'">
+2013-05-21 16:16:44,809 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/folding.js'">
+2013-05-21 16:16:44,809 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/wikitoolbar.js'">
+2013-05-21 16:16:44,809 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/resizer.js'">
+2013-05-21 16:16:44,809 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/auto_preview.js'">
+2013-05-21 16:16:44,815 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:44,815 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:44,815 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:44,815 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:44,819 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:44,819 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:44,875 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/ticketref/ticket.js'">
+2013-05-21 16:16:44,875 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/code.css'">
+2013-05-21 16:16:44,875 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/threaded_comments.js'">
+2013-05-21 16:16:44,890 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:44,890 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:44,910 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:45,483 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/project.png'">
+2013-05-21 16:16:45,483 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/trac_logo_mini.png'">
+2013-05-21 16:16:45,486 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:45,486 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:45,509 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/topbar_gradient2.png'">
+2013-05-21 16:16:45,509 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/feed.png'">
+2013-05-21 16:16:45,510 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/topbar_gradient.png'">
+2013-05-21 16:16:45,515 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:45,515 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:45,515 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:45,555 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/grip.png'">
+2013-05-21 16:16:45,555 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/collapsed.png'">
+2013-05-21 16:16:45,555 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/edit_toolbar.png'">
+2013-05-21 16:16:45,555 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/expanded.png'">
+2013-05-21 16:16:45,559 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:45,559 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:45,559 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:45,559 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:46,740 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/ticket/4'">
+2013-05-21 16:16:46,744 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:16:46,744 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:46,750 Trac[default_workflow] DEBUG: render_ticket_action_control: action "leave"
+2013-05-21 16:16:46,750 Trac[default_workflow] DEBUG: render_ticket_action_control: action "resolve"
+2013-05-21 16:16:46,750 Trac[default_workflow] DEBUG: render_ticket_action_control: action "reassign"
+2013-05-21 16:16:46,750 Trac[default_workflow] DEBUG: render_ticket_action_control: action "accept"
+2013-05-21 16:16:46,750 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:16:46,755 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /ticket/4, ticket.html
+2013-05-21 16:16:46,755 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:16:46,755 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields start
+2013-05-21 16:16:46,755 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields end
+2013-05-21 16:16:46,755 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:16:47,009 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/ticket.css'">
+2013-05-21 16:16:47,009 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/trac.css'">
+2013-05-21 16:16:47,009 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/ticketref/ticket.css'">
+2013-05-21 16:16:47,009 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/trac.js'">
+2013-05-21 16:16:47,009 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery.js'">
+2013-05-21 16:16:47,009 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/babel.js'">
+2013-05-21 16:16:47,015 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:47,015 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:47,015 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:47,015 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:47,019 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:47,075 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/search.js'">
+2013-05-21 16:16:47,075 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/folding.js'">
+2013-05-21 16:16:47,075 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/wikitoolbar.js'">
+2013-05-21 16:16:47,075 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/resizer.js'">
+2013-05-21 16:16:47,079 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/auto_preview.js'">
+2013-05-21 16:16:47,079 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:47,079 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:47,079 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:47,079 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:47,085 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:47,085 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:47,140 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/ticketref/ticket.js'">
+2013-05-21 16:16:47,150 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/threaded_comments.js'">
+2013-05-21 16:16:47,150 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/code.css'">
+2013-05-21 16:16:47,154 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:47,154 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:47,174 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:47,719 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/project.png'">
+2013-05-21 16:16:47,719 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/trac_logo_mini.png'">
+2013-05-21 16:16:47,721 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:47,721 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:47,746 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/topbar_gradient2.png'">
+2013-05-21 16:16:47,746 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/feed.png'">
+2013-05-21 16:16:47,746 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/topbar_gradient.png'">
+2013-05-21 16:16:47,752 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:47,752 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:47,752 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:47,792 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/grip.png'">
+2013-05-21 16:16:47,792 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/collapsed.png'">
+2013-05-21 16:16:47,792 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/edit_toolbar.png'">
+2013-05-21 16:16:47,792 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/expanded.png'">
+2013-05-21 16:16:47,796 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:47,796 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:47,796 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:47,796 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:49,667 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/ticket/4'">
+2013-05-21 16:16:49,667 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:16:49,673 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:49,693 Trac[default_workflow] DEBUG: render_ticket_action_control: action "leave"
+2013-05-21 16:16:49,693 Trac[default_workflow] DEBUG: render_ticket_action_control: action "resolve"
+2013-05-21 16:16:49,693 Trac[default_workflow] DEBUG: render_ticket_action_control: action "reassign"
+2013-05-21 16:16:49,697 Trac[default_workflow] DEBUG: render_ticket_action_control: action "accept"
+2013-05-21 16:16:49,697 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:16:49,703 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /ticket/4, ticket.html
+2013-05-21 16:16:49,703 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:16:49,703 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields start
+2013-05-21 16:16:49,703 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields end
+2013-05-21 16:16:49,703 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:16:49,963 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/trac.css'">
+2013-05-21 16:16:49,967 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/ticket.css'">
+2013-05-21 16:16:49,967 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/ticketref/ticket.css'">
+2013-05-21 16:16:49,967 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:49,967 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery.js'">
+2013-05-21 16:16:49,973 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/babel.js'">
+2013-05-21 16:16:49,973 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/trac.js'">
+2013-05-21 16:16:49,973 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:49,977 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:49,987 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:49,987 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:50,023 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/search.js'">
+2013-05-21 16:16:50,038 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/folding.js'">
+2013-05-21 16:16:50,042 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/wikitoolbar.js'">
+2013-05-21 16:16:50,042 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:50,048 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:50,048 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/resizer.js'">
+2013-05-21 16:16:50,048 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/auto_preview.js'">
+2013-05-21 16:16:50,052 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:50,052 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:50,078 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:50,078 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:50,102 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/ticketref/ticket.js'">
+2013-05-21 16:16:50,112 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/threaded_comments.js'">
+2013-05-21 16:16:50,112 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/code.css'">
+2013-05-21 16:16:50,128 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:50,128 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:50,153 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:50,697 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/project.png'">
+2013-05-21 16:16:50,697 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/trac_logo_mini.png'">
+2013-05-21 16:16:50,703 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/topbar_gradient.png'">
+2013-05-21 16:16:50,703 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/topbar_gradient2.png'">
+2013-05-21 16:16:50,703 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/feed.png'">
+2013-05-21 16:16:50,703 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:50,707 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:50,707 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:50,707 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:50,707 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:50,773 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/edit_toolbar.png'">
+2013-05-21 16:16:50,778 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/grip.png'">
+2013-05-21 16:16:50,778 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/collapsed.png'">
+2013-05-21 16:16:50,778 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/expanded.png'">
+2013-05-21 16:16:50,778 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:50,782 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:50,782 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:16:50,782 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:17:03,505 Trac[main] DEBUG: Dispatching <RequestWithSession "POST '/ticket/4'">
+2013-05-21 16:17:03,505 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:17:03,505 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:17:03,515 Trac[api] DEBUG: TicketRefsPlugin: ticket are changing
+2013-05-21 16:17:03,519 Trac[api] ERROR: TicketRefsPlugin: ticket_changed cannot concatenate 'str' and 'int' objects
+2013-05-21 16:17:03,519 Trac[api] DEBUG: TicketRefsPlugin: ticket are changed
+2013-05-21 16:17:03,559 Trac[web_ui] DEBUG: Side effect for ConfigurableTicketWorkflow
+2013-05-21 16:17:03,589 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/ticket/4'">
+2013-05-21 16:17:03,589 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:17:03,589 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:17:03,599 Trac[default_workflow] DEBUG: render_ticket_action_control: action "leave"
+2013-05-21 16:17:03,599 Trac[default_workflow] DEBUG: render_ticket_action_control: action "resolve"
+2013-05-21 16:17:03,599 Trac[default_workflow] DEBUG: render_ticket_action_control: action "reassign"
+2013-05-21 16:17:03,605 Trac[default_workflow] DEBUG: render_ticket_action_control: action "accept"
+2013-05-21 16:17:03,605 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:17:03,605 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /ticket/4, ticket.html
+2013-05-21 16:17:03,609 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:17:03,609 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields start
+2013-05-21 16:17:03,609 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields end
+2013-05-21 16:17:03,609 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:17:18,423 Trac[main] DEBUG: Dispatching <RequestWithSession "POST '/ticket/4'">
+2013-05-21 16:17:18,423 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:17:18,423 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:17:18,433 Trac[api] DEBUG: TicketRefsPlugin: ticket are changing
+2013-05-21 16:17:18,433 Trac[api] ERROR: TicketRefsPlugin: ticket_changed coercing to Unicode: need string or buffer, int found
+2013-05-21 16:17:18,433 Trac[api] DEBUG: TicketRefsPlugin: ticket are changed
+2013-05-21 16:17:18,443 Trac[web_ui] DEBUG: Side effect for ConfigurableTicketWorkflow
+2013-05-21 16:17:18,463 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/ticket/4'">
+2013-05-21 16:17:18,463 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:17:18,467 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:17:18,473 Trac[default_workflow] DEBUG: render_ticket_action_control: action "leave"
+2013-05-21 16:17:18,473 Trac[default_workflow] DEBUG: render_ticket_action_control: action "resolve"
+2013-05-21 16:17:18,477 Trac[default_workflow] DEBUG: render_ticket_action_control: action "reassign"
+2013-05-21 16:17:18,477 Trac[default_workflow] DEBUG: render_ticket_action_control: action "accept"
+2013-05-21 16:17:18,477 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:17:18,477 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /ticket/4, ticket.html
+2013-05-21 16:17:18,483 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:17:18,483 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields start
+2013-05-21 16:17:18,483 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields end
+2013-05-21 16:17:18,483 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:19:54,825 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0.1] --------------------------------
+2013-05-21 16:19:54,835 Trac[loader] DEBUG: Adding plugin TracTab 0.2.0dev from c:\projetoesa\tonho\trac\plugins\tractab-0.2.0dev-py2.7.egg
+2013-05-21 16:19:54,835 Trac[loader] DEBUG: Adding plugin TracFeaturePlugin 0.2.6 from c:\projetoesa\tonho\trac\plugins\tracfeatureplugin-0.2.6-py2.7.egg
+2013-05-21 16:19:54,835 Trac[loader] DEBUG: Adding plugin TracAccountManager 0.4.3 from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:19:54,839 Trac[loader] DEBUG: Adding plugin TracUserManagerPlugin 0.5dev from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:19:54,845 Trac[loader] DEBUG: Loading acct_mgr.admin from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:19:54,855 Trac[loader] DEBUG: Loading acct_mgr.api from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:19:54,855 Trac[loader] DEBUG: Loading acct_mgr.db from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:19:54,855 Trac[loader] DEBUG: Loading acct_mgr.htfile from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:19:54,855 Trac[loader] DEBUG: Loading acct_mgr.http from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:19:54,855 Trac[loader] DEBUG: Loading acct_mgr.macros from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:19:54,855 Trac[loader] DEBUG: Loading acct_mgr.notification from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:19:54,855 Trac[loader] DEBUG: Loading acct_mgr.pwhash from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:19:54,855 Trac[loader] DEBUG: Loading acct_mgr.svnserve from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:19:54,859 Trac[loader] DEBUG: Loading acct_mgr.web_ui from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:19:54,859 Trac[loader] DEBUG: Loading ticketref.api from c:\projetoesa\tonho\trac\plugins\tracfeatureplugin-0.2.6-py2.7.egg
+2013-05-21 16:19:54,869 Trac[loader] DEBUG: Loading ticketref.web_ui from c:\projetoesa\tonho\trac\plugins\tracfeatureplugin-0.2.6-py2.7.egg
+2013-05-21 16:19:54,869 Trac[loader] DEBUG: Loading trac.about from c:\python27\lib\site-packages
+2013-05-21 16:19:54,869 Trac[loader] DEBUG: Loading trac.admin.console from c:\python27\lib\site-packages
+2013-05-21 16:19:54,875 Trac[loader] DEBUG: Loading trac.admin.web_ui from c:\python27\lib\site-packages
+2013-05-21 16:19:54,875 Trac[loader] DEBUG: Loading trac.attachment from c:\python27\lib\site-packages
+2013-05-21 16:19:54,875 Trac[loader] DEBUG: Loading trac.db.mysql from c:\python27\lib\site-packages
+2013-05-21 16:19:54,880 Trac[loader] DEBUG: Loading trac.db.postgres from c:\python27\lib\site-packages
+2013-05-21 16:19:54,880 Trac[loader] DEBUG: Loading trac.db.sqlite from c:\python27\lib\site-packages
+2013-05-21 16:19:54,884 Trac[loader] DEBUG: Loading trac.mimeview.patch from c:\python27\lib\site-packages
+2013-05-21 16:19:54,884 Trac[loader] DEBUG: Loading trac.mimeview.pygments from c:\python27\lib\site-packages
+2013-05-21 16:19:54,890 Trac[loader] DEBUG: Skipping "trac.mimeview.pygments = trac.mimeview.pygments [pygments]": ("DistributionNotFound: Pygments>=0.6" not found)
+2013-05-21 16:19:54,890 Trac[loader] DEBUG: Loading trac.mimeview.rst from c:\python27\lib\site-packages
+2013-05-21 16:19:54,894 Trac[loader] DEBUG: Skipping "trac.mimeview.rst = trac.mimeview.rst [rest]": ("DistributionNotFound: docutils>=0.3" not found)
+2013-05-21 16:19:54,894 Trac[loader] DEBUG: Loading trac.mimeview.txtl from c:\python27\lib\site-packages
+2013-05-21 16:19:54,900 Trac[loader] DEBUG: Skipping "trac.mimeview.txtl = trac.mimeview.txtl [textile]": ("DistributionNotFound: textile>=2.0" not found)
+2013-05-21 16:19:54,900 Trac[loader] DEBUG: Loading trac.prefs from c:\python27\lib\site-packages
+2013-05-21 16:19:54,904 Trac[loader] DEBUG: Loading trac.search from c:\python27\lib\site-packages
+2013-05-21 16:19:54,904 Trac[loader] DEBUG: Loading trac.ticket.admin from c:\python27\lib\site-packages
+2013-05-21 16:19:54,904 Trac[loader] DEBUG: Loading trac.ticket.batch from c:\python27\lib\site-packages
+2013-05-21 16:19:54,904 Trac[loader] DEBUG: Loading trac.ticket.query from c:\python27\lib\site-packages
+2013-05-21 16:19:54,910 Trac[loader] DEBUG: Loading trac.ticket.report from c:\python27\lib\site-packages
+2013-05-21 16:19:54,910 Trac[loader] DEBUG: Loading trac.ticket.roadmap from c:\python27\lib\site-packages
+2013-05-21 16:19:54,914 Trac[loader] DEBUG: Loading trac.ticket.web_ui from c:\python27\lib\site-packages
+2013-05-21 16:19:54,914 Trac[loader] DEBUG: Loading trac.timeline from c:\python27\lib\site-packages
+2013-05-21 16:19:54,920 Trac[loader] DEBUG: Loading trac.versioncontrol.admin from c:\python27\lib\site-packages
+2013-05-21 16:19:54,920 Trac[loader] DEBUG: Loading trac.versioncontrol.svn_authz from c:\python27\lib\site-packages
+2013-05-21 16:19:54,920 Trac[loader] DEBUG: Loading trac.versioncontrol.web_ui from c:\python27\lib\site-packages
+2013-05-21 16:19:54,924 Trac[loader] DEBUG: Loading trac.web.auth from c:\python27\lib\site-packages
+2013-05-21 16:19:54,924 Trac[loader] DEBUG: Loading trac.web.session from c:\python27\lib\site-packages
+2013-05-21 16:19:54,924 Trac[loader] DEBUG: Loading trac.wiki.admin from c:\python27\lib\site-packages
+2013-05-21 16:19:54,924 Trac[loader] DEBUG: Loading trac.wiki.interwiki from c:\python27\lib\site-packages
+2013-05-21 16:19:54,924 Trac[loader] DEBUG: Loading trac.wiki.macros from c:\python27\lib\site-packages
+2013-05-21 16:19:54,924 Trac[loader] DEBUG: Loading trac.wiki.web_api from c:\python27\lib\site-packages
+2013-05-21 16:19:54,930 Trac[loader] DEBUG: Loading trac.wiki.web_ui from c:\python27\lib\site-packages
+2013-05-21 16:19:54,930 Trac[loader] DEBUG: Loading tracopt.mimeview.enscript from c:\python27\lib\site-packages
+2013-05-21 16:19:54,930 Trac[loader] DEBUG: Loading tracopt.mimeview.php from c:\python27\lib\site-packages
+2013-05-21 16:19:54,930 Trac[loader] DEBUG: Loading tracopt.mimeview.silvercity from c:\python27\lib\site-packages
+2013-05-21 16:19:54,940 Trac[loader] DEBUG: Skipping "tracopt.mimeview.silvercity = tracopt.mimeview.silvercity [silvercity]": ("DistributionNotFound: SilverCity>=0.9.4" not found)
+2013-05-21 16:19:54,940 Trac[loader] DEBUG: Loading tracopt.perm.authz_policy from c:\python27\lib\site-packages
+2013-05-21 16:19:54,940 Trac[loader] DEBUG: Loading tracopt.perm.config_perm_provider from c:\python27\lib\site-packages
+2013-05-21 16:19:54,940 Trac[loader] DEBUG: Loading tracopt.ticket.clone from c:\python27\lib\site-packages
+2013-05-21 16:19:54,940 Trac[loader] DEBUG: Loading tracopt.ticket.commit_updater from c:\python27\lib\site-packages
+2013-05-21 16:19:54,944 Trac[loader] DEBUG: Loading tracopt.ticket.deleter from c:\python27\lib\site-packages
+2013-05-21 16:19:54,944 Trac[loader] DEBUG: Loading tracopt.versioncontrol.git.git_fs from c:\python27\lib\site-packages
+2013-05-21 16:19:54,950 Trac[loader] DEBUG: Loading tracopt.versioncontrol.svn.svn_fs from c:\python27\lib\site-packages
+2013-05-21 16:19:54,950 Trac[loader] DEBUG: Loading tracopt.versioncontrol.svn.svn_prop from c:\python27\lib\site-packages
+2013-05-21 16:19:54,950 Trac[loader] DEBUG: Loading tractab from c:\projetoesa\tonho\trac\plugins\tractab-0.2.0dev-py2.7.egg
+2013-05-21 16:19:54,950 Trac[loader] DEBUG: Loading tracusermanager.account from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:19:54,954 Trac[loader] DEBUG: Loading tracusermanager.admin from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:19:54,954 Trac[loader] DEBUG: Loading tracusermanager.api from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:19:54,954 Trac[loader] DEBUG: Loading tracusermanager.permissions from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:19:54,954 Trac[loader] DEBUG: Loading tracusermanager.profile from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:19:54,960 Trac[default_workflow] DEBUG: Workflow actions at initialization: {u'resolve': {u'operations': [u'set_resolution'], 'name': u'resolve', 'default': 0, 'newstate': u'closed', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], u'permissions': [u'TICKET_MODIFY']}, u'accept': {u'operations': [u'set_owner_to_self'], 'name': u'accept', 'default': 0, 'newstate': u'accepted', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], u'permissions': [u'TICKET_MODIFY']}, u'leave': {u'operations': [u'leave_status'], 'name': u'leave', u'default': 1, 'newstate': u'*', 'oldstates': [u'*'], 'permissions': []}, u'reopen': {u'operations': [u'del_resolution'], 'name': u'reopen', 'default': 0, 'newstate': u'reopened', 'oldstates': [u'closed'], u'permissions': [u'TICKET_CREATE']}, u'reassign': {u'operations': [u'set_owner'], 'name': u'reassign', 'default': 0, 'newstate': u'assigned', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], u'permissions': [u'TICKET_MODIFY']}, '_reset': {'operations': ['reset_workflow'], 'name': 'reset', 'default': 0, 'newstate': 'new', 'oldstates': [], 'permissions': []}}
+
+2013-05-21 16:19:54,964 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-05-21 16:19:54,964 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/ticket/4'">
+2013-05-21 16:19:54,970 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:19:54,970 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:54,974 Trac[api] DEBUG: action controllers for ticket workflow: ['ConfigurableTicketWorkflow']
+2013-05-21 16:19:54,984 Trac[default_workflow] DEBUG: render_ticket_action_control: action "leave"
+2013-05-21 16:19:54,984 Trac[default_workflow] DEBUG: render_ticket_action_control: action "resolve"
+2013-05-21 16:19:54,984 Trac[default_workflow] DEBUG: render_ticket_action_control: action "reassign"
+2013-05-21 16:19:54,984 Trac[default_workflow] DEBUG: render_ticket_action_control: action "accept"
+2013-05-21 16:19:54,984 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:19:54,990 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /ticket/4, ticket.html
+2013-05-21 16:19:55,154 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:19:55,154 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields start
+2013-05-21 16:19:55,154 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields end
+2013-05-21 16:19:55,154 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:19:55,453 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/trac.css'">
+2013-05-21 16:19:55,457 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/ticket.css'">
+2013-05-21 16:19:55,457 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/ticketref/ticket.css'">
+2013-05-21 16:19:55,457 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:55,457 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery.js'">
+2013-05-21 16:19:55,463 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/babel.js'">
+2013-05-21 16:19:55,463 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/trac.js'">
+2013-05-21 16:19:55,477 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:55,477 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:55,477 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:55,483 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:55,493 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/search.js'">
+2013-05-21 16:19:55,517 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/folding.js'">
+2013-05-21 16:19:55,528 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:55,528 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/wikitoolbar.js'">
+2013-05-21 16:19:55,542 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/resizer.js'">
+2013-05-21 16:19:55,542 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:55,548 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:55,548 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/auto_preview.js'">
+2013-05-21 16:19:55,548 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:55,548 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/ticketref/ticket.js'">
+2013-05-21 16:19:55,548 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:55,572 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:55,598 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/threaded_comments.js'">
+2013-05-21 16:19:55,602 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/code.css'">
+2013-05-21 16:19:55,612 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:55,618 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:55,638 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:56,233 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/project.png'">
+2013-05-21 16:19:56,233 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/trac_logo_mini.png'">
+2013-05-21 16:19:56,237 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:56,237 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:56,273 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/topbar_gradient2.png'">
+2013-05-21 16:19:56,273 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/topbar_gradient.png'">
+2013-05-21 16:19:56,273 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/feed.png'">
+2013-05-21 16:19:56,278 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/edit_toolbar.png'">
+2013-05-21 16:19:56,278 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/grip.png'">
+2013-05-21 16:19:56,278 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/collapsed.png'">
+2013-05-21 16:19:56,278 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:56,278 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:56,278 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:56,282 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:56,282 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:56,308 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:56,318 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/expanded.png'">
+2013-05-21 16:19:56,348 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:58,572 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/newticket'">
+2013-05-21 16:19:58,578 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:19:58,578 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:19:58,578 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:19:58,582 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /newticket, ticket.html
+2013-05-21 16:19:58,582 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:19:58,582 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields start
+2013-05-21 16:19:58,582 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields end
+2013-05-21 16:19:58,582 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:20:03,052 Trac[main] DEBUG: Dispatching <RequestWithSession "POST '/newticket'">
+2013-05-21 16:20:03,052 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:20:03,052 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:20:03,062 Trac[api] DEBUG: TicketRefsPlugin: ticket are creating
+2013-05-21 16:20:03,068 Trac[api] ERROR: TicketRefsPlugin: ticket_created coercing to Unicode: need string or buffer, int found
+2013-05-21 16:20:03,068 Trac[api] DEBUG: TicketRefsPlugin: ticket are created
+2013-05-21 16:20:03,128 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/ticket/5'">
+2013-05-21 16:20:03,128 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:20:03,128 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:20:03,132 Trac[default_workflow] DEBUG: render_ticket_action_control: action "leave"
+2013-05-21 16:20:03,138 Trac[default_workflow] DEBUG: render_ticket_action_control: action "resolve"
+2013-05-21 16:20:03,138 Trac[default_workflow] DEBUG: render_ticket_action_control: action "reassign"
+2013-05-21 16:20:03,138 Trac[default_workflow] DEBUG: render_ticket_action_control: action "accept"
+2013-05-21 16:20:03,138 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:20:03,142 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /ticket/5, ticket.html
+2013-05-21 16:20:03,142 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:20:03,142 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields start
+2013-05-21 16:20:03,142 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields end
+2013-05-21 16:20:03,142 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:21:43,515 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0.1] --------------------------------
+2013-05-21 16:21:43,525 Trac[loader] DEBUG: Adding plugin TracTab 0.2.0dev from c:\projetoesa\tonho\trac\plugins\tractab-0.2.0dev-py2.7.egg
+2013-05-21 16:21:43,529 Trac[loader] DEBUG: Adding plugin TracFeaturePlugin 0.2.6 from c:\projetoesa\tonho\trac\plugins\tracfeatureplugin-0.2.6-py2.7.egg
+2013-05-21 16:21:43,529 Trac[loader] DEBUG: Adding plugin TracAccountManager 0.4.3 from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:21:43,529 Trac[loader] DEBUG: Adding plugin TracUserManagerPlugin 0.5dev from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:21:43,535 Trac[loader] DEBUG: Loading acct_mgr.admin from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:21:43,545 Trac[loader] DEBUG: Loading acct_mgr.api from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:21:43,545 Trac[loader] DEBUG: Loading acct_mgr.db from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:21:43,545 Trac[loader] DEBUG: Loading acct_mgr.htfile from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:21:43,545 Trac[loader] DEBUG: Loading acct_mgr.http from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:21:43,545 Trac[loader] DEBUG: Loading acct_mgr.macros from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:21:43,549 Trac[loader] DEBUG: Loading acct_mgr.notification from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:21:43,549 Trac[loader] DEBUG: Loading acct_mgr.pwhash from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:21:43,549 Trac[loader] DEBUG: Loading acct_mgr.svnserve from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:21:43,549 Trac[loader] DEBUG: Loading acct_mgr.web_ui from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:21:43,549 Trac[loader] DEBUG: Loading ticketref.api from c:\projetoesa\tonho\trac\plugins\tracfeatureplugin-0.2.6-py2.7.egg
+2013-05-21 16:21:43,559 Trac[loader] DEBUG: Loading ticketref.web_ui from c:\projetoesa\tonho\trac\plugins\tracfeatureplugin-0.2.6-py2.7.egg
+2013-05-21 16:21:43,559 Trac[loader] DEBUG: Loading trac.about from c:\python27\lib\site-packages
+2013-05-21 16:21:43,559 Trac[loader] DEBUG: Loading trac.admin.console from c:\python27\lib\site-packages
+2013-05-21 16:21:43,565 Trac[loader] DEBUG: Loading trac.admin.web_ui from c:\python27\lib\site-packages
+2013-05-21 16:21:43,569 Trac[loader] DEBUG: Loading trac.attachment from c:\python27\lib\site-packages
+2013-05-21 16:21:43,569 Trac[loader] DEBUG: Loading trac.db.mysql from c:\python27\lib\site-packages
+2013-05-21 16:21:43,569 Trac[loader] DEBUG: Loading trac.db.postgres from c:\python27\lib\site-packages
+2013-05-21 16:21:43,569 Trac[loader] DEBUG: Loading trac.db.sqlite from c:\python27\lib\site-packages
+2013-05-21 16:21:43,575 Trac[loader] DEBUG: Loading trac.mimeview.patch from c:\python27\lib\site-packages
+2013-05-21 16:21:43,575 Trac[loader] DEBUG: Loading trac.mimeview.pygments from c:\python27\lib\site-packages
+2013-05-21 16:21:43,585 Trac[loader] DEBUG: Skipping "trac.mimeview.pygments = trac.mimeview.pygments [pygments]": ("DistributionNotFound: Pygments>=0.6" not found)
+2013-05-21 16:21:43,585 Trac[loader] DEBUG: Loading trac.mimeview.rst from c:\python27\lib\site-packages
+2013-05-21 16:21:43,589 Trac[loader] DEBUG: Skipping "trac.mimeview.rst = trac.mimeview.rst [rest]": ("DistributionNotFound: docutils>=0.3" not found)
+2013-05-21 16:21:43,589 Trac[loader] DEBUG: Loading trac.mimeview.txtl from c:\python27\lib\site-packages
+2013-05-21 16:21:43,595 Trac[loader] DEBUG: Skipping "trac.mimeview.txtl = trac.mimeview.txtl [textile]": ("DistributionNotFound: textile>=2.0" not found)
+2013-05-21 16:21:43,595 Trac[loader] DEBUG: Loading trac.prefs from c:\python27\lib\site-packages
+2013-05-21 16:21:43,595 Trac[loader] DEBUG: Loading trac.search from c:\python27\lib\site-packages
+2013-05-21 16:21:43,595 Trac[loader] DEBUG: Loading trac.ticket.admin from c:\python27\lib\site-packages
+2013-05-21 16:21:43,599 Trac[loader] DEBUG: Loading trac.ticket.batch from c:\python27\lib\site-packages
+2013-05-21 16:21:43,599 Trac[loader] DEBUG: Loading trac.ticket.query from c:\python27\lib\site-packages
+2013-05-21 16:21:43,599 Trac[loader] DEBUG: Loading trac.ticket.report from c:\python27\lib\site-packages
+2013-05-21 16:21:43,605 Trac[loader] DEBUG: Loading trac.ticket.roadmap from c:\python27\lib\site-packages
+2013-05-21 16:21:43,605 Trac[loader] DEBUG: Loading trac.ticket.web_ui from c:\python27\lib\site-packages
+2013-05-21 16:21:43,609 Trac[loader] DEBUG: Loading trac.timeline from c:\python27\lib\site-packages
+2013-05-21 16:21:43,609 Trac[loader] DEBUG: Loading trac.versioncontrol.admin from c:\python27\lib\site-packages
+2013-05-21 16:21:43,609 Trac[loader] DEBUG: Loading trac.versioncontrol.svn_authz from c:\python27\lib\site-packages
+2013-05-21 16:21:43,609 Trac[loader] DEBUG: Loading trac.versioncontrol.web_ui from c:\python27\lib\site-packages
+2013-05-21 16:21:43,619 Trac[loader] DEBUG: Loading trac.web.auth from c:\python27\lib\site-packages
+2013-05-21 16:21:43,619 Trac[loader] DEBUG: Loading trac.web.session from c:\python27\lib\site-packages
+2013-05-21 16:21:43,619 Trac[loader] DEBUG: Loading trac.wiki.admin from c:\python27\lib\site-packages
+2013-05-21 16:21:43,619 Trac[loader] DEBUG: Loading trac.wiki.interwiki from c:\python27\lib\site-packages
+2013-05-21 16:21:43,619 Trac[loader] DEBUG: Loading trac.wiki.macros from c:\python27\lib\site-packages
+2013-05-21 16:21:43,619 Trac[loader] DEBUG: Loading trac.wiki.web_api from c:\python27\lib\site-packages
+2013-05-21 16:21:43,619 Trac[loader] DEBUG: Loading trac.wiki.web_ui from c:\python27\lib\site-packages
+2013-05-21 16:21:43,625 Trac[loader] DEBUG: Loading tracopt.mimeview.enscript from c:\python27\lib\site-packages
+2013-05-21 16:21:43,625 Trac[loader] DEBUG: Loading tracopt.mimeview.php from c:\python27\lib\site-packages
+2013-05-21 16:21:43,625 Trac[loader] DEBUG: Loading tracopt.mimeview.silvercity from c:\python27\lib\site-packages
+2013-05-21 16:21:43,630 Trac[loader] DEBUG: Skipping "tracopt.mimeview.silvercity = tracopt.mimeview.silvercity [silvercity]": ("DistributionNotFound: SilverCity>=0.9.4" not found)
+2013-05-21 16:21:43,630 Trac[loader] DEBUG: Loading tracopt.perm.authz_policy from c:\python27\lib\site-packages
+2013-05-21 16:21:43,634 Trac[loader] DEBUG: Loading tracopt.perm.config_perm_provider from c:\python27\lib\site-packages
+2013-05-21 16:21:43,634 Trac[loader] DEBUG: Loading tracopt.ticket.clone from c:\python27\lib\site-packages
+2013-05-21 16:21:43,634 Trac[loader] DEBUG: Loading tracopt.ticket.commit_updater from c:\python27\lib\site-packages
+2013-05-21 16:21:43,634 Trac[loader] DEBUG: Loading tracopt.ticket.deleter from c:\python27\lib\site-packages
+2013-05-21 16:21:43,634 Trac[loader] DEBUG: Loading tracopt.versioncontrol.git.git_fs from c:\python27\lib\site-packages
+2013-05-21 16:21:43,640 Trac[loader] DEBUG: Loading tracopt.versioncontrol.svn.svn_fs from c:\python27\lib\site-packages
+2013-05-21 16:21:43,644 Trac[loader] DEBUG: Loading tracopt.versioncontrol.svn.svn_prop from c:\python27\lib\site-packages
+2013-05-21 16:21:43,644 Trac[loader] DEBUG: Loading tractab from c:\projetoesa\tonho\trac\plugins\tractab-0.2.0dev-py2.7.egg
+2013-05-21 16:21:43,644 Trac[loader] DEBUG: Loading tracusermanager.account from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:21:43,650 Trac[loader] DEBUG: Loading tracusermanager.admin from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:21:43,650 Trac[loader] DEBUG: Loading tracusermanager.api from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:21:43,650 Trac[loader] DEBUG: Loading tracusermanager.permissions from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:21:43,650 Trac[loader] DEBUG: Loading tracusermanager.profile from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:21:43,650 Trac[default_workflow] DEBUG: Workflow actions at initialization: {u'resolve': {u'operations': [u'set_resolution'], 'name': u'resolve', 'default': 0, 'newstate': u'closed', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], u'permissions': [u'TICKET_MODIFY']}, u'accept': {u'operations': [u'set_owner_to_self'], 'name': u'accept', 'default': 0, 'newstate': u'accepted', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], u'permissions': [u'TICKET_MODIFY']}, u'leave': {u'operations': [u'leave_status'], 'name': u'leave', u'default': 1, 'newstate': u'*', 'oldstates': [u'*'], 'permissions': []}, u'reopen': {u'operations': [u'del_resolution'], 'name': u'reopen', 'default': 0, 'newstate': u'reopened', 'oldstates': [u'closed'], u'permissions': [u'TICKET_CREATE']}, u'reassign': {u'operations': [u'set_owner'], 'name': u'reassign', 'default': 0, 'newstate': u'assigned', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], u'permissions': [u'TICKET_MODIFY']}, '_reset': {'operations': ['reset_workflow'], 'name': 'reset', 'default': 0, 'newstate': 'new', 'oldstates': [], 'permissions': []}}
+
+2013-05-21 16:21:43,660 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-05-21 16:21:43,660 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/newticket'">
+2013-05-21 16:21:43,664 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:21:43,664 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:21:43,664 Trac[api] DEBUG: action controllers for ticket workflow: ['ConfigurableTicketWorkflow']
+2013-05-21 16:21:43,674 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:21:43,674 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /newticket, ticket.html
+2013-05-21 16:21:43,845 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:21:43,845 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields start
+2013-05-21 16:21:43,845 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields end
+2013-05-21 16:21:43,845 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:21:47,571 Trac[main] DEBUG: Dispatching <RequestWithSession "POST '/newticket'">
+2013-05-21 16:21:47,571 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:21:47,571 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:21:47,575 Trac[api] DEBUG: TicketRefsPlugin: ticket are creating
+2013-05-21 16:21:47,585 Trac[api] DEBUG: TicketRefsPlugin: ticket are created
+2013-05-21 16:21:47,641 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/ticket/6'">
+2013-05-21 16:21:47,645 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:21:47,645 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:21:47,651 Trac[default_workflow] DEBUG: render_ticket_action_control: action "leave"
+2013-05-21 16:21:47,651 Trac[default_workflow] DEBUG: render_ticket_action_control: action "resolve"
+2013-05-21 16:21:47,651 Trac[default_workflow] DEBUG: render_ticket_action_control: action "reassign"
+2013-05-21 16:21:47,651 Trac[default_workflow] DEBUG: render_ticket_action_control: action "accept"
+2013-05-21 16:21:47,651 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:21:47,655 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /ticket/6, ticket.html
+2013-05-21 16:21:47,655 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:21:47,655 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields start
+2013-05-21 16:21:47,655 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields end
+2013-05-21 16:21:47,655 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:21:58,805 Trac[main] DEBUG: Dispatching <RequestWithSession "POST '/ticket/6'">
+2013-05-21 16:21:58,805 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:21:58,805 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:21:58,815 Trac[api] DEBUG: TicketRefsPlugin: ticket are changing
+2013-05-21 16:21:58,821 Trac[api] DEBUG: TicketRefsPlugin: ticket are changed
+2013-05-21 16:21:58,831 Trac[web_ui] DEBUG: Side effect for ConfigurableTicketWorkflow
+2013-05-21 16:21:58,861 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/ticket/6'">
+2013-05-21 16:21:58,861 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:21:58,861 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:21:58,871 Trac[default_workflow] DEBUG: render_ticket_action_control: action "leave"
+2013-05-21 16:21:58,871 Trac[default_workflow] DEBUG: render_ticket_action_control: action "resolve"
+2013-05-21 16:21:58,871 Trac[default_workflow] DEBUG: render_ticket_action_control: action "reassign"
+2013-05-21 16:21:58,871 Trac[default_workflow] DEBUG: render_ticket_action_control: action "accept"
+2013-05-21 16:21:58,871 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:21:58,875 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /ticket/6, ticket.html
+2013-05-21 16:21:58,875 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:21:58,875 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields start
+2013-05-21 16:21:58,875 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields end
+2013-05-21 16:21:58,875 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:22:06,976 Trac[main] DEBUG: Dispatching <RequestWithSession "POST '/ticket/6'">
+2013-05-21 16:22:06,982 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:22:06,982 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:22:06,986 Trac[api] DEBUG: TicketRefsPlugin: ticket are changing
+2013-05-21 16:22:06,996 Trac[api] DEBUG: TicketRefsPlugin: ticket are changed
+2013-05-21 16:22:07,002 Trac[web_ui] DEBUG: Side effect for ConfigurableTicketWorkflow
+2013-05-21 16:22:07,022 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/ticket/6'">
+2013-05-21 16:22:07,022 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:22:07,026 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:22:07,032 Trac[default_workflow] DEBUG: render_ticket_action_control: action "leave"
+2013-05-21 16:22:07,032 Trac[default_workflow] DEBUG: render_ticket_action_control: action "resolve"
+2013-05-21 16:22:07,032 Trac[default_workflow] DEBUG: render_ticket_action_control: action "reassign"
+2013-05-21 16:22:07,032 Trac[default_workflow] DEBUG: render_ticket_action_control: action "accept"
+2013-05-21 16:22:07,036 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:22:07,036 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /ticket/6, ticket.html
+2013-05-21 16:22:07,042 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:22:07,042 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields start
+2013-05-21 16:22:07,042 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields end
+2013-05-21 16:22:07,042 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:22:19,582 Trac[main] DEBUG: Dispatching <RequestWithSession "POST '/ticket/6'">
+2013-05-21 16:22:19,582 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:22:19,582 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:22:19,592 Trac[api] DEBUG: TicketRefsPlugin: ticket are changing
+2013-05-21 16:22:19,596 Trac[api] DEBUG: TicketRefsPlugin: ticket are changed
+2013-05-21 16:22:19,607 Trac[web_ui] DEBUG: Side effect for ConfigurableTicketWorkflow
+2013-05-21 16:22:19,627 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/ticket/6'">
+2013-05-21 16:22:19,627 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:22:19,627 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:22:19,637 Trac[default_workflow] DEBUG: render_ticket_action_control: action "leave"
+2013-05-21 16:22:19,637 Trac[default_workflow] DEBUG: render_ticket_action_control: action "resolve"
+2013-05-21 16:22:19,637 Trac[default_workflow] DEBUG: render_ticket_action_control: action "reassign"
+2013-05-21 16:22:19,637 Trac[default_workflow] DEBUG: render_ticket_action_control: action "accept"
+2013-05-21 16:22:19,637 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:22:19,641 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /ticket/6, ticket.html
+2013-05-21 16:22:19,641 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:22:19,641 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields start
+2013-05-21 16:22:19,641 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields end
+2013-05-21 16:22:19,641 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:22:38,398 Trac[main] DEBUG: Dispatching <RequestWithSession "POST '/ticket/6'">
+2013-05-21 16:22:38,403 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:22:38,403 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:22:38,403 Trac[main] DEBUG: Dispatching <RequestWithSession "POST '/ticket/6'">
+2013-05-21 16:22:38,407 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:22:38,407 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:22:38,417 Trac[api] DEBUG: TicketRefsPlugin: ticket are changing
+2013-05-21 16:22:38,423 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:22:38,433 Trac[api] DEBUG: TicketRefsPlugin: ticket are changed
+2013-05-21 16:22:38,443 Trac[web_ui] DEBUG: Side effect for ConfigurableTicketWorkflow
+2013-05-21 16:22:38,457 Trac[default_workflow] DEBUG: render_ticket_action_control: action "leave"
+2013-05-21 16:22:38,457 Trac[default_workflow] DEBUG: render_ticket_action_control: action "reopen"
+2013-05-21 16:22:38,457 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /ticket/6, ticket_preview.html
+2013-05-21 16:22:38,467 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/ticket/6'">
+2013-05-21 16:22:38,467 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:22:38,473 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:22:38,473 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:22:38,487 Trac[default_workflow] DEBUG: render_ticket_action_control: action "leave"
+2013-05-21 16:22:38,487 Trac[default_workflow] DEBUG: render_ticket_action_control: action "reopen"
+2013-05-21 16:22:38,487 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:22:38,497 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /ticket/6, ticket.html
+2013-05-21 16:22:38,497 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:22:38,497 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields start
+2013-05-21 16:22:38,497 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields end
+2013-05-21 16:22:38,497 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:22:53,828 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/newticket'">
+2013-05-21 16:22:53,828 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:22:53,828 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:22:53,838 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:22:53,844 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /newticket, ticket.html
+2013-05-21 16:22:53,844 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:22:53,844 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields start
+2013-05-21 16:22:53,844 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields end
+2013-05-21 16:22:53,844 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:22:59,262 Trac[main] DEBUG: Dispatching <RequestWithSession "POST '/newticket'">
+2013-05-21 16:22:59,266 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:22:59,266 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:22:59,272 Trac[api] DEBUG: TicketRefsPlugin: ticket are creating
+2013-05-21 16:22:59,276 Trac[api] DEBUG: TicketRefsPlugin: ticket are created
+2013-05-21 16:22:59,306 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/ticket/7'">
+2013-05-21 16:22:59,306 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:22:59,306 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:22:59,316 Trac[default_workflow] DEBUG: render_ticket_action_control: action "leave"
+2013-05-21 16:22:59,316 Trac[default_workflow] DEBUG: render_ticket_action_control: action "resolve"
+2013-05-21 16:22:59,316 Trac[default_workflow] DEBUG: render_ticket_action_control: action "reassign"
+2013-05-21 16:22:59,316 Trac[default_workflow] DEBUG: render_ticket_action_control: action "accept"
+2013-05-21 16:22:59,316 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:22:59,322 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /ticket/7, ticket.html
+2013-05-21 16:22:59,322 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:22:59,322 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields start
+2013-05-21 16:22:59,322 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_fields end
+2013-05-21 16:22:59,322 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:23:03,174 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/roadmap'">
+2013-05-21 16:23:03,178 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:23:03,178 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:23:03,184 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:23:03,184 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /roadmap, roadmap.html
+2013-05-21 16:23:03,203 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:23:05,625 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/report'">
+2013-05-21 16:23:05,625 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:23:05,625 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:23:05,630 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:23:05,634 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /report, report_list.html
+2013-05-21 16:23:05,650 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:23:07,270 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/query'">
+2013-05-21 16:23:07,276 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:23:07,276 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:23:07,276 Trac[query] DEBUG: QueryModule: Using default query: status!=closed&owner=$USER
+2013-05-21 16:23:07,276 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:23:07,280 Trac[query] DEBUG: Count results in Query: 0
+2013-05-21 16:23:07,290 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /query, query.html
+2013-05-21 16:23:07,391 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:23:07,391 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_groups start
+2013-05-21 16:23:07,391 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_groups end
+2013-05-21 16:23:07,391 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:23:22,766 Trac[main] DEBUG: Dispatching <RequestWithSession "POST '/query'">
+2013-05-21 16:23:22,766 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:23:22,770 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:23:22,801 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/query'">
+2013-05-21 16:23:22,801 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:23:22,801 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:23:22,805 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:23:22,805 Trac[query] DEBUG: Count results in Query: 0
+2013-05-21 16:23:22,815 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /query, query.html
+2013-05-21 16:23:22,815 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:23:22,815 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_groups start
+2013-05-21 16:23:22,815 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_groups end
+2013-05-21 16:23:22,815 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:23:46,698 Trac[main] DEBUG: Dispatching <RequestWithSession "POST '/query'">
+2013-05-21 16:23:46,698 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:23:46,703 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:23:46,733 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/query'">
+2013-05-21 16:23:46,733 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:23:46,739 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:23:46,739 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:23:46,743 Trac[query] DEBUG: Count results in Query: 5
+2013-05-21 16:23:46,753 Trac[default_workflow] DEBUG: render_ticket_action_control: action "accept"
+2013-05-21 16:23:46,753 Trac[default_workflow] DEBUG: render_ticket_action_control: action "leave"
+2013-05-21 16:23:46,753 Trac[default_workflow] DEBUG: render_ticket_action_control: action "reassign"
+2013-05-21 16:23:46,753 Trac[default_workflow] DEBUG: render_ticket_action_control: action "resolve"
+2013-05-21 16:23:46,753 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /query, query.html
+2013-05-21 16:23:46,753 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:23:46,753 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_groups start
+2013-05-21 16:23:46,759 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_groups end
+2013-05-21 16:23:46,759 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:23:52,443 Trac[main] DEBUG: Dispatching <RequestWithSession "POST '/query'">
+2013-05-21 16:23:52,443 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:23:52,447 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:23:52,473 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/query'">
+2013-05-21 16:23:52,473 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:23:52,477 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:23:52,477 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:23:52,483 Trac[query] DEBUG: Count results in Query: 0
+2013-05-21 16:23:52,487 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /query, query.html
+2013-05-21 16:23:52,487 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:23:52,487 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_groups start
+2013-05-21 16:23:52,487 Trac[web_ui] DEBUG: TicketRefsTemplate: _filter_groups end
+2013-05-21 16:23:52,487 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream end
+2013-05-21 16:23:57,309 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/report'">
+2013-05-21 16:23:57,309 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:23:57,309 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:23:57,309 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:23:57,315 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /report, report_list.html
+2013-05-21 16:23:57,315 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:23:59,693 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/tractab/SPLICE'">
+2013-05-21 16:23:59,697 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:23:59,697 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:23:59,697 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, tractab.html
+2013-05-21 16:23:59,703 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:23:59,707 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:24:27,532 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0.1] --------------------------------
+2013-05-21 16:24:27,542 Trac[loader] DEBUG: Adding plugin TracTab 0.2.0dev from c:\projetoesa\tonho\trac\plugins\tractab-0.2.0dev-py2.7.egg
+2013-05-21 16:24:27,542 Trac[loader] DEBUG: Adding plugin TracFeaturePlugin 0.2.6 from c:\projetoesa\tonho\trac\plugins\tracfeatureplugin-0.2.6-py2.7.egg
+2013-05-21 16:24:27,542 Trac[loader] DEBUG: Adding plugin TracAccountManager 0.4.3 from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:24:27,542 Trac[loader] DEBUG: Adding plugin TracUserManagerPlugin 0.5dev from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:24:27,552 Trac[loader] DEBUG: Loading acct_mgr.admin from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:24:27,562 Trac[loader] DEBUG: Loading acct_mgr.api from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:24:27,562 Trac[loader] DEBUG: Loading acct_mgr.db from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:24:27,562 Trac[loader] DEBUG: Loading acct_mgr.htfile from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:24:27,562 Trac[loader] DEBUG: Loading acct_mgr.http from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:24:27,562 Trac[loader] DEBUG: Loading acct_mgr.macros from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:24:27,562 Trac[loader] DEBUG: Loading acct_mgr.notification from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:24:27,562 Trac[loader] DEBUG: Loading acct_mgr.pwhash from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:24:27,562 Trac[loader] DEBUG: Loading acct_mgr.svnserve from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:24:27,562 Trac[loader] DEBUG: Loading acct_mgr.web_ui from c:\projetoesa\tonho\trac\plugins\tracaccountmanager-0.4.3-py2.7.egg
+2013-05-21 16:24:27,562 Trac[loader] DEBUG: Loading ticketref.api from c:\projetoesa\tonho\trac\plugins\tracfeatureplugin-0.2.6-py2.7.egg
+2013-05-21 16:24:27,572 Trac[loader] DEBUG: Loading ticketref.web_ui from c:\projetoesa\tonho\trac\plugins\tracfeatureplugin-0.2.6-py2.7.egg
+2013-05-21 16:24:27,576 Trac[loader] DEBUG: Loading trac.about from c:\python27\lib\site-packages
+2013-05-21 16:24:27,576 Trac[loader] DEBUG: Loading trac.admin.console from c:\python27\lib\site-packages
+2013-05-21 16:24:27,576 Trac[loader] DEBUG: Loading trac.admin.web_ui from c:\python27\lib\site-packages
+2013-05-21 16:24:27,582 Trac[loader] DEBUG: Loading trac.attachment from c:\python27\lib\site-packages
+2013-05-21 16:24:27,582 Trac[loader] DEBUG: Loading trac.db.mysql from c:\python27\lib\site-packages
+2013-05-21 16:24:27,582 Trac[loader] DEBUG: Loading trac.db.postgres from c:\python27\lib\site-packages
+2013-05-21 16:24:27,586 Trac[loader] DEBUG: Loading trac.db.sqlite from c:\python27\lib\site-packages
+2013-05-21 16:24:27,592 Trac[loader] DEBUG: Loading trac.mimeview.patch from c:\python27\lib\site-packages
+2013-05-21 16:24:27,592 Trac[loader] DEBUG: Loading trac.mimeview.pygments from c:\python27\lib\site-packages
+2013-05-21 16:24:27,596 Trac[loader] DEBUG: Skipping "trac.mimeview.pygments = trac.mimeview.pygments [pygments]": ("DistributionNotFound: Pygments>=0.6" not found)
+2013-05-21 16:24:27,596 Trac[loader] DEBUG: Loading trac.mimeview.rst from c:\python27\lib\site-packages
+2013-05-21 16:24:27,601 Trac[loader] DEBUG: Skipping "trac.mimeview.rst = trac.mimeview.rst [rest]": ("DistributionNotFound: docutils>=0.3" not found)
+2013-05-21 16:24:27,601 Trac[loader] DEBUG: Loading trac.mimeview.txtl from c:\python27\lib\site-packages
+2013-05-21 16:24:27,607 Trac[loader] DEBUG: Skipping "trac.mimeview.txtl = trac.mimeview.txtl [textile]": ("DistributionNotFound: textile>=2.0" not found)
+2013-05-21 16:24:27,607 Trac[loader] DEBUG: Loading trac.prefs from c:\python27\lib\site-packages
+2013-05-21 16:24:27,607 Trac[loader] DEBUG: Loading trac.search from c:\python27\lib\site-packages
+2013-05-21 16:24:27,611 Trac[loader] DEBUG: Loading trac.ticket.admin from c:\python27\lib\site-packages
+2013-05-21 16:24:27,611 Trac[loader] DEBUG: Loading trac.ticket.batch from c:\python27\lib\site-packages
+2013-05-21 16:24:27,611 Trac[loader] DEBUG: Loading trac.ticket.query from c:\python27\lib\site-packages
+2013-05-21 16:24:27,611 Trac[loader] DEBUG: Loading trac.ticket.report from c:\python27\lib\site-packages
+2013-05-21 16:24:27,617 Trac[loader] DEBUG: Loading trac.ticket.roadmap from c:\python27\lib\site-packages
+2013-05-21 16:24:27,621 Trac[loader] DEBUG: Loading trac.ticket.web_ui from c:\python27\lib\site-packages
+2013-05-21 16:24:27,621 Trac[loader] DEBUG: Loading trac.timeline from c:\python27\lib\site-packages
+2013-05-21 16:24:27,627 Trac[loader] DEBUG: Loading trac.versioncontrol.admin from c:\python27\lib\site-packages
+2013-05-21 16:24:27,627 Trac[loader] DEBUG: Loading trac.versioncontrol.svn_authz from c:\python27\lib\site-packages
+2013-05-21 16:24:27,627 Trac[loader] DEBUG: Loading trac.versioncontrol.web_ui from c:\python27\lib\site-packages
+2013-05-21 16:24:27,631 Trac[loader] DEBUG: Loading trac.web.auth from c:\python27\lib\site-packages
+2013-05-21 16:24:27,631 Trac[loader] DEBUG: Loading trac.web.session from c:\python27\lib\site-packages
+2013-05-21 16:24:27,631 Trac[loader] DEBUG: Loading trac.wiki.admin from c:\python27\lib\site-packages
+2013-05-21 16:24:27,631 Trac[loader] DEBUG: Loading trac.wiki.interwiki from c:\python27\lib\site-packages
+2013-05-21 16:24:27,637 Trac[loader] DEBUG: Loading trac.wiki.macros from c:\python27\lib\site-packages
+2013-05-21 16:24:27,637 Trac[loader] DEBUG: Loading trac.wiki.web_api from c:\python27\lib\site-packages
+2013-05-21 16:24:27,637 Trac[loader] DEBUG: Loading trac.wiki.web_ui from c:\python27\lib\site-packages
+2013-05-21 16:24:27,637 Trac[loader] DEBUG: Loading tracopt.mimeview.enscript from c:\python27\lib\site-packages
+2013-05-21 16:24:27,637 Trac[loader] DEBUG: Loading tracopt.mimeview.php from c:\python27\lib\site-packages
+2013-05-21 16:24:27,637 Trac[loader] DEBUG: Loading tracopt.mimeview.silvercity from c:\python27\lib\site-packages
+2013-05-21 16:24:27,647 Trac[loader] DEBUG: Skipping "tracopt.mimeview.silvercity = tracopt.mimeview.silvercity [silvercity]": ("DistributionNotFound: SilverCity>=0.9.4" not found)
+2013-05-21 16:24:27,647 Trac[loader] DEBUG: Loading tracopt.perm.authz_policy from c:\python27\lib\site-packages
+2013-05-21 16:24:27,647 Trac[loader] DEBUG: Loading tracopt.perm.config_perm_provider from c:\python27\lib\site-packages
+2013-05-21 16:24:27,647 Trac[loader] DEBUG: Loading tracopt.ticket.clone from c:\python27\lib\site-packages
+2013-05-21 16:24:27,647 Trac[loader] DEBUG: Loading tracopt.ticket.commit_updater from c:\python27\lib\site-packages
+2013-05-21 16:24:27,651 Trac[loader] DEBUG: Loading tracopt.ticket.deleter from c:\python27\lib\site-packages
+2013-05-21 16:24:27,651 Trac[loader] DEBUG: Loading tracopt.versioncontrol.git.git_fs from c:\python27\lib\site-packages
+2013-05-21 16:24:27,657 Trac[loader] DEBUG: Loading tracopt.versioncontrol.svn.svn_fs from c:\python27\lib\site-packages
+2013-05-21 16:24:27,657 Trac[loader] DEBUG: Loading tracopt.versioncontrol.svn.svn_prop from c:\python27\lib\site-packages
+2013-05-21 16:24:27,657 Trac[loader] DEBUG: Loading tractab from c:\projetoesa\tonho\trac\plugins\tractab-0.2.0dev-py2.7.egg
+2013-05-21 16:24:27,661 Trac[loader] DEBUG: Loading tracusermanager.account from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:24:27,661 Trac[loader] DEBUG: Loading tracusermanager.admin from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:24:27,661 Trac[loader] DEBUG: Loading tracusermanager.api from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:24:27,661 Trac[loader] DEBUG: Loading tracusermanager.permissions from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:24:27,661 Trac[loader] DEBUG: Loading tracusermanager.profile from c:\projetoesa\tonho\trac\plugins\tracusermanagerplugin-0.5dev-py2.7.egg
+2013-05-21 16:24:27,667 Trac[default_workflow] DEBUG: Workflow actions at initialization: {u'resolve': {u'operations': [u'set_resolution'], 'name': u'resolve', 'default': 0, 'newstate': u'closed', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], u'permissions': [u'TICKET_MODIFY']}, u'accept': {u'operations': [u'set_owner_to_self'], 'name': u'accept', 'default': 0, 'newstate': u'accepted', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], u'permissions': [u'TICKET_MODIFY']}, u'leave': {u'operations': [u'leave_status'], 'name': u'leave', u'default': 1, 'newstate': u'*', 'oldstates': [u'*'], 'permissions': []}, u'reopen': {u'operations': [u'del_resolution'], 'name': u'reopen', 'default': 0, 'newstate': u'reopened', 'oldstates': [u'closed'], u'permissions': [u'TICKET_CREATE']}, u'reassign': {u'operations': [u'set_owner'], 'name': u'reassign', 'default': 0, 'newstate': u'assigned', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], u'permissions': [u'TICKET_MODIFY']}, '_reset': {'operations': ['reset_workflow'], 'name': 'reset', 'default': 0, 'newstate': 'new', 'oldstates': [], 'permissions': []}}
+
+2013-05-21 16:24:27,671 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-05-21 16:24:27,671 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/tractab/SPLICE'">
+2013-05-21 16:24:27,677 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:24:27,677 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:24:27,677 Trac[api] DEBUG: action controllers for ticket workflow: ['ConfigurableTicketWorkflow']
+2013-05-21 16:24:27,677 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, tractab.html
+2013-05-21 16:24:27,691 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:24:27,717 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:24:48,832 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/admin'">
+2013-05-21 16:24:48,832 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:24:48,832 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:24:48,832 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:24:48,838 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /admin, admin_basics.html
+2013-05-21 16:24:48,858 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:24:50,078 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/tractab/SPLICE'">
+2013-05-21 16:24:50,078 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:24:50,078 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:24:50,078 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, tractab.html
+2013-05-21 16:24:50,078 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:24:50,082 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:24:53,263 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/tractab/SPLICE'">
+2013-05-21 16:24:53,273 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 16:24:53,273 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:24:53,278 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, tractab.html
+2013-05-21 16:24:53,278 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 16:24:53,282 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 16:24:53,388 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/trac.css'">
+2013-05-21 16:24:53,388 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery.js'">
+2013-05-21 16:24:53,392 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/babel.js'">
+2013-05-21 16:24:53,392 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/trac.js'">
+2013-05-21 16:24:53,392 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:24:53,392 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/search.js'">
+2013-05-21 16:24:53,403 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:24:53,407 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:24:53,407 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:24:53,407 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:24:53,897 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/project.png'">
+2013-05-21 16:24:53,901 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/trac_logo_mini.png'">
+2013-05-21 16:24:53,901 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:24:53,901 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:24:53,907 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/topbar_gradient.png'">
+2013-05-21 16:24:53,907 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/topbar_gradient2.png'">
+2013-05-21 16:24:53,927 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 16:24:53,937 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 17:22:20,127 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/tractab/SPLICE'">
+2013-05-21 17:22:20,128 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 17:22:20,128 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 17:22:20,131 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, tractab.html
+2013-05-21 17:22:20,131 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 17:22:20,134 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 17:22:20,230 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/trac.css'">
+2013-05-21 17:22:20,233 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery.js'">
+2013-05-21 17:22:20,234 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/babel.js'">
+2013-05-21 17:22:20,236 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/trac.js'">
+2013-05-21 17:22:20,236 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 17:22:20,237 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/search.js'">
+2013-05-21 17:22:20,240 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 17:22:20,240 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 17:22:20,242 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 17:22:20,250 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 17:22:20,782 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/trac_logo_mini.png'">
+2013-05-21 17:22:20,782 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/project.png'">
+2013-05-21 17:22:20,786 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 17:22:20,793 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 17:22:20,826 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/topbar_gradient.png'">
+2013-05-21 17:22:20,826 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/topbar_gradient2.png'">
+2013-05-21 17:22:20,828 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 17:22:20,828 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 17:24:42,020 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/prefs'">
+2013-05-21 17:24:42,022 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-05-21 17:24:42,023 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 17:24:42,023 Trac[chrome] DEBUG: Prepare chrome data for request
+2013-05-21 17:24:42,026 Trac[web_ui] DEBUG: TicketRefsTemplate: post_process_request, /prefs, prefs_general.html
+2013-05-21 17:24:42,042 Trac[web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2013-05-21 17:24:42,142 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/prefs.css'">
+2013-05-21 17:24:42,145 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2013-05-21 17:24:42,631 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/vgradient.png'">
+2013-05-21 17:24:42,634 Trac[session] DEBUG: Retrieving session for ID u'admin'

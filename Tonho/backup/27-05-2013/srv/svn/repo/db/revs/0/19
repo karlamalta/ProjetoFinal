@@ -1,0 +1,44 @@
+id: 1-19.0.r19/0
+type: dir
+count: 0
+cpath: /SOPLE-TestBed/Warehouse-SingleSystem
+copyroot: 0 /
+
+PLAIN
+K 22
+Warehouse-SingleSystem
+V 16
+dir 1-19.0.r19/0
+END
+ENDREP
+id: 0-18.0.r19/163
+type: dir
+pred: 0-18.0.r18/0
+count: 1
+text: 19 96 54 54 456a9bba9669694f959f88eacb0459a7
+cpath: /SOPLE-TestBed
+copyroot: 0 /
+
+PLAIN
+K 13
+SOPLE-TestBed
+V 18
+dir 0-18.0.r19/163
+K 7
+reqtool
+V 18
+dir 0-1.0.r17/1813
+END
+ENDREP
+id: 0.0.r19/404
+type: dir
+pred: 0.0.r18/167
+count: 19
+text: 19 308 83 83 b21927c0c1802ae77a4dd0bb423c6ab9
+cpath: /
+copyroot: 0 /
+
+_1.0.t18-k add-dir false false /SOPLE-TestBed/Warehouse-SingleSystem
+
+
+404 534

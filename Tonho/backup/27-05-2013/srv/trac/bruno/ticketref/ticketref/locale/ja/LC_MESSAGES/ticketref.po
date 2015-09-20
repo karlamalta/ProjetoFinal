@@ -1,0 +1,44 @@
+# Japanese translations for TracTicketReferencePlugin.
+# Copyright (C) 2012 ORGANIZATION
+# This file is distributed under the same license as the
+# TracTicketReferencePlugin project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: TracTicketReferencePlugin 0.1.0\n"
+"Report-Msgid-Bugs-To: http://trac-"
+"hacks.org/wiki/TracTicketReferencePlugin\n"
+"POT-Creation-Date: 2012-01-30 20:22+0900\n"
+"PO-Revision-Date: 2012-01-17 16:07+0900\n"
+"Last-Translator: Tetsuya Morimoto\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: ticketref/api.py:115
+#, python-format
+msgid "Input only numbers for ticket ID: %s"
+msgstr "チケット ID には数字のみを入力してください: %s"
+
+#: ticketref/api.py:118
+#, python-format
+msgid "Ticket %s is this ticket ID, remove it."
+msgstr "チケット %s はこのチケットなので削除してください。"
+
+#: ticketref/web_ui.py:61 ticketref/web_ui.py:75 ticketref/web_ui.py:79
+#: ticketref/web_ui.py:92
+msgid "Relationships"
+msgstr "関連"
+
+#: ticketref/web_ui.py:153
+msgid "Open new ticket with relationships"
+msgstr "このチケットに関連付けて新しいチケットを登録する"
+
+#: ticketref/web_ui.py:155
+msgid "New"
+msgstr "登録"
+

@@ -1,0 +1,42 @@
+= TracAccountManager =
+
+A user account management plugin for Trac.
+
+== Installation ==
+ 1. Run: python setup.py bdist_egg
+ 2. If necessary, create a folder called "plugins" in your Trac environment.
+ 3. Copy the .egg file from the "dist" folder created by step 1
+    into the "plugins" directory of your Trac environment.
+
+== Configuration ==
+Add one of the following sections to trac.ini to get started.  See even 
+more configuration examples for supported backends at
+ http://trac-hacks.org/wiki/AccountManagerPlugin/AuthStores
+or in the configuraition cookbook page at
+ http://trac-hacks.org/wiki/CookBook/AccountManagerPluginConfiguration
+
+=== Htpasswd ===
+{{{
+[account-manager]
+; use an Apache htpasswd file
+htpasswd_hash_type = md5
+htpasswd_file = /path/to/trac.htpasswd
+password_store = HtPasswdStore
+}}}
+
+=== Htdigest ===
+{{{
+[account-manager]
+; use an Apache htdigest file
+htdigest_file = /path/to/trac.htdigest
+htdigest_realm = TracDigestRealm
+password_store = HtDigestStore
+}}}
+
+=== HttpAuth ===
+{{{
+[account-manager]
+; use a page that is secured with HTTP Auth
+authentication_url = http://hostname/path
+password_store = HttpAuthStore
+}}}

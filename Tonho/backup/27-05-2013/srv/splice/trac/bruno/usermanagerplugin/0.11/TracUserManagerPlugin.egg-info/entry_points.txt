@@ -1,0 +1,7 @@
+[trac.plugins]
+tracusermanager.account = tracusermanager.account
+tracusermanager.api = tracusermanager.api
+tracusermanager.profile = tracusermanager.profile
+tracusermanager.permissions = tracusermanager.permissions
+tracusermanager.admin = tracusermanager.admin
+

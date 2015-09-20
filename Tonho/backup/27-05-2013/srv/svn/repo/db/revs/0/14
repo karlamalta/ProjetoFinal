@@ -1,0 +1,229 @@
+PLAIN
+K 13
+.___init__.py
+V 21
+file 1t-1.0.r1/374165
+K 10
+._admin.py
+V 21
+file 1k-1.0.r1/372914
+K 13
+._formsets.py
+V 21
+file 23-1.0.r1/374983
+K 14
+._formsets.pyc
+V 21
+file 27-1.0.r1/376237
+K 11
+._models.py
+V 21
+file 2r-1.0.r1/368687
+K 10
+._tests.py
+V 21
+file 21-1.0.r1/375298
+K 9
+._util.py
+V 21
+file 2f-1.0.r1/367066
+K 10
+._views.py
+V 21
+file 1r-1.0.r1/373853
+K 11
+._views.pyc
+V 21
+file 1v-1.0.r1/374670
+K 11
+__init__.py
+V 21
+file 2p-1.0.r1/368123
+K 8
+admin.py
+V 21
+file 2d-1.0.r1/366484
+K 9
+admin.pyc
+V 21
+file 2j-1.0.r1/367377
+K 11
+formsets.py
+V 21
+file 2v-1.0.r1/369436
+K 12
+formsets.pyc
+V 21
+file 1n-1.0.r1/373226
+K 9
+models.py
+V 21
+file 29-1.0.r1/376487
+K 10
+models.pyc
+V 21
+file 2b-1.0.r1/376746
+K 22
+reqtool - Shortcut.lnk
+V 21
+file 2h-1.0.r1/366742
+K 12
+templatetags
+V 20
+dir 33-1.0.r1/372390
+K 8
+tests.py
+V 21
+file 2x-1.0.r1/369247
+K 7
+util.py
+V 21
+file 1x-1.0.r1/374414
+K 8
+util.pyc
+V 21
+file 25-1.0.r1/375926
+K 8
+views.py
+V 21
+file 2n-1.0.r1/367624
+K 9
+views.pyc
+V 21
+file 2t-1.0.r1/368377
+END
+ENDREP
+id: 1j-1.0.r14/1011
+type: dir
+pred: 1j-1.0.r13/1056
+count: 5
+text: 14 0 998 998 671086f25e71b2d7722f188f60d093c8
+cpath: /reqtool/fur
+copyroot: 0 /
+
+PLAIN
+K 19
+._RELEASE_NOTES.txt
+V 21
+file iz-1.0.r1/338606
+K 13
+.___init__.py
+V 21
+file bl-1.0.r1/422620
+K 11
+._dbdump.py
+V 21
+file iv-1.0.r1/338109
+K 14
+._features.ods
+V 21
+file ix-1.0.r1/430425
+K 11
+._manage.py
+V 21
+file h1-1.0.r1/439088
+K 14
+._odsparser.py
+V 21
+file hn-1.0.r1/423440
+K 13
+._settings.py
+V 21
+file bn-1.0.r1/422932
+K 9
+._urls.py
+V 20
+file 7-1.0.r1/365933
+K 17
+RELEASE_NOTES.txt
+V 21
+file bp-1.0.r1/423178
+K 11
+__init__.py
+V 21
+file bx-1.0.r1/430980
+K 10
+bugtracker
+V 19
+dir 9-1.0.r1/438885
+K 12
+dashboard.py
+V 21
+file ip-1.0.r1/429861
+K 9
+dbdump.py
+V 21
+file bj-1.0.r1/422050
+K 12
+features.ods
+V 21
+file h3-1.0.r1/422306
+K 3
+fur
+V 19
+dir 1j-1.0.r14/1011
+K 3
+lib
+V 20
+dir h5-1.0.r1/442590
+K 9
+manage.py
+V 21
+file it-1.0.r1/338353
+K 10
+management
+V 20
+dir hr-1.0.r1/429723
+K 12
+odsparser.py
+V 21
+file gv-1.0.r1/365675
+K 12
+reqtool_test
+V 20
+file 2-1.0.r1/430738
+K 11
+settings.py
+V 21
+file gt-1.0.r1/431165
+K 6
+static
+V 20
+dir bz-1.0.r1/365543
+K 9
+templates
+V 20
+dir 3n-1.0.r1/421915
+K 7
+urls.py
+V 21
+file bv-1.0.r1/424314
+END
+ENDREP
+id: 0-1.0.r14/2207
+type: dir
+pred: 0-1.0.r13/2254
+count: 13
+text: 14 1159 1035 1035 38177e86cd4002cac9519606a4987baa
+cpath: /reqtool
+copyroot: 0 /
+
+PLAIN
+K 7
+reqtool
+V 18
+dir 0-1.0.r14/2207
+END
+ENDREP
+id: 0.0.r14/2408
+type: dir
+pred: 0.0.r13/2455
+count: 14
+text: 14 2355 40 40 cc130402ba527f3f8bebb567f3264b72
+cpath: /
+copyroot: 0 /
+
+2z-1.0.r1/369000 delete-file false false /reqtool/fur/__init__.pyc
+
+
+2408 2541

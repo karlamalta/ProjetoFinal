@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+AutocompleteUsers.egg-info/PKG-INFO
+AutocompleteUsers.egg-info/SOURCES.txt
+AutocompleteUsers.egg-info/dependency_links.txt
+AutocompleteUsers.egg-info/entry_points.txt
+AutocompleteUsers.egg-info/not-zip-safe
+AutocompleteUsers.egg-info/top_level.txt
+autocompleteusers/__init__.py
+autocompleteusers/autocompleteusers.py

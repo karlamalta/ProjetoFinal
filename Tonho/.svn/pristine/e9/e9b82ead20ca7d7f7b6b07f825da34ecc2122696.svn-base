@@ -1,0 +1,23 @@
+PLAIN
+K 13
+SOPLE-TestBed
+V 19
+dir 0-18.0.r23/7174
+K 7
+reqtool
+V 18
+dir 0-1.0.r17/1813
+END
+ENDREP
+id: 0.0.r25/97
+type: dir
+pred: 0.0.r24/207
+count: 25
+text: 25 0 84 84 011fdaa865946eaaabea3dfecce8349d
+cpath: /
+copyroot: 0 /
+
+0-24.0.r24/0 delete-dir false false /splice_logo
+
+
+97 224

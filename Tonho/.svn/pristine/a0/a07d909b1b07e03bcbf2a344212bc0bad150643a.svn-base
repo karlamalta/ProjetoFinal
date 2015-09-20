@@ -1,0 +1,76 @@
+\documentclass[10pt]{book}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx,url}
+\usepackage[brazil]{babel}
+\usepackage[linkcolor=blue,citecolor=blue,urlcolor=blue,colorlinks,pdfpagelabels]{hyperref}
+\usepackage[a4paper,top=3.5cm,left=3cm,right=3cm,bottom=2.5cm]{geometry}
+\usepackage{longtable}
+
+\begin{document} 
+
+\title{Relatório dos Produtos {%for p in products %} {{p.name}} {% endfor %} -- draft} %mude para o titulo doseu relatorio 
+\author{RiSE/Medicware} %mude para os autores do relatorio
+
+\maketitle
+\frontmatter 
+\tableofcontents
+
+\mainmatter
+
+{%for product in products%}
+	\chapter{Produto {{product.name}}}
+	\section{Módulos}
+	{% for module in product.modules.all %}
+		\subsection{Módulo {{module.name}}}
+		{{module.description}}
+	{% endfor %}
+	
+	\section{Features}
+	{% for module in product.modules.all %}
+		{% for feature in module.feature_set.all %}
+			\setcounter{subsection}{ {{feature.id|add:'-1'}}}
+			\subsection{~FT:{{feature.name}}}
+			\label{ft{{feature.id}}}
+			
+			\begin{longtable}{|l|p{12cm}|}
+			\hline
+			\textbf{Descrição:} & {{feature.description}}\\
+			\hline
+			\textbf{Prioridade:} & {{feature.priority}}\\
+			\hline
+			\textbf{Binding time:} & {{feature.bindingType}}\\
+			\hline
+			\textbf{Variabilidade:} & {{feature.variabilityType}}\\
+			\hline
+			\textbf{Feature pai:} & 
+			{% if feature.parent %} 
+			  {{feature.parent}}(ID:{{feature.parent.id}})  {% if feature.parent in features %} [\ref{ft{{feature.parent.id}}}] {% endif %}
+			{% endif %}\\
+			\hline
+			\textbf{Features filhas:} &
+			{% for f in feature.children %}
+			  {{f.name}}(ID:{{f.id}}) {% if f in features %} [\ref{ft{{f.id}}}] {% endif %} 
+			{% endfor %}\\
+			\hline
+			\textbf{Requer:} & 
+			{% for required in feature.requires.all%}
+			  {{required.name}}(ID:{{required.id}}) {% if required in features %}[\ref{ft{{required.id}}}] {% endif %}
+			{% endfor %}\\
+			\hline
+			\textbf{Exclui:} & 
+			{% for excluded in feature.excludes.all %}
+			  {{excluded.name}} (ID:{{excluded.id}}) {% if excluded in features %} [\ref{ft{{excluded.id}}}] {% endif %}
+			{% endfor %}\\
+			\hline
+			\textbf{Módulos:} &
+			{% for module in feature.modules.all %}
+			  {{module.name}} 
+			{% endfor %}\\
+			\hline
+			\end{longtable}
+		{% endfor %}
+	{% endfor %}
+{% endfor %}
+
+\end{document}

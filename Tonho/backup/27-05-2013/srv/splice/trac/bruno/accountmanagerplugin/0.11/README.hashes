@@ -1,0 +1,16 @@
+== HowTo Verify Sources ==
+
+Starting with acct_mgr-0.3 the origin of release sources can be verified.
+If you care, and you really should, you can verify recorded md5 and sha1
+hashes against your copy (fresh checkout) of the TracAccountManager sources:
+
+Call `python ./contrib/signatures.py` from the top directory containing
+the *sums hash files and you should simply get back `Check passed.`
+
+Additional files are reported but ignored. The hash files are signed with
+maintainers public OpenPGP key for verification as well, i.e. as following:
+{{{
+gpg --verify ./acct_mgr-md5sums.sig
+gpg --verify ./acct_mgr-sha1sums.sig
+}}}
+provided you've downloaded and imported maintainers public key before.

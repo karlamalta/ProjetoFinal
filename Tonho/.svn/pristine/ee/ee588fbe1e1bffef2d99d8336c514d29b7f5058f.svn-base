@@ -1,0 +1,25 @@
+[pytest]
+addopts = --capture=no --pep8
+pep8ignore = E126 E302 E701
+
+# Adding i18n/l10n to Trac plugins (Trac >= 0.12)
+# see also: http://trac.edgewall.org/wiki/CookBook/PluginL10N
+[extract_messages]
+msgid_bugs_address = http://trac-hacks.org/nonono
+output_file = ticketref/locale/messages.pot
+keywords = _ N_ tag_
+width = 72
+
+[init_catalog]
+input_file = ticketref/locale/messages.pot
+output_dir = ticketref/locale
+domain = ticketref
+
+[compile_catalog]
+directory = ticketref/locale
+domain = ticketref
+
+[update_catalog]
+input_file = ticketref/locale/messages.pot
+output_dir = ticketref/locale
+domain = ticketref

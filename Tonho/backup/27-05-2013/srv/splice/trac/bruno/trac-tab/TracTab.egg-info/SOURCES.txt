@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+TracTab.egg-info/PKG-INFO
+TracTab.egg-info/SOURCES.txt
+TracTab.egg-info/dependency_links.txt
+TracTab.egg-info/entry_points.txt
+TracTab.egg-info/top_level.txt
+tractab/__init__.py
+tractab/tractab.py
+tractab/templates/tractab.html

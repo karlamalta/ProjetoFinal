@@ -1,0 +1,307 @@
+
+
+/* Forms */
+input, textarea, select { margin: 2px }
+input, select { vertical-align: middle }
+input[type=button], input[type=submit], input[type=reset], button {
+ *overflow: visible; /* Workaround too much margin on button in IE7 */
+}
+input[type=button], input[type=submit], input[type=reset] {
+ background: #eee;
+ color: #222;
+ border: 1px outset #eee;
+ border-radius: .3em;
+ box-shadow: .1em .1em .4em 0 #888;
+ padding: .1em .5em .2em;
+ text-shadow: .1em .1em #ddd;
+ cursor: pointer;
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+ background: #f6f6f6;
+ box-shadow: .1em .1em .6em 0 #999;
+ text-shadow: .1em .1em #fcfcfc;
+}
+input[type=button]:active, input[type=submit]:active,
+input[type=reset]:active {
+ position: relative;
+ top: .1em;
+ left: .1em;
+}
+input[type=button][disabled], input[type=submit][disabled],
+input[type=reset][disabled] {
+ background: #f6f6f6;
+ border-style: solid;
+ color: #999;
+}
+input[type=text], input.textwidget, textarea {
+ border: 1px solid #d7d7d7;
+ border-radius: .3em;
+}
+input[type=text], input.textwidget { padding: .25em .5em }
+input[type=text]:focus, input.textwidget:focus, textarea:focus {
+ border: 1px solid #886;
+}
+option { border-bottom: 1px dotted #d7d7d7 }
+fieldset {
+ border: 1px solid #d7d7d7;
+ border-radius: .4em;
+ margin: 1em 0;
+ background: #F7F7F0;
+ box-shadow: .1em .1em 1em 0 #E7E7E7 inset;
+ padding: 1em;
+}
+
+
+input[type=button].trac-delete,
+input[type=submit].trac-delete {
+ color: #d31313;
+}
+input[type=button].trac-delete:hover,
+input[type=submit].trac-delete:hover {
+ color: #e31313;
+}
+
+
+
+/* Quick search */
+#search {
+ clear: both;
+ font-size: 10px;
+ height: 2.2em;
+ margin: 0 0 1em;
+ text-align: right;
+ padding: 0.25em 0.5em;
+}
+#search input { 
+font-size: 10px
+padding: 0.25em 0.5em;
+border: 1px solid #D7D7D7;
+border-radius: 0.3em 0.3em 0.3em 0.3em;
+vertical-align: middle;
+margin: 2px;
+ }
+ 
+#search  input[type="text"]{
+height: 10px;
+ width: 100px;
+}
+ 
+ 
+#search label { display: none }
+
+/* Navigation */
+.nav h2, .nav hr { display: none }
+.nav ul {
+ font-size: 10px;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ text-align: right;
+}
+.nav li {
+ border-right: 1px solid #d7d7d7;
+ display: inline-block;
+ padding: 0 .75em;
+ white-space: nowrap;
+ /* IE7 hack to make inline-block effective on block element */
+ zoom: 1;
+ *display: inline;
+}
+.nav li.last { border-right: none }
+
+
+/* Main navigation bar */
+#mainnav {
+ font: normal 10px verdana,'Bitstream Vera Sans',helvetica,arial,sans-serif;
+ box-shadow: 0 .5em 1.5em #eee;
+ border: 1px solid #e4e4e4;
+ border-radius: .5em;
+ margin: .66em 0 .33em;
+}
+#mainnav li {
+ background: white url(../topbar_gradient.png) 0 0;
+ border: 1px solid #e4e4e4;
+ margin: -1px .3em 0 -.4em;
+ padding: .3em 0;
+}
+
+#mainnav .first, #mainnav .first :link {
+ border-top-left-radius: .5em;
+ border-bottom-left-radius: .5em;
+}
+#mainnav .last, #mainnav .last :link {
+ border-top-right-radius: .5em;
+ border-bottom-right-radius: .5em;
+ margin-right: 0;
+}
+
+#mainnav :link, #mainnav :visited {
+ border-bottom: none;
+ box-shadow: 0 .1em .3em 0 #999;
+ color: #000;
+ padding: .3em 20px;
+}
+
+#mainnav li:hover {
+ border: 1px solid #666;
+}
+#mainnav :link:hover, #mainnav :visited:hover {
+ background: #000 url(../topbar_gradient2.png) 0 0 repeat-x;
+ color: #eee;
+ box-shadow: 0 .1em .6em 0 #666;
+}
+
+#mainnav .active {
+ border: 1px solid #666;
+}
+#mainnav .active :link, #mainnav .active :visited {
+ background: #000 url(../topbar_gradient2.png) 0 0 repeat-x;
+ color: #eee;
+ text-shadow: 1px 0 #eee;
+}
+
+
+
+#search {
+    float: right;
+}
+
+.max-width-limit {
+	    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 770px;
+    overflow: hidden;
+    width: 90%;
+    }
+
+#mainnav {
+    border-radius: 0.0em;
+    box-shadow: none;
+	border: 0;
+	width: 90%;
+	margin: 0 auto;
+    padding: 0.2em 0;
+	background: none;}
+
+	#mainnav .active, #mainnav .active :link, #mainnav .active :visited {
+		border: 0;
+		background: #fff;
+		color: #000;}
+
+    .nav li {
+        border-right: 1px solid #D7D7D7;
+        display: inline;
+        padding: 0 0.75em;
+        white-space: nowrap;
+    }
+
+	#mainnav li {
+		margin: 0 0 0 1px;
+        padding: 0.25em 0;
+        background: none repeat scroll 0 0 transparent;
+		border: 0;
+        border-right: 1px solid #D7D7D7;
+        }
+        
+
+#mainnav .last, #mainnav .last *:link {
+    border: 0 none;
+}
+        
+
+		#mainnav li a, #mainnav li :link, #mainnav li :visited {
+			padding: 5px 10px;
+			border: 0;
+			color: #fff;
+			background: #00366d;}
+
+	#mainnav :link:hover, #mainnav :visited:hover {
+		background: #005ab5;
+        box-shadow: none;
+        text-shadow: none;
+		border: 0;}
+
+	#mainnav .active :link:hover, #mainnav .active :visited:hover {
+		background: inherit;
+		border: 0;}
+
+	#mainnav :link, #mainnav :visited {
+        box-shadow: none;
+		text-decoration: none;}
+
+	#mainnav ul {
+		padding: 3px 0;}
+
+
+
+		
+		
+
+
+sub, sup {
+  font-size:smaller;
+  line-height:normal;
+}
+
+sub { vertical-align:sub }
+sup { vertical-align:super }
+:focus { outline: 0 }
+
+abbr { cursor:help }
+
+body, html {
+	height: 100%; }
+
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 12px;
+	background: #fff;
+	min-width: 96%;
+	line-height: 18px; }
+
+
+
+
+
+
+.pre-content {
+	background: #004a95;
+	padding: 20px 0;
+    padding-bottom: 0;
+	margin: 0; }
+
+.pre-content .title {
+	color: white;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 20pt;
+	margin: 0 auto;
+	padding: 0;
+	width: 90%;
+	max-width: 1200px;}
+
+
+	/* Navbar
+-------------------------------------------------- */
+.navbar-inner {
+    background: none repeat scroll 0 0 #000000;
+}
+.navbar .brand {
+    color: #FFFFFF;
+}
+.navbar .nav > li > a {
+    color: #D6DFE5;
+}
+.navbar .nav > li > a:hover {
+    color: #FFFFFF;	
+}
+.navbar .nav > li.active > a,
+.navbar .nav > li.active:hover > a,
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 2px solid #308CCF;
+    color: #FFFFFF;
+}
+	
+

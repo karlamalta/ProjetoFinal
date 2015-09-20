@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+  
+
+
+  
+
+  <head>
+    <title>
+				Wiki
+			 | Cobra
+    </title>
+        <link rel="search" href="/trac/cobra/search" />
+        <link rel="help" href="/trac/cobra/wiki/TracGuide" />
+        <link rel="alternate" href="/trac/cobra/wiki/WikiStart?format=txt" type="text/x-trac-wiki" title="Plain Text" />
+        <link rel="start" href="/trac/cobra/wiki" />
+        <link rel="stylesheet" href="/trac/cobra/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/trac/cobra/chrome/common/css/wiki.css" type="text/css" />
+        <link rel="shortcut icon" href="/trac/cobra/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/trac/cobra/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/trac/cobra/search/opensearch" title="Search Cobra" />
+    <script type="text/javascript" src="/trac/cobra/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/trac/cobra/chrome/common/js/trac.js"></script><script type="text/javascript" src="/trac/cobra/chrome/common/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/trac/cobra/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  <link rel="stylesheet" type="text/css" href="/trac/cobra/chrome/site/style.css" />
+  <link rel="stylesheet" type="text/css" href="/trac/cobra/chrome/site/styles.css" />
+  <link rel="shortcut icon" href="/trac/cobra/chrome/site/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="inner">
+          <div id="title"><a href="">Cobra Programming Language</a></div>
+          <div class="controls">
+            <form action="/trac/cobra/search" method="get" class="searchform">
+              <p><input name="q" type="text" class="searchbox" />
+              <input class="search-icon" type="image" src="/trac/cobra/chrome/site/images/search_icon.gif" alt="Search" />
+              </p>
+            </form>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="menu">
+        <ul class="items inner">
+          <li class="divider"><img alt="|" src="/trac/cobra/chrome/site/images/menu_divider.gif" /></li>
+          <li><a class="home" href="/"><img alt="Home" src="/trac/cobra/chrome/site/images/home.png" /></a></li>
+          <li class="divider"><img alt="|" src="/trac/cobra/chrome/site/images/menu_divider.gif" /></li>
+          <li><a href="/downloads/">Downloads</a></li>
+          <li class="divider"><img alt="|" src="/trac/cobra/chrome/site/images/menu_divider.gif" /></li>
+          <li><a href="/docs/">Documentation</a></li>
+          <li class="divider"><img alt="|" src="/trac/cobra/chrome/site/images/menu_divider.gif" /></li>
+          <li><a href="/how-to/">How To</a></li>
+          <li class="divider"><img alt="|" src="/trac/cobra/chrome/site/images/menu_divider.gif" /></li>
+          <li><a href="/samples/">Samples</a></li>
+          <li class="divider"><img alt="|" src="/trac/cobra/chrome/site/images/menu_divider.gif" /></li>
+          <li><a href="/forums/">Discussion</a></li>
+          <li class="divider"><img alt="|" src="/trac/cobra/chrome/site/images/menu_divider.gif" /></li>
+          <li class="current"><a href="/trac/cobra/wiki/">Wiki</a></li>
+          <li class="divider"><img alt="|" src="/trac/cobra/chrome/site/images/menu_divider.gif" /></li>
+          <li><a href="/docs/contact">Contact</a></li>
+          <li class="divider"><img alt="|" src="/trac/cobra/chrome/site/images/menu_divider.gif" /></li>
+        </ul>
+      </div>
+      <div class="pre-content">
+        <div class="title">
+            Wiki
+        </div>
+        <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/trac/cobra/wiki">Wiki</a></li><li><a href="/trac/cobra/timeline">Timeline</a></li><li><a href="/trac/cobra/roadmap">Roadmap</a></li><li><a href="/trac/cobra/browser">Browse Source</a></li><li><a href="/trac/cobra/report">View Tickets</a></li><li class="last"><a href="/trac/cobra/search">Search</a></li>
+    </ul>
+  </div>
+      </div>
+      <div class="content">
+    <div id="banner">
+			<!--
+      <div id="header" py:choose="">
+        <a py:when="chrome.logo.src" id="logo" href="${chrome.logo.link or href.wiki('TracIni')+'#header_logo-section'}"><img
+          src="${chrome.logo.src}" alt="${chrome.logo.alt}"
+          height="${chrome.logo.height or None}" width="${chrome.logo.width or None}" /></a>
+        <h1 py:otherwise=""><a href="${chrome.logo.link}">${project.name}</a></h1>
+      </div>
+      <form id="search" action="${href.search()}" method="get">
+        <div py:if="'SEARCH_VIEW' in perm">
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" accesskey="f" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>-->
+    </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <ul class="leftnav">
+          <li class="first"><a href="/trac/cobra/wiki/WikiStart">Start Page</a></li><li><a href="/trac/cobra/wiki/TitleIndex">Index</a></li><li><a href="/trac/cobra/wiki/WikiStart?action=history">History</a></li><li class="last"><a href="/trac/cobra/wiki/WikiStart?action=diff&amp;version=41">Last Change</a></li>
+        </ul>
+				<div class="rightnav">
+      		<div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/trac/cobra/login">Login</a></li><li><a href="/trac/cobra/prefs">Preferences</a></li><li><a href="/trac/cobra/wiki/TracGuide">Help/Guide</a></li><li class="last"><a href="/trac/cobra/about">About Trac</a></li>
+    </ul>
+  </div>
+				</div>
+      </div>
+    <div id="content" class="wiki">
+      <div class="wikipage searchable">
+        
+          <h1 id="WelcometotheCobraProgrammingLanguageTracSite">Welcome to the Cobra Programming Language Trac Site!</h1>
+<p>
+Cobra is an open source project. This wiki and ticket tracking system is available for public participation. You can add pages, edit pages, submit tickets and update tickets. You know you want to!
+</p>
+<p>
+Your login id and password are the same as your <a class="ext-link" href="http://cobra-language.com/forums/"><span class="icon"> </span>Cobra forums</a> account. So if you need an account, head over to the <a class="ext-link" href="http://cobra-language.com/forums/"><span class="icon"> </span>forums</a> and sign up.
+</p>
+<p>
+If you're looking for support, ask questions in the <a class="ext-link" href="http://cobra-language.com/forums/viewforum.php?f=4"><span class="icon"> </span>discussion forum</a> or join the <a class="wiki" href="/trac/cobra/wiki/IrcChannel">IrcChannel</a>.
+</p>
+<p>
+Interesting pages:
+</p>
+<ul><li><strong>Get</strong>
+<ul><li><a class="ext-link" href="http://cobra-language.com/downloads/"><span class="icon"> </span>Downloads</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/InstallingDownload">Installing</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/HowToInstallFromSource">How to install from source</a>
+</li></ul></li></ul><ul><li><strong>The Cobra Programming Language</strong>
+<ul><li><a class="wiki" href="/trac/cobra/wiki/LanguageTopics">Language topics</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/LibraryTopics">Library topics</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/CommandLine">Compiler Commandline</a>
+</li></ul></li></ul><ul><li><strong>Learn</strong>
+<ul><li><a class="wiki" href="/trac/cobra/wiki/UserSupport">Get support</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/Troubleshooting">Troubleshooting</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/Koans">Koans</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/OtherLanguages">Comparison with other languages</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/PortToCobra">Porting code to Cobra</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/CobraCookbook">The Cobra Cookbook</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/DebuggingTopics">Debugging topics</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/ReleaseNotes_0_9_0">Release Notes 0.9.0</a>
+</li></ul></li><li><strong>Practice</strong>
+<ul><li><a class="wiki" href="/trac/cobra/wiki/EditorSupport">Editor support (emacs, vim, scite, etc.)</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/IDESupport">IDE support</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/RelatedProjects">RelatedProjects</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/ExternalRelatedDocs">ExternalRelatedDocs</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/RunTimePerformance">RunTimePerformance</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/DotNetTips">DotNetTips</a>
+</li></ul></li><li><strong>Miscellaneous</strong>
+<ul><li><a class="wiki" href="/trac/cobra/wiki/DotNetProjects">DotNetProjects</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/DotNetToolsList">DotNetToolsList</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/SpecialThanks">SpecialThanks</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/FunStuff">FunStuff</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/ExtendedReading">ExtendedReading</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/AdditionalDoc">Additional documentation</a>
+</li></ul></li><li><strong>Contribute</strong>
+<ul><li><a class="wiki" href="/trac/cobra/wiki/HelpWanted">HelpWanted</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/HowToSubmitAPatch">HowToSubmitAPatch</a>
+</li><li>Enhance the wiki: <a class="wiki" href="/trac/cobra/wiki/TitleIndex">Index of Wiki Pages</a>
+</li><li>Help to refactor the code base: <a class="wiki" href="/trac/cobra/wiki/CodeRefactoringWarningsEnum">CodeRefactoringWarningsEnum</a>
+</li></ul></li></ul><p>
+Trac info:
+</p>
+<ul><li><a class="wiki" href="/trac/cobra/wiki/WikiFormatting">WikiFormatting</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/TracWikiStart">TracWikiStart</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/TracWiki">TracWiki</a>
+</li><li><a class="wiki" href="/trac/cobra/wiki/SandBox">SandBox</a>
+</li></ul><p>
+Cobra pages outside Trac/Wiki:
+</p>
+<ul><li><a class="ext-link" href="http://cobra-language.com/downloads/"><span class="icon"> </span>Downloads</a>
+</li><li><a class="ext-link" href="http://cobra-language.com/docs/"><span class="icon"> </span>Documentation</a>
+</li><li><a class="ext-link" href="http://cobra-language.com/how-to/"><span class="icon"> </span>How To</a>
+</li><li><a class="ext-link" href="http://cobra-language.com/samples/"><span class="icon"> </span>Samples</a>
+</li><li><a class="ext-link" href="http://cobra-language.com/forums/"><span class="icon"> </span>Discussion</a>
+</li><li><a class="ext-link" href="http://cobralang.blogspot.com/"><span class="icon"> </span>Blog</a>
+</li><li><a class="ext-link" href="http://cobra-language.com/docs/contact/"><span class="icon"> </span>Contact</a>
+</li></ul>
+        
+        
+      </div>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="/trac/cobra/wiki/WikiStart?format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+      </div>
+      <div class="stickyspacer"></div>
+    </div>
+    <div class="footer">
+      <div class="inner">
+        <ul class="links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/downloads/">Downloads</a></li>
+          <li><a href="/how-to/">How To</a></li>
+          <li><a href="/samples/">Samples</a></li>
+          <li><a href="/forums/">Discussion</a></li>
+          <li><a href="/http://CobraLang.BlogSpot.com/">Blog</a></li>
+          <li><a href="/source/">Source</a></li>
+          <li><a href="/docs/contact/">Contact</a></li>
+        </ul>
+        <ul class="links">
+          <li><a href="/trac/cobra/wiki">Wiki</a></li>
+          <li><a href="/trac/cobra/wiki/HowToInstallFromSource">How to install from source</a></li>
+          <li><a href="/trac/cobra/wiki/UserSupport">Get support</a></li>
+          <li><a href="/trac/cobra/wiki/CommandLine">Command line</a></li>
+          <li><a href="/trac/cobra/wiki/Troubleshooting">Troubleshooting</a></li>
+          <li><a href="/trac/cobra/wiki/LanguageTopics">Language topics</a></li>
+          <li><a href="/trac/cobra/wiki/EditorSupport">Editor support</a></li>
+        </ul>
+        <div class="testimonial">
+          <div>User Testimonial</div>
+          <div>"I'm really getting the hang of testing Cobra-style.<br /> I feel more productive (and willing to write tests)."<br />
+             – Todd Alexander</div>
+        </div>
+        <p class="copyright">© 2003 - 2012 Cobra Language LLC. All rights reserved.</p>
+        <ul class="social-media">
+          <li><a href="http://www.facebook.com/group.php?gid=129103523794122"><img alt="Facebook" src="/trac/cobra/chrome/site/images/facebook.gif" /></a></li>
+          <li><a href="http://www.linkedin.com/groups?gid=3172936"><img alt="LinkedIn" src="/trac/cobra/chrome/site/images/linkedin.gif" /></a></li>
+        </ul>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      try {
+        var pageTracker = _gat._getTracker("UA-8647896-1");
+        pageTracker._trackPageview();
+      }
+      catch(err) {}
+    </script>
+  </body>
+</html>

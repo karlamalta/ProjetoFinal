@@ -1,0 +1,6 @@
+usermanager 0.5 (Not yet released) - branch 0.11
+ resolved issues:
+ * None
+ 
+ new features:
+ * #10586: Columns are sortable on the Users page.

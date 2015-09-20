@@ -1,0 +1,72 @@
+{% extends "admin/base_site.html" %}
+{% load i18n %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+     <a href="../../../">{% trans "Home" %}</a> &rsaquo;
+     <a href="../../">{{ app_label|capfirst }}</a> &rsaquo;
+     <a href="../">{{ opts.verbose_name_plural|capfirst }}</a> &rsaquo;
+     {{ feature|truncatewords:"18" }}
+</div>
+{% endblock %}
+
+{% block content %}<div id="content-main">
+{% block object-tools %}
+  <ul class="object-tools">
+  <li><a href="?_change=" class="historylink">{% trans "Edit" %}</a></li>
+  <li><a href="{{add_issue_link}}" class="historylink">{% trans "Add issue" %}</a></li>
+  <li><a href="history/" class="historylink">{% trans "History" %}</a></li>
+  {% if has_absolute_url %}<li><a href="../../../r/{{ content_type_id }}/{{ object_id }}/" class="viewsitelink">{% trans "View on site" %}</a></li>{% endif%}
+  </ul>
+{% endblock %}
+
+<p></p>
+<div class="module">
+<h2>UseCase Details<a href="?_change=">(edit)</a></h2>
+<table>
+	<tr>
+		<td><b>Description:</b></td> <td>{{useCase.description|linebreaksbr}}</td>
+	</tr>
+	<tr>
+		<td><b>Status:</b></td> <td>{{useCase.status}}</td>
+	</tr>
+	<tr>
+		<td><b>Variability type:</b></td> <td><a href="{{ useCase.variabilityType.get_absolute_url }}">{{ useCase.variabilityType }}</a></td>
+	</tr>
+	<tr>
+		<td><b>PreCondition:</b></td> <td> {{useCase.preCondition|linebreaksbr}}</td>
+	</tr>
+	<tr>
+		<td><b>PosCondition:</b></td> <td> {{useCase.posCondition|linebreaksbr}}</td>
+	</tr>
+	<tr>
+		<td><b>MainFlow:</b></td> <td> {{useCase.mainFlow|linebreaksbr}}</td>
+	</tr>
+
+	<tr>
+		<td><b>Actors:</b></td> 
+		<td>
+		    {% for actor in useCase.actors.all %}
+		 	<ul><a href="{{ actor.get_absolute_url }}">{{ actor.name }}</a></ul>
+		    {% endfor %}
+		</td>
+	</tr>
+	<tr>
+		<td><b>Requeriments:</b></td>
+		<td>
+		    {% for requeriments in useCase.requirements.all %}
+		 	<ul><a href="{{ requeriments.get_absolute_url }}">{{ requeriments.name }}</a></ul>
+		    {% endfor %}
+		</td>
+	</tr>
+	<tr>
+		<td><b>Secondary flows:</b></td> <td> <ul>{{useCase.usecasesecondaryflow_set.all|unordered_list}}</ul></td>
+
+	</tr>
+	<tr>
+		<td><b>Screen path:</b></td> <td>{{useCase.screenPath}}</td>
+	</tr>
+
+</table> 
+</div>
+{% endblock %}

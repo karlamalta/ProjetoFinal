@@ -1,0 +1,64 @@
+
+
+0)Renomear component para document e retirar o document antigo
+
+
+TICKET (DA INTERFACE SPLICE)
+13) Não existe o campo "Cc" que tem na interface do trac, acho que é necessário colocar
+
+
+PRODUCT
+
+6) No form de Product, colocar para as features com o Variability type "Mandatory" estarem sempre selecionadas, não deixar o usuário selecionar. Ou seja, colocar como um campo não selecionável
+
+2) No sprint planning, gostaria que acontecesse o seguinte:
+O form de sprint planning, além de ter a possibilidade de adicionar tickets, a gente poder também adicionar features.
+E quando eu adicionar uma feature, a ferramenta poderia criar um ticket automaticamente, e eu só informar quem é o owner daquela feature.
+O motivo disso é que, por exemplo, toda vez que eu pego uma feature pra implementar, eu vou ter que abrir um ticket e adicionar um título e descrição pra ele que geramente são default (ex.: "Implementation of the X feature"), e o milestone, release, etc... sempre serão os mais recentes da lista.
+
+
+
+Observacoes
+- Implementar mais de uma feature
+
+
+
+- Produto e Test Execution ainda resultam na tela de edição (seria legal ter uma tela sem edição para eles também, assim como os outros artefatos)
+
+- As seguintes tabelas estão com problemas visuais (screenshots em anexo): Acceptance Test Execution, Acceptance Test, Test Case e User Story
+
+- Acho que na tabela de Use case, nos steps, a user action deveria ficar lado a lado com system response
+
+Próximos passos:
+
+- Fazer um relatório PDF para use case
+
+- Começar a pensar num relatório de todos os artefatos para o produto
+Pega um produto, e a partir das features dele, coletar todos os artefatos via rastreabilidade para colocar num relatório
+
+
+
+
+
+
+manage.py evolve --hint --execute
+
+tracd -p 8081 C:\ProjetoEsa\Tonho\trac\
+
+python setup.py bdist_egg
+
+
+INSTALAR
+
+-Instalar pip
+
+- pip install trac
+
+- pip install django==1.5
+
+- pip install django_extensions
+http://127.0.0.1:8000/admin/
+
+Senha administrador: admin/151515
+
+

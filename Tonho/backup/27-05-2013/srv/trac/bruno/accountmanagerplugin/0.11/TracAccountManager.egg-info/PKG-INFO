@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: TracAccountManager
+Version: 0.4.3
+Summary: User account management plugin for Trac
+Home-page: http://trac-hacks.org/wiki/AccountManagerPlugin
+Author: Steffen Hoffmann
+Author-email: hoff.st@web.de
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN

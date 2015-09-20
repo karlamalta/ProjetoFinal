@@ -1,0 +1,154 @@
+PLAIN
+K 19
+._RELEASE_NOTES.txt
+V 21
+file iz-1.0.r1/338606
+K 13
+.___init__.py
+V 21
+file bl-1.0.r1/422620
+K 14
+.___init__.pyc
+V 21
+file br-1.0.r1/442787
+K 11
+._dbdump.py
+V 21
+file iv-1.0.r1/338109
+K 14
+._features.ods
+V 21
+file ix-1.0.r1/430425
+K 11
+._manage.py
+V 21
+file h1-1.0.r1/439088
+K 14
+._odsparser.py
+V 21
+file hn-1.0.r1/423440
+K 15
+._odsparser.pyc
+V 21
+file bt-1.0.r1/424066
+K 13
+._settings.py
+V 21
+file bn-1.0.r1/422932
+K 14
+._settings.pyc
+V 21
+file hp-1.0.r1/423753
+K 9
+._urls.py
+V 20
+file 7-1.0.r1/365933
+K 17
+RELEASE_NOTES.txt
+V 21
+file bp-1.0.r1/423178
+K 11
+__init__.py
+V 21
+file bx-1.0.r1/430980
+K 12
+__init__.pyc
+V 20
+file 5-1.0.r1/431422
+K 10
+bugtracker
+V 19
+dir 9-1.0.r1/438885
+K 12
+dashboard.py
+V 21
+file ip-1.0.r1/429861
+K 9
+dbdump.py
+V 21
+file bj-1.0.r1/422050
+K 12
+features.ods
+V 21
+file h3-1.0.r1/422306
+K 3
+fur
+V 20
+dir 1j-1.0.r1/378229
+K 3
+lib
+V 20
+dir h5-1.0.r1/442590
+K 9
+manage.py
+V 21
+file it-1.0.r1/338353
+K 10
+management
+V 20
+dir hr-1.0.r1/429723
+K 12
+odsparser.py
+V 21
+file gv-1.0.r1/365675
+K 13
+odsparser.pyc
+V 21
+file gz-1.0.r1/439398
+K 12
+reqtool_test
+V 20
+file 2-1.0.r1/430738
+K 11
+settings.py
+V 21
+file gt-1.0.r1/431165
+K 12
+settings.pyc
+V 21
+file gx-1.0.r1/366238
+K 6
+static
+V 20
+dir bz-1.0.r1/365543
+K 9
+templates
+V 20
+dir 3n-1.0.r1/421915
+K 7
+urls.py
+V 21
+file bv-1.0.r1/424314
+K 8
+urls.pyc
+V 21
+file ir-1.0.r1/430119
+END
+ENDREP
+id: 0-1.0.r2/1366
+type: dir
+pred: 0-1.0.r1/444443
+count: 1
+text: 2 0 1353 1353 f85bc227d60945b3e5f347b0d5543fcb
+cpath: /reqtool
+copyroot: 0 /
+
+PLAIN
+K 7
+reqtool
+V 17
+dir 0-1.0.r2/1366
+END
+ENDREP
+id: 0.0.r2/1561
+type: dir
+pred: 0.0.r1/444625
+count: 2
+text: 2 1509 39 39 7c1a1d1f40054be127879e2d2dab4a31
+cpath: /
+copyroot: 0 /
+
+3l-1.0.r1/439711 delete-file false false /reqtool/._urls.pyc
+
+
+1561 1692
