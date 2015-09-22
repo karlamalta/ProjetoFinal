@@ -162,6 +162,7 @@ INSTALLED_APPS = (
     'management',
     'assets',
     'configuration',
+    #'south',
 )
 
 # A sample logging configuration. The only tangible logging

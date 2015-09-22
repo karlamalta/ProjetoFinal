@@ -12288,3 +12288,61 @@ TemplateNotFound: Template "maculele" not found
 2015-09-16 15:11:38,222 Trac[session] DEBUG: Retrieving session for ID u'admin'
 2015-09-16 15:11:38,253 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui-i18n.js'">
 2015-09-16 15:11:38,254 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-22 10:05:10,258 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/tractab/SPLICE'">
+2015-09-22 10:05:10,267 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2015-09-22 10:05:10,269 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-22 10:05:10,290 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, maculele
+2015-09-22 10:05:10,290 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, None
+2015-09-22 10:05:10,291 Trac[main] ERROR: Internal Server Error: 
+Traceback (most recent call last):
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/main.py", line 551, in _dispatch_request
+    dispatcher.dispatch(req)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/main.py", line 264, in dispatch
+    iterable=chrome.use_chunked_encoding)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/chrome.py", line 1066, in render_template
+    template = self.load_template(filename, method=method)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/chrome.py", line 1031, in load_template
+    return self.templates.load(filename, cls=cls)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/genshi/template/loader.py", line 246, in load
+    raise TemplateNotFound(filename, search_path)
+TemplateNotFound: Template "maculele" not found
+2015-09-22 10:05:10,709 Trac[chrome] DEBUG: Prepare chrome data for request
+2015-09-22 10:05:10,718 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2015-09-22 10:05:11,040 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/jquery-ui/jquery-ui.css'">
+2015-09-22 10:05:11,041 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-22 10:05:11,067 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/jquery-ui-addons.css'">
+2015-09-22 10:05:11,068 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-22 10:05:11,089 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/trac.css'">
+2015-09-22 10:05:11,090 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-22 10:05:11,118 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery.js'">
+2015-09-22 10:05:11,123 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/code.css'">
+2015-09-22 10:05:11,124 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-22 10:05:11,162 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-22 10:05:11,164 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/style.css'">
+2015-09-22 10:05:11,165 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-22 10:05:11,191 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/search.js'">
+2015-09-22 10:05:11,192 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-22 10:05:11,231 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/styles.css'">
+2015-09-22 10:05:11,232 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-22 10:05:11,242 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui.js'">
+2015-09-22 10:05:11,245 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/topbar1.css'">
+2015-09-22 10:05:11,246 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-22 10:05:11,253 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/bootstrap-responsive.min.css'">
+2015-09-22 10:05:11,285 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-22 10:05:11,309 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-22 10:05:11,327 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/font-awesome.css'">
+2015-09-22 10:05:11,328 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-22 10:05:11,357 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/base.css'">
+2015-09-22 10:05:11,358 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-22 10:05:11,379 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/blue.css'">
+2015-09-22 10:05:11,383 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/babel.js'">
+2015-09-22 10:05:11,384 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-22 10:05:11,399 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-22 10:05:11,422 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/trac.js'">
+2015-09-22 10:05:11,423 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-22 10:05:11,424 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui-addons.js'">
+2015-09-22 10:05:11,425 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui-i18n.js'">
+2015-09-22 10:05:11,426 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-22 10:05:11,444 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-22 10:05:11,633 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/img/noise.png'">
+2015-09-22 10:05:11,634 Trac[session] DEBUG: Retrieving session for ID u'admin'

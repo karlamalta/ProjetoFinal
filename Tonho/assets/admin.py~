@@ -235,7 +235,7 @@ class UseCaseAlternativeStepsAdminInline(admin.TabularInline):
     verbose_name_plural = 'Alternative Scenarios'
     verbose_name = 'Alternative Scenarios'
     #fk_name = 'scopeBacklog'
-    extra = 0    
+    extra = 2    
     formfield_overrides = {
         models.TextField: {'widget': Textarea(attrs={'rows':4, 'cols':40,'class':'vLargeTextField',})},
     }

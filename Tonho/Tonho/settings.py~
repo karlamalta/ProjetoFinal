@@ -151,17 +151,18 @@ INSTALLED_APPS = (
     'mptt',
     'mptttreewidget',
     #'debug_toolbar',
-	#'suit',
+    #'suit',
     # Uncomment the next line to enable the admin:
-     'django.contrib.admin',
+    'django.contrib.admin',
 	 
-	 'django_extensions',
+    'django_extensions',
 
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
-	'management',
+    'management',
     'assets',
     'configuration',
+    'south',
 )
 
 # A sample logging configuration. The only tangible logging
