@@ -261,7 +261,7 @@ class UseCaseAlternativeScenariosAdminInline(admin.StackedInline):
     #    (None,                {'fields': ['scenario_name', 'condition']}),
     #   ('Steps', {'fields': ['associated_features'], 'classes': ['collapse']}),
     #]
-    inlines = [UseCaseStepsAdminInline]
+    #inlines = [UseCaseStepsAdminInline]
     filter_horizontal = ("associated_features",)
     formfield_overrides = {
         models.TextField: {'widget': Textarea(attrs={'rows':4, 'cols':40,'class':'vLargeTextField',})},

@@ -222,7 +222,7 @@ class GlossaryAdmin(admin.ModelAdmin):
 class UseCaseMainStepsAdminInline(admin.TabularInline):
     model = MainSteps
     verbose_name_plural = 'Main Success Scenario'
-    verbose_name = 'Main Success Scenario'
+    verbose_name = 'Step'
     #fk_name = 'scopeBacklog'
     extra = 0
     formfield_overrides = {
