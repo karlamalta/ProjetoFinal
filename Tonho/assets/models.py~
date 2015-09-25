@@ -99,7 +99,7 @@ class UseCase(models.Model):
     extendsFrom= models.ManyToManyField("self", blank=True, verbose_name="Extends From")
     mainSteps = models.ManyToManyField('MainSteps', blank=True, symmetrical=False, related_name='mainsteps_funcspec')
     alternativeSteps = models.ManyToManyField('AlternativeSteps', blank=True, symmetrical=False, related_name='alternativesteps_funcspec')
-
+    alternativeScenarios = models.ManyToManyField('AlternativeScenarios', blank=True, symmetrical=False, related_name='alternativescenarios_funcspec')
 
     def __unicode__(self):
         return self.title
@@ -158,7 +158,7 @@ class TestSteps(models.Model):
 
 class MainSteps(models.Model):    
     use_case = models.ForeignKey(UseCase)
-    step_number = models.CharField(verbose_name="Step") 
+    step_number = models.CharField(max_length=2,verbose_name="Step") 
     user_action = models.TextField(verbose_name="Actor Action")
     system_response = models.TextField(verbose_name="Blackbox System Response")
     def get_admin_url(self):
@@ -167,6 +167,17 @@ class MainSteps(models.Model):
     def __unicode__(self):
         return "Main Step"
 
+class AlternativeScenarios(models.Model):
+    use_case = models.ForeignKey(UseCase)
+    scenario_name = models.TextField(verbose_name="Alternative Scenario Name")
+    condition = models.TextField(verbose_name="Condition")
+    associated_features = models.ManyToManyField(Feature, verbose_name="Associated Features")
+    alternative_steps = models.ManyToManyField('AlternativeSteps', blank=True, symmetrical=False, related_name='alternativesteps_funcspec')
+    def __unicode__(self):
+        return self.title
+    def get_admin_url(self):
+        content_type = ContentType.objects.get_for_model(self.__class__)
+        return urlresolvers.reverse("admin:%s_%s_change" % (content_type.app_label, content_type.model), args=(self.id,))
 
 class AlternativeSteps(models.Model):    
     use_case = models.ForeignKey(UseCase)

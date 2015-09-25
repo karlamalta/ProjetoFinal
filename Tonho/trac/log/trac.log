@@ -12346,3 +12346,635 @@ TemplateNotFound: Template "maculele" not found
 2015-09-22 10:05:11,444 Trac[session] DEBUG: Retrieving session for ID u'admin'
 2015-09-22 10:05:11,633 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/img/noise.png'">
 2015-09-22 10:05:11,634 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-24 16:31:38,113 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0.8] --------------------------------
+2015-09-24 16:31:38,239 Trac[loader] DEBUG: Adding plugin TracTab 0.2.0dev from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracTab-0.2.0dev-py2.7.egg
+2015-09-24 16:31:38,242 Trac[loader] DEBUG: Adding plugin TracFeaturePlugin 0.2.6 from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracFeaturePlugin-0.2.6-py2.7.egg
+2015-09-24 16:31:38,243 Trac[loader] DEBUG: Adding plugin AutocompleteUsers 0.4.2dev from /home/karla/ProjetoFinal/Tonho/trac/plugins/AutocompleteUsers-0.4.2dev-py2.7.egg
+2015-09-24 16:31:38,244 Trac[loader] DEBUG: Adding plugin TracAccountManager 0.4.3 from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-09-24 16:31:38,250 Trac[loader] DEBUG: Adding plugin TracUserManagerPlugin 0.5dev from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracUserManagerPlugin-0.5dev-py2.7.egg
+2015-09-24 16:31:38,332 Trac[loader] DEBUG: Loading acct_mgr.admin from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-09-24 16:31:38,384 Trac[loader] DEBUG: Loading acct_mgr.api from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-09-24 16:31:38,385 Trac[loader] DEBUG: Loading acct_mgr.db from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-09-24 16:31:38,385 Trac[loader] DEBUG: Loading acct_mgr.htfile from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-09-24 16:31:38,385 Trac[loader] DEBUG: Loading acct_mgr.http from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-09-24 16:31:38,385 Trac[loader] DEBUG: Loading acct_mgr.macros from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-09-24 16:31:38,386 Trac[loader] DEBUG: Loading acct_mgr.notification from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-09-24 16:31:38,386 Trac[loader] DEBUG: Loading acct_mgr.pwhash from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-09-24 16:31:38,386 Trac[loader] DEBUG: Loading acct_mgr.svnserve from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-09-24 16:31:38,387 Trac[loader] DEBUG: Loading acct_mgr.web_ui from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-09-24 16:31:38,387 Trac[loader] DEBUG: Loading autocompleteusers from /home/karla/ProjetoFinal/Tonho/trac/plugins/AutocompleteUsers-0.4.2dev-py2.7.egg
+2015-09-24 16:31:38,391 Trac[loader] DEBUG: Loading ticketref.api from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracFeaturePlugin-0.2.6-py2.7.egg
+2015-09-24 16:31:38,483 Trac[loader] DEBUG: Loading ticketref.web_ui from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracFeaturePlugin-0.2.6-py2.7.egg
+2015-09-24 16:31:38,485 Trac[loader] DEBUG: Loading trac.about from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,489 Trac[loader] DEBUG: Loading trac.admin.console from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,557 Trac[loader] DEBUG: Loading trac.admin.web_ui from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,561 Trac[loader] DEBUG: Loading trac.attachment from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,562 Trac[loader] DEBUG: Loading trac.db.mysql from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,573 Trac[loader] DEBUG: Loading trac.db.postgres from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,575 Trac[loader] DEBUG: Loading trac.db.sqlite from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,578 Trac[loader] DEBUG: Loading trac.mimeview.patch from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,682 Trac[loader] DEBUG: Loading trac.mimeview.pygments from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,693 Trac[loader] DEBUG: Skipping "trac.mimeview.pygments = trac.mimeview.pygments [pygments]": ("DistributionNotFound: Pygments>=0.6" not found)
+2015-09-24 16:31:38,693 Trac[loader] DEBUG: Loading trac.mimeview.rst from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,704 Trac[loader] DEBUG: Skipping "trac.mimeview.rst = trac.mimeview.rst [rest]": ("DistributionNotFound: docutils>=0.3.9" not found)
+2015-09-24 16:31:38,704 Trac[loader] DEBUG: Loading trac.mimeview.txtl from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,720 Trac[loader] DEBUG: Skipping "trac.mimeview.txtl = trac.mimeview.txtl [textile]": ("DistributionNotFound: textile>=2.0" not found)
+2015-09-24 16:31:38,720 Trac[loader] DEBUG: Loading trac.prefs from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,726 Trac[loader] DEBUG: Loading trac.search from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,728 Trac[loader] DEBUG: Loading trac.ticket.admin from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,740 Trac[loader] DEBUG: Loading trac.ticket.batch from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,743 Trac[loader] DEBUG: Loading trac.ticket.query from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,748 Trac[loader] DEBUG: Loading trac.ticket.report from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,751 Trac[loader] DEBUG: Loading trac.ticket.roadmap from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,765 Trac[loader] DEBUG: Loading trac.ticket.web_ui from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,773 Trac[loader] DEBUG: Loading trac.timeline from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,791 Trac[loader] DEBUG: Loading trac.versioncontrol.admin from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,794 Trac[loader] DEBUG: Loading trac.versioncontrol.svn_authz from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,795 Trac[loader] DEBUG: Loading trac.versioncontrol.web_ui from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,882 Trac[loader] DEBUG: Loading trac.web.auth from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,882 Trac[loader] DEBUG: Loading trac.web.main from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,882 Trac[loader] DEBUG: Loading trac.web.session from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,882 Trac[loader] DEBUG: Loading trac.wiki.admin from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,882 Trac[loader] DEBUG: Loading trac.wiki.interwiki from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,889 Trac[loader] DEBUG: Loading trac.wiki.macros from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,889 Trac[loader] DEBUG: Loading trac.wiki.web_api from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,899 Trac[loader] DEBUG: Loading trac.wiki.web_ui from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,901 Trac[loader] DEBUG: Loading tracopt.mimeview.enscript from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,940 Trac[loader] DEBUG: Loading tracopt.mimeview.php from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,942 Trac[loader] DEBUG: Loading tracopt.mimeview.silvercity from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,957 Trac[loader] DEBUG: Skipping "tracopt.mimeview.silvercity = tracopt.mimeview.silvercity [silvercity]": ("DistributionNotFound: SilverCity>=0.9.4" not found)
+2015-09-24 16:31:38,958 Trac[loader] DEBUG: Loading tracopt.perm.authz_policy from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,972 Trac[loader] DEBUG: Skipping "tracopt.perm.authz_policy = tracopt.perm.authz_policy [configobj]": ("DistributionNotFound: ConfigObj" not found)
+2015-09-24 16:31:38,972 Trac[loader] DEBUG: Loading tracopt.perm.config_perm_provider from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:38,976 Trac[loader] DEBUG: Loading tracopt.ticket.clone from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:39,007 Trac[loader] DEBUG: Loading tracopt.ticket.commit_updater from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:39,009 Trac[loader] DEBUG: Loading tracopt.ticket.deleter from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:39,013 Trac[loader] DEBUG: Loading tracopt.versioncontrol.git.git_fs from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:39,028 Trac[loader] DEBUG: Loading tracopt.versioncontrol.svn.svn_fs from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:39,066 Trac[loader] DEBUG: Loading tracopt.versioncontrol.svn.svn_prop from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-24 16:31:39,078 Trac[loader] DEBUG: Loading tractab from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracTab-0.2.0dev-py2.7.egg
+2015-09-24 16:31:39,078 Trac[loader] DEBUG: Loading tracusermanager.account from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracUserManagerPlugin-0.5dev-py2.7.egg
+2015-09-24 16:31:39,080 Trac[loader] DEBUG: Loading tracusermanager.admin from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracUserManagerPlugin-0.5dev-py2.7.egg
+2015-09-24 16:31:39,080 Trac[loader] DEBUG: Loading tracusermanager.api from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracUserManagerPlugin-0.5dev-py2.7.egg
+2015-09-24 16:31:39,080 Trac[loader] DEBUG: Loading tracusermanager.permissions from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracUserManagerPlugin-0.5dev-py2.7.egg
+2015-09-24 16:31:39,080 Trac[loader] DEBUG: Loading tracusermanager.profile from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracUserManagerPlugin-0.5dev-py2.7.egg
+2015-09-24 16:31:39,207 Trac[default_workflow] DEBUG: Workflow actions at initialization: defaultdict(<function <lambda> at 0xb6228614>, {u'resolve': {'operations': [u'set_resolution'], 'name': u'resolve', 'default': 0, 'newstate': u'closed', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], 'permissions': [u'TICKET_MODIFY']}, u'accept': {'operations': [u'set_owner_to_self'], 'name': u'accept', 'default': 0, 'newstate': u'accepted', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], 'permissions': [u'TICKET_MODIFY']}, u'leave': {'operations': [u'leave_status'], 'name': u'leave', 'default': 1, 'newstate': u'*', 'oldstates': [u'*'], 'permissions': []}, u'reopen': {'operations': [u'del_resolution'], 'name': u'reopen', 'default': 0, 'newstate': u'reopened', 'oldstates': [u'closed'], 'permissions': [u'TICKET_CREATE']}, u'reassign': {'operations': [u'set_owner'], 'name': u'reassign', 'default': 0, 'newstate': u'assigned', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], 'permissions': [u'TICKET_MODIFY']}, '_reset': {'operations': ['reset_workflow'], 'name': 'reset', 'default': 0, 'newstate': 'new', 'oldstates': [], 'permissions': ['TICKET_ADMIN']}})
+
+2015-09-24 16:31:39,264 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2015-09-24 16:31:39,264 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/tractab/SPLICE'">
+2015-09-24 16:31:39,322 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2015-09-24 16:31:39,323 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-24 16:31:39,338 Trac[api] DEBUG: action controllers for ticket workflow: ['ConfigurableTicketWorkflow']
+2015-09-24 16:31:39,339 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, maculele
+2015-09-24 16:31:39,609 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, None
+2015-09-24 16:31:39,638 Trac[main] ERROR: Internal Server Error: 
+Traceback (most recent call last):
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/main.py", line 551, in _dispatch_request
+    dispatcher.dispatch(req)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/main.py", line 264, in dispatch
+    iterable=chrome.use_chunked_encoding)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/chrome.py", line 1066, in render_template
+    template = self.load_template(filename, method=method)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/chrome.py", line 1031, in load_template
+    return self.templates.load(filename, cls=cls)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/genshi/template/loader.py", line 246, in load
+    raise TemplateNotFound(filename, search_path)
+TemplateNotFound: Template "maculele" not found
+2015-09-24 16:31:40,016 Trac[chrome] DEBUG: Prepare chrome data for request
+2015-09-24 16:31:40,141 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2015-09-24 16:31:40,476 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/jquery-ui/jquery-ui.css'">
+2015-09-24 16:31:40,479 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-24 16:31:40,511 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/trac.css'">
+2015-09-24 16:31:40,512 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-24 16:31:40,526 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/jquery-ui-addons.css'">
+2015-09-24 16:31:40,526 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-24 16:31:40,569 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/code.css'">
+2015-09-24 16:31:40,569 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-24 16:31:40,603 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery.js'">
+2015-09-24 16:31:40,604 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-24 16:31:40,623 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/style.css'">
+2015-09-24 16:31:40,627 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/styles.css'">
+2015-09-24 16:31:40,632 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/babel.js'">
+2015-09-24 16:31:40,636 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-24 16:31:40,668 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/trac.js'">
+2015-09-24 16:31:40,672 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-24 16:31:40,697 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-24 16:31:40,726 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/bootstrap-responsive.min.css'">
+2015-09-24 16:31:40,727 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-24 16:31:40,728 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-24 16:31:40,737 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/topbar1.css'">
+2015-09-24 16:31:40,755 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/font-awesome.css'">
+2015-09-24 16:31:40,756 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-24 16:31:40,763 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-24 16:31:40,781 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/base.css'">
+2015-09-24 16:31:40,782 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-24 16:31:40,810 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/blue.css'">
+2015-09-24 16:31:40,811 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-24 16:31:40,832 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/search.js'">
+2015-09-24 16:31:40,833 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui.js'">
+2015-09-24 16:31:40,834 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-24 16:31:40,848 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-24 16:31:40,871 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui-addons.js'">
+2015-09-24 16:31:40,871 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-24 16:31:40,886 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui-i18n.js'">
+2015-09-24 16:31:40,886 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-24 16:31:41,048 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/img/noise.png'">
+2015-09-24 16:31:41,049 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-24 16:31:41,176 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/trac.ico'">
+2015-09-24 16:31:41,177 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:18,298 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/tractab/SPLICE'">
+2015-09-25 13:40:18,299 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2015-09-25 13:40:18,299 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:18,300 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, maculele
+2015-09-25 13:40:18,306 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, None
+2015-09-25 13:40:18,306 Trac[main] ERROR: Internal Server Error: 
+Traceback (most recent call last):
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/main.py", line 551, in _dispatch_request
+    dispatcher.dispatch(req)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/main.py", line 264, in dispatch
+    iterable=chrome.use_chunked_encoding)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/chrome.py", line 1066, in render_template
+    template = self.load_template(filename, method=method)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/chrome.py", line 1031, in load_template
+    return self.templates.load(filename, cls=cls)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/genshi/template/loader.py", line 246, in load
+    raise TemplateNotFound(filename, search_path)
+TemplateNotFound: Template "maculele" not found
+2015-09-25 13:40:18,548 Trac[chrome] DEBUG: Prepare chrome data for request
+2015-09-25 13:40:18,560 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2015-09-25 13:40:18,843 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/jquery-ui/jquery-ui.css'">
+2015-09-25 13:40:18,844 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:18,872 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/trac.css'">
+2015-09-25 13:40:18,872 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:18,909 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/code.css'">
+2015-09-25 13:40:18,910 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:18,945 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/jquery-ui-addons.css'">
+2015-09-25 13:40:18,946 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:18,966 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery.js'">
+2015-09-25 13:40:18,967 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:18,990 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/babel.js'">
+2015-09-25 13:40:18,991 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:19,014 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/style.css'">
+2015-09-25 13:40:19,015 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:19,033 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/styles.css'">
+2015-09-25 13:40:19,033 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:19,052 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/topbar1.css'">
+2015-09-25 13:40:19,052 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:19,083 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/bootstrap-responsive.min.css'">
+2015-09-25 13:40:19,084 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:19,085 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/trac.js'">
+2015-09-25 13:40:19,086 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:19,130 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/font-awesome.css'">
+2015-09-25 13:40:19,131 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:19,156 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/base.css'">
+2015-09-25 13:40:19,160 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/blue.css'">
+2015-09-25 13:40:19,160 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:19,176 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:19,194 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/search.js'">
+2015-09-25 13:40:19,194 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:19,214 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui.js'">
+2015-09-25 13:40:19,215 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui-addons.js'">
+2015-09-25 13:40:19,216 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:19,215 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:19,258 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui-i18n.js'">
+2015-09-25 13:40:19,259 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:19,413 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/img/noise.png'">
+2015-09-25 13:40:19,414 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:19,559 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/trac.ico'">
+2015-09-25 13:40:19,560 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:28,902 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/tractab/SPLICE'">
+2015-09-25 13:40:28,903 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2015-09-25 13:40:28,903 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:28,904 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, maculele
+2015-09-25 13:40:28,904 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, None
+2015-09-25 13:40:28,904 Trac[main] ERROR: Internal Server Error: 
+Traceback (most recent call last):
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/main.py", line 551, in _dispatch_request
+    dispatcher.dispatch(req)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/main.py", line 264, in dispatch
+    iterable=chrome.use_chunked_encoding)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/chrome.py", line 1066, in render_template
+    template = self.load_template(filename, method=method)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/chrome.py", line 1031, in load_template
+    return self.templates.load(filename, cls=cls)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/genshi/template/loader.py", line 246, in load
+    raise TemplateNotFound(filename, search_path)
+TemplateNotFound: Template "maculele" not found
+2015-09-25 13:40:29,139 Trac[chrome] DEBUG: Prepare chrome data for request
+2015-09-25 13:40:29,148 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2015-09-25 13:40:29,520 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/jquery-ui/jquery-ui.css'">
+2015-09-25 13:40:29,521 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:29,540 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/jquery-ui-addons.css'">
+2015-09-25 13:40:29,542 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery.js'">
+2015-09-25 13:40:29,542 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:29,571 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/trac.css'">
+2015-09-25 13:40:29,572 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:29,574 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/trac.js'">
+2015-09-25 13:40:29,575 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:29,612 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/babel.js'">
+2015-09-25 13:40:29,613 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:29,657 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:29,672 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/code.css'">
+2015-09-25 13:40:29,675 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:29,687 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/style.css'">
+2015-09-25 13:40:29,688 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:29,689 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/styles.css'">
+2015-09-25 13:40:29,690 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:29,707 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/topbar1.css'">
+2015-09-25 13:40:29,708 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:29,743 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/bootstrap-responsive.min.css'">
+2015-09-25 13:40:29,743 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:29,789 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/font-awesome.css'">
+2015-09-25 13:40:29,790 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:29,818 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/base.css'">
+2015-09-25 13:40:29,819 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:29,840 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/blue.css'">
+2015-09-25 13:40:29,841 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:29,864 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/search.js'">
+2015-09-25 13:40:29,865 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:29,893 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui.js'">
+2015-09-25 13:40:29,898 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:29,920 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui-i18n.js'">
+2015-09-25 13:40:29,921 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui-addons.js'">
+2015-09-25 13:40:29,922 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:29,942 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:30,088 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/img/noise.png'">
+2015-09-25 13:40:30,089 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:40:30,218 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/trac.ico'">
+2015-09-25 13:40:30,219 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:42:46,214 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/tractab/SPLICE'">
+2015-09-25 13:42:46,215 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2015-09-25 13:42:46,215 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:42:46,216 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, maculele
+2015-09-25 13:42:46,216 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, None
+2015-09-25 13:42:46,216 Trac[main] ERROR: Internal Server Error: 
+Traceback (most recent call last):
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/main.py", line 551, in _dispatch_request
+    dispatcher.dispatch(req)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/main.py", line 264, in dispatch
+    iterable=chrome.use_chunked_encoding)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/chrome.py", line 1066, in render_template
+    template = self.load_template(filename, method=method)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/chrome.py", line 1031, in load_template
+    return self.templates.load(filename, cls=cls)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/genshi/template/loader.py", line 246, in load
+    raise TemplateNotFound(filename, search_path)
+TemplateNotFound: Template "maculele" not found
+2015-09-25 13:42:46,448 Trac[chrome] DEBUG: Prepare chrome data for request
+2015-09-25 13:42:46,451 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2015-09-25 13:42:46,768 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/jquery-ui/jquery-ui.css'">
+2015-09-25 13:42:46,769 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:42:46,822 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/jquery-ui-addons.css'">
+2015-09-25 13:42:46,823 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:42:46,848 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery.js'">
+2015-09-25 13:42:46,849 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:42:46,865 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/babel.js'">
+2015-09-25 13:42:46,867 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/trac.js'">
+2015-09-25 13:42:46,867 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:42:46,898 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/trac.css'">
+2015-09-25 13:42:46,899 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:42:46,919 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:42:46,945 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/code.css'">
+2015-09-25 13:42:46,946 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:42:46,965 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/styles.css'">
+2015-09-25 13:42:46,967 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/style.css'">
+2015-09-25 13:42:46,968 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:42:46,996 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/topbar1.css'">
+2015-09-25 13:42:47,006 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:42:47,030 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/bootstrap-responsive.min.css'">
+2015-09-25 13:42:47,031 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:42:47,058 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:42:47,075 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/font-awesome.css'">
+2015-09-25 13:42:47,075 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:42:47,117 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/base.css'">
+2015-09-25 13:42:47,118 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:42:47,143 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/blue.css'">
+2015-09-25 13:42:47,144 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:42:47,146 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/search.js'">
+2015-09-25 13:42:47,146 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:42:47,158 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui-i18n.js'">
+2015-09-25 13:42:47,159 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:42:47,171 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui-addons.js'">
+2015-09-25 13:42:47,172 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:42:47,185 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui.js'">
+2015-09-25 13:42:47,186 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:42:47,453 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/img/noise.png'">
+2015-09-25 13:42:47,453 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:42:47,516 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/trac.ico'">
+2015-09-25 13:42:47,516 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:44:23,756 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0.8] --------------------------------
+2015-09-25 13:44:23,784 Trac[loader] DEBUG: Adding plugin TracTab 0.2.0dev from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracTab-0.2.0dev-py2.7.egg
+2015-09-25 13:44:23,784 Trac[loader] DEBUG: Adding plugin TracFeaturePlugin 0.2.6 from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracFeaturePlugin-0.2.6-py2.7.egg
+2015-09-25 13:44:23,788 Trac[loader] DEBUG: Adding plugin AutocompleteUsers 0.4.2dev from /home/karla/ProjetoFinal/Tonho/trac/plugins/AutocompleteUsers-0.4.2dev-py2.7.egg
+2015-09-25 13:44:23,788 Trac[loader] DEBUG: Adding plugin TracAccountManager 0.4.3 from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-09-25 13:44:23,793 Trac[loader] DEBUG: Adding plugin TracUserManagerPlugin 0.5dev from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracUserManagerPlugin-0.5dev-py2.7.egg
+2015-09-25 13:44:23,808 Trac[loader] DEBUG: Loading acct_mgr.admin from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-09-25 13:44:23,812 Trac[loader] DEBUG: Loading acct_mgr.api from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-09-25 13:44:23,812 Trac[loader] DEBUG: Loading acct_mgr.db from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-09-25 13:44:23,813 Trac[loader] DEBUG: Loading acct_mgr.htfile from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-09-25 13:44:23,820 Trac[loader] DEBUG: Loading acct_mgr.http from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-09-25 13:44:23,821 Trac[loader] DEBUG: Loading acct_mgr.macros from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-09-25 13:44:23,821 Trac[loader] DEBUG: Loading acct_mgr.notification from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-09-25 13:44:23,821 Trac[loader] DEBUG: Loading acct_mgr.pwhash from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-09-25 13:44:23,825 Trac[loader] DEBUG: Loading acct_mgr.svnserve from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-09-25 13:44:23,825 Trac[loader] DEBUG: Loading acct_mgr.web_ui from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-09-25 13:44:23,826 Trac[loader] DEBUG: Loading autocompleteusers from /home/karla/ProjetoFinal/Tonho/trac/plugins/AutocompleteUsers-0.4.2dev-py2.7.egg
+2015-09-25 13:44:23,826 Trac[loader] DEBUG: Loading ticketref.api from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracFeaturePlugin-0.2.6-py2.7.egg
+2015-09-25 13:44:23,847 Trac[loader] DEBUG: Loading ticketref.web_ui from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracFeaturePlugin-0.2.6-py2.7.egg
+2015-09-25 13:44:23,848 Trac[loader] DEBUG: Loading trac.about from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,849 Trac[loader] DEBUG: Loading trac.admin.console from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,850 Trac[loader] DEBUG: Loading trac.admin.web_ui from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,853 Trac[loader] DEBUG: Loading trac.attachment from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,853 Trac[loader] DEBUG: Loading trac.db.mysql from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,853 Trac[loader] DEBUG: Loading trac.db.postgres from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,854 Trac[loader] DEBUG: Loading trac.db.sqlite from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,855 Trac[loader] DEBUG: Loading trac.mimeview.patch from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,856 Trac[loader] DEBUG: Loading trac.mimeview.pygments from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,875 Trac[loader] DEBUG: Skipping "trac.mimeview.pygments = trac.mimeview.pygments [pygments]": ("DistributionNotFound: Pygments>=0.6" not found)
+2015-09-25 13:44:23,875 Trac[loader] DEBUG: Loading trac.mimeview.rst from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,883 Trac[loader] DEBUG: Skipping "trac.mimeview.rst = trac.mimeview.rst [rest]": ("DistributionNotFound: docutils>=0.3.9" not found)
+2015-09-25 13:44:23,883 Trac[loader] DEBUG: Loading trac.mimeview.txtl from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,910 Trac[loader] DEBUG: Skipping "trac.mimeview.txtl = trac.mimeview.txtl [textile]": ("DistributionNotFound: textile>=2.0" not found)
+2015-09-25 13:44:23,910 Trac[loader] DEBUG: Loading trac.prefs from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,910 Trac[loader] DEBUG: Loading trac.search from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,911 Trac[loader] DEBUG: Loading trac.ticket.admin from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,912 Trac[loader] DEBUG: Loading trac.ticket.batch from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,912 Trac[loader] DEBUG: Loading trac.ticket.query from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,919 Trac[loader] DEBUG: Loading trac.ticket.report from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,920 Trac[loader] DEBUG: Loading trac.ticket.roadmap from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,921 Trac[loader] DEBUG: Loading trac.ticket.web_ui from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,923 Trac[loader] DEBUG: Loading trac.timeline from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,924 Trac[loader] DEBUG: Loading trac.versioncontrol.admin from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,924 Trac[loader] DEBUG: Loading trac.versioncontrol.svn_authz from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,924 Trac[loader] DEBUG: Loading trac.versioncontrol.web_ui from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,938 Trac[loader] DEBUG: Loading trac.web.auth from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,938 Trac[loader] DEBUG: Loading trac.web.main from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,939 Trac[loader] DEBUG: Loading trac.web.session from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,939 Trac[loader] DEBUG: Loading trac.wiki.admin from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,939 Trac[loader] DEBUG: Loading trac.wiki.interwiki from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,940 Trac[loader] DEBUG: Loading trac.wiki.macros from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,945 Trac[loader] DEBUG: Loading trac.wiki.web_api from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,946 Trac[loader] DEBUG: Loading trac.wiki.web_ui from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,946 Trac[loader] DEBUG: Loading tracopt.mimeview.enscript from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,947 Trac[loader] DEBUG: Loading tracopt.mimeview.php from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,947 Trac[loader] DEBUG: Loading tracopt.mimeview.silvercity from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,971 Trac[loader] DEBUG: Skipping "tracopt.mimeview.silvercity = tracopt.mimeview.silvercity [silvercity]": ("DistributionNotFound: SilverCity>=0.9.4" not found)
+2015-09-25 13:44:23,972 Trac[loader] DEBUG: Loading tracopt.perm.authz_policy from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,980 Trac[loader] DEBUG: Skipping "tracopt.perm.authz_policy = tracopt.perm.authz_policy [configobj]": ("DistributionNotFound: ConfigObj" not found)
+2015-09-25 13:44:23,980 Trac[loader] DEBUG: Loading tracopt.perm.config_perm_provider from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,980 Trac[loader] DEBUG: Loading tracopt.ticket.clone from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,981 Trac[loader] DEBUG: Loading tracopt.ticket.commit_updater from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,989 Trac[loader] DEBUG: Loading tracopt.ticket.deleter from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,990 Trac[loader] DEBUG: Loading tracopt.versioncontrol.git.git_fs from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,998 Trac[loader] DEBUG: Loading tracopt.versioncontrol.svn.svn_fs from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,999 Trac[loader] DEBUG: Loading tracopt.versioncontrol.svn.svn_prop from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-09-25 13:44:23,999 Trac[loader] DEBUG: Loading tractab from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracTab-0.2.0dev-py2.7.egg
+2015-09-25 13:44:24,000 Trac[loader] DEBUG: Loading tracusermanager.account from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracUserManagerPlugin-0.5dev-py2.7.egg
+2015-09-25 13:44:24,002 Trac[loader] DEBUG: Loading tracusermanager.admin from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracUserManagerPlugin-0.5dev-py2.7.egg
+2015-09-25 13:44:24,003 Trac[loader] DEBUG: Loading tracusermanager.api from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracUserManagerPlugin-0.5dev-py2.7.egg
+2015-09-25 13:44:24,003 Trac[loader] DEBUG: Loading tracusermanager.permissions from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracUserManagerPlugin-0.5dev-py2.7.egg
+2015-09-25 13:44:24,003 Trac[loader] DEBUG: Loading tracusermanager.profile from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracUserManagerPlugin-0.5dev-py2.7.egg
+2015-09-25 13:44:24,010 Trac[default_workflow] DEBUG: Workflow actions at initialization: defaultdict(<function <lambda> at 0xb62ca614>, {u'resolve': {'operations': [u'set_resolution'], 'name': u'resolve', 'default': 0, 'newstate': u'closed', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], 'permissions': [u'TICKET_MODIFY']}, u'accept': {'operations': [u'set_owner_to_self'], 'name': u'accept', 'default': 0, 'newstate': u'accepted', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], 'permissions': [u'TICKET_MODIFY']}, u'leave': {'operations': [u'leave_status'], 'name': u'leave', 'default': 1, 'newstate': u'*', 'oldstates': [u'*'], 'permissions': []}, u'reopen': {'operations': [u'del_resolution'], 'name': u'reopen', 'default': 0, 'newstate': u'reopened', 'oldstates': [u'closed'], 'permissions': [u'TICKET_CREATE']}, u'reassign': {'operations': [u'set_owner'], 'name': u'reassign', 'default': 0, 'newstate': u'assigned', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], 'permissions': [u'TICKET_MODIFY']}, '_reset': {'operations': ['reset_workflow'], 'name': 'reset', 'default': 0, 'newstate': 'new', 'oldstates': [], 'permissions': ['TICKET_ADMIN']}})
+
+2015-09-25 13:44:24,017 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2015-09-25 13:44:24,017 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/tractab/SPLICE'">
+2015-09-25 13:44:24,045 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2015-09-25 13:44:24,049 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:44:24,051 Trac[api] DEBUG: action controllers for ticket workflow: ['ConfigurableTicketWorkflow']
+2015-09-25 13:44:24,058 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, maculele
+2015-09-25 13:44:24,262 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, None
+2015-09-25 13:44:24,265 Trac[main] ERROR: Internal Server Error: 
+Traceback (most recent call last):
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/main.py", line 551, in _dispatch_request
+    dispatcher.dispatch(req)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/main.py", line 264, in dispatch
+    iterable=chrome.use_chunked_encoding)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/chrome.py", line 1066, in render_template
+    template = self.load_template(filename, method=method)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/chrome.py", line 1031, in load_template
+    return self.templates.load(filename, cls=cls)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/genshi/template/loader.py", line 246, in load
+    raise TemplateNotFound(filename, search_path)
+TemplateNotFound: Template "maculele" not found
+2015-09-25 13:44:24,495 Trac[chrome] DEBUG: Prepare chrome data for request
+2015-09-25 13:44:24,587 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2015-09-25 13:44:24,920 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/jquery-ui/jquery-ui.css'">
+2015-09-25 13:44:24,924 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:44:24,966 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/trac.css'">
+2015-09-25 13:44:24,967 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:44:24,987 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/jquery-ui-addons.css'">
+2015-09-25 13:44:24,988 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:44:24,990 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/code.css'">
+2015-09-25 13:44:24,991 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:44:25,034 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery.js'">
+2015-09-25 13:44:25,037 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:44:25,060 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/babel.js'">
+2015-09-25 13:44:25,064 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/style.css'">
+2015-09-25 13:44:25,065 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:44:25,097 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:44:25,114 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/styles.css'">
+2015-09-25 13:44:25,115 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:44:25,124 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/topbar1.css'">
+2015-09-25 13:44:25,126 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/trac.js'">
+2015-09-25 13:44:25,126 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:44:25,138 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:44:25,141 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/bootstrap-responsive.min.css'">
+2015-09-25 13:44:25,161 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:44:25,141 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/font-awesome.css'">
+2015-09-25 13:44:25,180 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:44:25,188 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/base.css'">
+2015-09-25 13:44:25,189 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:44:25,206 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/blue.css'">
+2015-09-25 13:44:25,207 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:44:25,248 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/search.js'">
+2015-09-25 13:44:25,248 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:44:25,268 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui-addons.js'">
+2015-09-25 13:44:25,270 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:44:25,286 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui-i18n.js'">
+2015-09-25 13:44:25,286 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:44:25,299 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui.js'">
+2015-09-25 13:44:25,300 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:44:25,421 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/img/noise.png'">
+2015-09-25 13:44:25,421 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:44:25,563 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/trac.ico'">
+2015-09-25 13:44:25,564 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:12,846 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/tractab/SPLICE'">
+2015-09-25 13:48:12,847 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2015-09-25 13:48:12,848 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:12,848 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, maculele
+2015-09-25 13:48:12,854 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, None
+2015-09-25 13:48:12,855 Trac[main] ERROR: Internal Server Error: 
+Traceback (most recent call last):
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/main.py", line 551, in _dispatch_request
+    dispatcher.dispatch(req)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/main.py", line 264, in dispatch
+    iterable=chrome.use_chunked_encoding)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/chrome.py", line 1066, in render_template
+    template = self.load_template(filename, method=method)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/chrome.py", line 1031, in load_template
+    return self.templates.load(filename, cls=cls)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/genshi/template/loader.py", line 246, in load
+    raise TemplateNotFound(filename, search_path)
+TemplateNotFound: Template "maculele" not found
+2015-09-25 13:48:13,081 Trac[chrome] DEBUG: Prepare chrome data for request
+2015-09-25 13:48:13,093 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2015-09-25 13:48:13,402 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/jquery-ui/jquery-ui.css'">
+2015-09-25 13:48:13,403 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:13,424 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/jquery-ui-addons.css'">
+2015-09-25 13:48:13,425 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:13,455 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery.js'">
+2015-09-25 13:48:13,455 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:13,478 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/babel.js'">
+2015-09-25 13:48:13,478 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:13,514 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/trac.js'">
+2015-09-25 13:48:13,515 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:13,534 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/trac.css'">
+2015-09-25 13:48:13,535 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:13,562 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/code.css'">
+2015-09-25 13:48:13,563 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:13,564 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/style.css'">
+2015-09-25 13:48:13,567 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:13,604 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/styles.css'">
+2015-09-25 13:48:13,605 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:13,616 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/bootstrap-responsive.min.css'">
+2015-09-25 13:48:13,617 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:13,639 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/topbar1.css'">
+2015-09-25 13:48:13,640 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:13,660 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/font-awesome.css'">
+2015-09-25 13:48:13,661 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:13,724 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/base.css'">
+2015-09-25 13:48:13,725 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:13,750 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/blue.css'">
+2015-09-25 13:48:13,751 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:13,765 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/search.js'">
+2015-09-25 13:48:13,766 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:13,778 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui.js'">
+2015-09-25 13:48:13,779 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:13,797 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui-addons.js'">
+2015-09-25 13:48:13,798 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:13,807 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui-i18n.js'">
+2015-09-25 13:48:13,808 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:13,922 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/img/noise.png'">
+2015-09-25 13:48:13,923 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:14,031 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/trac.ico'">
+2015-09-25 13:48:14,032 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:15,135 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/tractab/SPLICE'">
+2015-09-25 13:48:15,136 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2015-09-25 13:48:15,136 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:15,137 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, maculele
+2015-09-25 13:48:15,137 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, None
+2015-09-25 13:48:15,137 Trac[main] ERROR: Internal Server Error: 
+Traceback (most recent call last):
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/main.py", line 551, in _dispatch_request
+    dispatcher.dispatch(req)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/main.py", line 264, in dispatch
+    iterable=chrome.use_chunked_encoding)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/chrome.py", line 1066, in render_template
+    template = self.load_template(filename, method=method)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/chrome.py", line 1031, in load_template
+    return self.templates.load(filename, cls=cls)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/genshi/template/loader.py", line 246, in load
+    raise TemplateNotFound(filename, search_path)
+TemplateNotFound: Template "maculele" not found
+2015-09-25 13:48:15,385 Trac[chrome] DEBUG: Prepare chrome data for request
+2015-09-25 13:48:15,388 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2015-09-25 13:48:15,677 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/jquery-ui/jquery-ui.css'">
+2015-09-25 13:48:15,678 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/jquery-ui-addons.css'">
+2015-09-25 13:48:15,679 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:15,686 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/trac.js'">
+2015-09-25 13:48:15,687 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery.js'">
+2015-09-25 13:48:15,688 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/babel.js'">
+2015-09-25 13:48:15,689 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:15,704 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:15,722 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:15,742 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:15,749 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/trac.css'">
+2015-09-25 13:48:15,749 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:15,760 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/code.css'">
+2015-09-25 13:48:15,761 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:15,779 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/style.css'">
+2015-09-25 13:48:15,780 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/styles.css'">
+2015-09-25 13:48:15,781 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:15,797 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:15,811 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/topbar1.css'">
+2015-09-25 13:48:15,812 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:15,860 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/bootstrap-responsive.min.css'">
+2015-09-25 13:48:15,862 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:15,879 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/blue.css'">
+2015-09-25 13:48:15,879 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:15,904 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/font-awesome.css'">
+2015-09-25 13:48:15,905 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:15,920 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/base.css'">
+2015-09-25 13:48:15,922 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:15,963 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/search.js'">
+2015-09-25 13:48:15,964 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:15,983 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui.js'">
+2015-09-25 13:48:15,984 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:15,997 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui-addons.js'">
+2015-09-25 13:48:15,997 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:16,015 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui-i18n.js'">
+2015-09-25 13:48:16,016 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:16,144 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/img/noise.png'">
+2015-09-25 13:48:16,144 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:16,251 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/trac.ico'">
+2015-09-25 13:48:16,251 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:34,841 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/tractab/SPLICE'">
+2015-09-25 13:48:34,842 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2015-09-25 13:48:34,842 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:34,843 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, maculele
+2015-09-25 13:48:34,843 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, None
+2015-09-25 13:48:34,843 Trac[main] ERROR: Internal Server Error: 
+Traceback (most recent call last):
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/main.py", line 551, in _dispatch_request
+    dispatcher.dispatch(req)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/main.py", line 264, in dispatch
+    iterable=chrome.use_chunked_encoding)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/chrome.py", line 1066, in render_template
+    template = self.load_template(filename, method=method)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/chrome.py", line 1031, in load_template
+    return self.templates.load(filename, cls=cls)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/genshi/template/loader.py", line 246, in load
+    raise TemplateNotFound(filename, search_path)
+TemplateNotFound: Template "maculele" not found
+2015-09-25 13:48:35,067 Trac[chrome] DEBUG: Prepare chrome data for request
+2015-09-25 13:48:35,082 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2015-09-25 13:48:35,368 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/jquery-ui/jquery-ui.css'">
+2015-09-25 13:48:35,369 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:35,388 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery.js'">
+2015-09-25 13:48:35,389 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:35,418 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/babel.js'">
+2015-09-25 13:48:35,419 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:35,428 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/trac.js'">
+2015-09-25 13:48:35,429 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/trac.css'">
+2015-09-25 13:48:35,430 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:35,453 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/jquery-ui-addons.css'">
+2015-09-25 13:48:35,454 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:35,429 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:35,485 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/code.css'">
+2015-09-25 13:48:35,486 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:35,521 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/style.css'">
+2015-09-25 13:48:35,522 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:35,547 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/styles.css'">
+2015-09-25 13:48:35,548 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:35,566 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/topbar1.css'">
+2015-09-25 13:48:35,566 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:35,580 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/bootstrap-responsive.min.css'">
+2015-09-25 13:48:35,581 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:35,597 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/font-awesome.css'">
+2015-09-25 13:48:35,598 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:35,629 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/base.css'">
+2015-09-25 13:48:35,631 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:35,666 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/blue.css'">
+2015-09-25 13:48:35,667 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:35,686 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/search.js'">
+2015-09-25 13:48:35,687 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:35,701 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui.js'">
+2015-09-25 13:48:35,702 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:35,715 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui-addons.js'">
+2015-09-25 13:48:35,715 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:35,743 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui-i18n.js'">
+2015-09-25 13:48:35,744 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:35,830 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/img/noise.png'">
+2015-09-25 13:48:35,831 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-09-25 13:48:35,946 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/trac.ico'">
+2015-09-25 13:48:35,947 Trac[session] DEBUG: Retrieving session for ID u'admin'

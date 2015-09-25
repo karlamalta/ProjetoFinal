@@ -235,14 +235,41 @@ class UseCaseAlternativeStepsAdminInline(admin.TabularInline):
     verbose_name_plural = 'Alternative Scenarios'
     verbose_name = 'Alternative Scenarios'
     #fk_name = 'scopeBacklog'
-    extra = 0    
+    extra = 1    
+    formfield_overrides = {
+        models.TextField: {'widget': Textarea(attrs={'rows':4, 'cols':40,'class':'vLargeTextField',})},
+    }
+
+#class UseCaseStepsAdminInline(admin.TabularInline):
+#   model = Steps
+#    verbose_name_plural = 'Steps'
+#    verbose_name = 'Step'
+#    #fk_name = 'scopeBacklog'
+#    extra = 1    
+#    formfield_overrides = {
+#        models.TextField: {'widget': Textarea(attrs={'rows':4, 'cols':40,'class':'vLargeTextField',})},
+#    }
+
+
+class UseCaseAlternativeScenariosAdminInline(admin.StackedInline):
+    model = AlternativeScenarios
+    verbose_name_plural = 'Alternative Scenarios'
+    verbose_name = 'Alternative Scenario'
+    #fk_name = 'scopeBacklog'
+    extra = 1
+    #fieldsets = [
+    #    (None,                {'fields': ['scenario_name', 'condition']}),
+    #   ('Steps', {'fields': ['associated_features'], 'classes': ['collapse']}),
+    #]
+    #inlines = [UseCaseStepsAdminInline]
+    filter_horizontal = ("associated_features",)
     formfield_overrides = {
         models.TextField: {'widget': Textarea(attrs={'rows':4, 'cols':40,'class':'vLargeTextField',})},
     }
 
 class UseCaseAdmin(admin.ModelAdmin):
     fields = ['title','description','owner','feature','actors','precondition', 'postcondition','includesTo','extendsFrom']
-    inlines = [ UseCaseMainStepsAdminInline,UseCaseAlternativeStepsAdminInline  ]
+    inlines = [ UseCaseMainStepsAdminInline, UseCaseAlternativeScenariosAdminInline,  ]
     filter_horizontal = ("owner","feature","includesTo","extendsFrom")
     formfield_overrides = {
         models.TextField: {'widget': Textarea(attrs={'rows':4, 'cols':40,'class':'vLargeTextField',})},
