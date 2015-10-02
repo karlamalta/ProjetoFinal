@@ -229,6 +229,7 @@ class UseCaseMainStepsAdminInline(admin.TabularInline):
     verbose_name = 'Step'
     fk_name = 'use_case'
     extra = 0
+    
     formfield_overrides = {
         models.TextField: {'widget': Textarea(attrs={'rows':4, 'cols':40,'class':'vLargeTextField'})},
         models.CharField: {'widget': TextInput(attrs={'size':2})}

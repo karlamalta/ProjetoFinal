@@ -89,15 +89,15 @@ class Glossary(models.Model):
 class UseCase(models.Model):
 
     title = models.CharField(max_length=200, verbose_name="Use Case Name")
-    description = models.TextField(blank=True)
-    precondition = models.TextField(max_length=200, blank=True, verbose_name="Pre-condition")
-    postcondition = models.TextField(max_length=200, blank=True, verbose_name="Post-condition")
+    description = models.TextField()
+    precondition = models.TextField(max_length=200, verbose_name="Pre-condition")
+    postcondition = models.TextField(max_length=200, verbose_name="Post-condition")
     actors = models.TextField(max_length=200, blank=True, verbose_name="Actors")
     owner = models.ManyToManyField(Session, limit_choices_to={'authenticated': '1'})
     feature = models.ManyToManyField(Feature, verbose_name="Associated Features")
     includesTo = models.ManyToManyField("self", blank=True, verbose_name="Includes To")
     extendsFrom= models.ManyToManyField("self", blank=True, verbose_name="Extends From")
-    #mainSteps = models.ManyToManyField('MainSteps', blank=True, symmetrical=False, related_name='mainsteps_funcspec')
+    #mainSteps = models.ManyToManyField('MainSteps', symmetrical=False, related_name='mainsteps_funcspec')
     #alternativeSteps = models.ManyToManyField('AlternativeSteps', blank=True, symmetrical=False, related_name='alternativesteps_funcspec')
     #alternativeScenarios = models.ManyToManyField('AlternativeScenarios', blank=True, symmetrical=False, related_name='alternativescenarios_funcspec')
 
