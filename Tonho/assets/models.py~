@@ -97,9 +97,9 @@ class UseCase(models.Model):
     feature = models.ManyToManyField(Feature, verbose_name="Associated Features")
     includesTo = models.ManyToManyField("self", blank=True, verbose_name="Includes To")
     extendsFrom= models.ManyToManyField("self", blank=True, verbose_name="Extends From")
-    mainSteps = models.ManyToManyField('MainSteps', blank=True, symmetrical=False, related_name='mainsteps_funcspec')
-    alternativeSteps = models.ManyToManyField('AlternativeSteps', blank=True, symmetrical=False, related_name='alternativesteps_funcspec')
-    alternativeScenarios = models.ManyToManyField('AlternativeScenarios', blank=True, symmetrical=False, related_name='alternativescenarios_funcspec')
+    #mainSteps = models.ManyToManyField('MainSteps', blank=True, symmetrical=False, related_name='mainsteps_funcspec')
+    #alternativeSteps = models.ManyToManyField('AlternativeSteps', blank=True, symmetrical=False, related_name='alternativesteps_funcspec')
+    #alternativeScenarios = models.ManyToManyField('AlternativeScenarios', blank=True, symmetrical=False, related_name='alternativescenarios_funcspec')
 
     def __unicode__(self):
         return self.title
@@ -172,15 +172,25 @@ class AlternativeScenarios(models.Model):
     scenario_name = models.TextField(verbose_name="Alternative Scenario Name")
     condition = models.TextField(verbose_name="Condition")
     associated_features = models.ManyToManyField(Feature, verbose_name="Associated Features")
-    alternative_steps = models.ManyToManyField('AlternativeSteps', blank=True, symmetrical=False, related_name='alternativesteps_funcspec')
+    #alternative_steps = models.ManyToManyField('AlternativeSteps', blank=True, symmetrical=False, related_name='alternativesteps_funcspec')
     def __unicode__(self):
-        return self.title
+        return self.scenario_name
     def get_admin_url(self):
         content_type = ContentType.objects.get_for_model(self.__class__)
         return urlresolvers.reverse("admin:%s_%s_change" % (content_type.app_label, content_type.model), args=(self.id,))
+    def changeform_link(self):
+        if self.id:
+            content_type = ContentType.objects.get_for_model(self.__class__)
+            changeform_url = urlresolvers.reverse(
+                "admin:%s_%s_change" % (content_type.app_label, content_type.model), args=(self.id,)
+            )
+            return u'<a href="%s" target="_blank">Steps</a>' % changeform_url
+        return u'Save to Create Steps'
+    changeform_link.allow_tags = True
+    changeform_link.short_description = 'Scenario Steps'   # omit column header
 
 class AlternativeSteps(models.Model):    
-    use_case = models.ForeignKey(UseCase)
+    use_case = models.ForeignKey(AlternativeScenarios)
     #step_number = models.CharField(max_length=2, verbose_name="Step")
     user_action = models.TextField()
     system_response = models.TextField()

@@ -4,5 +4,6 @@ South==1.0.2
 Trac==1.0.8
 argparse==1.2.1
 django-extensions==1.5.6
+django-nested-admin==2.1.4
 six==1.9.0
 wsgiref==0.1.2

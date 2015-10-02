@@ -152,6 +152,8 @@ INSTALLED_APPS = (
     'mptttreewidget',
     #'debug_toolbar',
     #'suit',
+    #'nested_admin',
+    #'nested_inlines',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
 	 
@@ -163,6 +165,7 @@ INSTALLED_APPS = (
     'assets',
     'configuration',
     #'south',
+    
 )
 
 # A sample logging configuration. The only tangible logging

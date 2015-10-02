@@ -15,10 +15,14 @@ from django.template import RequestContext
 from assets.util import render_to_latex
 from django.http import HttpResponse
 from django.core.files.temp import NamedTemporaryFile
+
+#from nested_inlines.admin import NestedModelAdmin, NestedStackedInline, NestedTabularInline
+
 import os
 import zipfile
 import StringIO
 import codecs
+#import nested_admin
 
 
 class FeatureExcludeAdminInline(admin.TabularInline):
@@ -223,53 +227,46 @@ class UseCaseMainStepsAdminInline(admin.TabularInline):
     model = MainSteps
     verbose_name_plural = 'Main Success Scenario'
     verbose_name = 'Step'
-    #fk_name = 'scopeBacklog'
+    fk_name = 'use_case'
     extra = 0
     formfield_overrides = {
         models.TextField: {'widget': Textarea(attrs={'rows':4, 'cols':40,'class':'vLargeTextField'})},
         models.CharField: {'widget': TextInput(attrs={'size':2})}
     }
 
-class UseCaseAlternativeStepsAdminInline(admin.TabularInline):
+class UseCaseStepsAdminInline(admin.TabularInline):
     model = AlternativeSteps
-    verbose_name_plural = 'Alternative Scenarios'
-    verbose_name = 'Alternative Scenarios'
-    #fk_name = 'scopeBacklog'
-    extra = 1    
+    verbose_name_plural = 'Alternative Scenario Steps'
+    verbose_name = 'Step'
+    fk_name = 'use_case'
+    extra = 0       
     formfield_overrides = {
-        models.TextField: {'widget': Textarea(attrs={'rows':4, 'cols':40,'class':'vLargeTextField',})},
+        models.TextField: {'widget': Textarea(attrs={'rows':4, 'cols':40,'class':'vLargeTextField'})},
+        models.CharField: {'widget': TextInput(attrs={'size':2})}
     }
-
-#class UseCaseStepsAdminInline(admin.TabularInline):
-#   model = Steps
-#    verbose_name_plural = 'Steps'
-#    verbose_name = 'Step'
-#    #fk_name = 'scopeBacklog'
-#    extra = 1    
-#    formfield_overrides = {
-#        models.TextField: {'widget': Textarea(attrs={'rows':4, 'cols':40,'class':'vLargeTextField',})},
-#    }
-
 
 class UseCaseAlternativeScenariosAdminInline(admin.StackedInline):
     model = AlternativeScenarios
     verbose_name_plural = 'Alternative Scenarios'
     verbose_name = 'Alternative Scenario'
-    #fk_name = 'scopeBacklog'
-    extra = 1
-    #fieldsets = [
-    #    (None,                {'fields': ['scenario_name', 'condition']}),
-    #   ('Steps', {'fields': ['associated_features'], 'classes': ['collapse']}),
-    #]
-    #inlines = [UseCaseStepsAdminInline]
-    filter_horizontal = ("associated_features",)
+    fk_name = 'use_case'
+    extra = 0
+    filter_horizontal = ("associated_features", )
     formfield_overrides = {
         models.TextField: {'widget': Textarea(attrs={'rows':4, 'cols':40,'class':'vLargeTextField',})},
     }
+    #Link to Alternative Scenario edit page
+    readonly_fields = ('changeform_link', )
+
+class UseCaseAlternativeScenariosAdmin(admin.ModelAdmin):
+    verbose_name_plural = 'Alternative Scenarios'
+    verbose_name = 'Alternative Scenario'
+    filter_horizontal = ("associated_features", )
+    inlines = [UseCaseStepsAdminInline,]
 
 class UseCaseAdmin(admin.ModelAdmin):
     fields = ['title','description','owner','feature','actors','precondition', 'postcondition','includesTo','extendsFrom']
-    inlines = [ UseCaseMainStepsAdminInline, UseCaseAlternativeScenariosAdminInline,  ]
+    inlines = [ UseCaseMainStepsAdminInline, UseCaseAlternativeScenariosAdminInline]
     filter_horizontal = ("owner","feature","includesTo","extendsFrom")
     formfield_overrides = {
         models.TextField: {'widget': Textarea(attrs={'rows':4, 'cols':40,'class':'vLargeTextField',})},
@@ -497,3 +494,5 @@ admin.site.register(UserStory, UserStoryAdmin)
 admin.site.register(AcceptanceTest, AcceptanceTestAdmin)
 admin.site.register(AcceptanceTestExecution, AcceptanceTestExecutionAdmin)
 admin.site.register(Note, NoteAdmin)
+admin.site.register(AlternativeScenarios,UseCaseAlternativeScenariosAdmin)
+
