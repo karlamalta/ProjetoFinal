@@ -13250,3 +13250,239 @@ TemplateNotFound: Template "maculele" not found
 2015-09-29 19:06:47,392 Trac[session] DEBUG: Retrieving session for ID u'admin'
 2015-09-29 19:06:47,559 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/trac.ico'">
 2015-09-29 19:06:47,560 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-10-05 15:18:28,042 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0.8] --------------------------------
+2015-10-05 15:18:28,058 Trac[loader] DEBUG: Adding plugin TracTab 0.2.0dev from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracTab-0.2.0dev-py2.7.egg
+2015-10-05 15:18:28,058 Trac[loader] DEBUG: Adding plugin TracFeaturePlugin 0.2.6 from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracFeaturePlugin-0.2.6-py2.7.egg
+2015-10-05 15:18:28,058 Trac[loader] DEBUG: Adding plugin AutocompleteUsers 0.4.2dev from /home/karla/ProjetoFinal/Tonho/trac/plugins/AutocompleteUsers-0.4.2dev-py2.7.egg
+2015-10-05 15:18:28,059 Trac[loader] DEBUG: Adding plugin TracAccountManager 0.4.3 from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-10-05 15:18:28,059 Trac[loader] DEBUG: Adding plugin TracUserManagerPlugin 0.5dev from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracUserManagerPlugin-0.5dev-py2.7.egg
+2015-10-05 15:18:28,062 Trac[loader] DEBUG: Loading acct_mgr.admin from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-10-05 15:18:28,095 Trac[loader] DEBUG: Loading acct_mgr.api from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-10-05 15:18:28,095 Trac[loader] DEBUG: Loading acct_mgr.db from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-10-05 15:18:28,096 Trac[loader] DEBUG: Loading acct_mgr.htfile from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-10-05 15:18:28,096 Trac[loader] DEBUG: Loading acct_mgr.http from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-10-05 15:18:28,097 Trac[loader] DEBUG: Loading acct_mgr.macros from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-10-05 15:18:28,097 Trac[loader] DEBUG: Loading acct_mgr.notification from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-10-05 15:18:28,098 Trac[loader] DEBUG: Loading acct_mgr.pwhash from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-10-05 15:18:28,098 Trac[loader] DEBUG: Loading acct_mgr.svnserve from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-10-05 15:18:28,098 Trac[loader] DEBUG: Loading acct_mgr.web_ui from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracAccountManager-0.4.3-py2.7.egg
+2015-10-05 15:18:28,098 Trac[loader] DEBUG: Loading autocompleteusers from /home/karla/ProjetoFinal/Tonho/trac/plugins/AutocompleteUsers-0.4.2dev-py2.7.egg
+2015-10-05 15:18:28,099 Trac[loader] DEBUG: Loading ticketref.api from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracFeaturePlugin-0.2.6-py2.7.egg
+2015-10-05 15:18:28,113 Trac[loader] DEBUG: Loading ticketref.web_ui from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracFeaturePlugin-0.2.6-py2.7.egg
+2015-10-05 15:18:28,114 Trac[loader] DEBUG: Loading trac.about from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,114 Trac[loader] DEBUG: Loading trac.admin.console from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,133 Trac[loader] DEBUG: Loading trac.admin.web_ui from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,134 Trac[loader] DEBUG: Loading trac.attachment from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,134 Trac[loader] DEBUG: Loading trac.db.mysql from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,134 Trac[loader] DEBUG: Loading trac.db.postgres from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,139 Trac[loader] DEBUG: Loading trac.db.sqlite from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,142 Trac[loader] DEBUG: Loading trac.mimeview.patch from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,142 Trac[loader] DEBUG: Loading trac.mimeview.pygments from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,156 Trac[loader] DEBUG: Skipping "trac.mimeview.pygments = trac.mimeview.pygments [pygments]": ("DistributionNotFound: Pygments>=0.6" not found)
+2015-10-05 15:18:28,157 Trac[loader] DEBUG: Loading trac.mimeview.rst from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,165 Trac[loader] DEBUG: Skipping "trac.mimeview.rst = trac.mimeview.rst [rest]": ("DistributionNotFound: docutils>=0.3.9" not found)
+2015-10-05 15:18:28,165 Trac[loader] DEBUG: Loading trac.mimeview.txtl from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,172 Trac[loader] DEBUG: Skipping "trac.mimeview.txtl = trac.mimeview.txtl [textile]": ("DistributionNotFound: textile>=2.0" not found)
+2015-10-05 15:18:28,172 Trac[loader] DEBUG: Loading trac.prefs from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,173 Trac[loader] DEBUG: Loading trac.search from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,173 Trac[loader] DEBUG: Loading trac.ticket.admin from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,174 Trac[loader] DEBUG: Loading trac.ticket.batch from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,178 Trac[loader] DEBUG: Loading trac.ticket.query from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,180 Trac[loader] DEBUG: Loading trac.ticket.report from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,181 Trac[loader] DEBUG: Loading trac.ticket.roadmap from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,182 Trac[loader] DEBUG: Loading trac.ticket.web_ui from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,211 Trac[loader] DEBUG: Loading trac.timeline from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,213 Trac[loader] DEBUG: Loading trac.versioncontrol.admin from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,213 Trac[loader] DEBUG: Loading trac.versioncontrol.svn_authz from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,214 Trac[loader] DEBUG: Loading trac.versioncontrol.web_ui from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,226 Trac[loader] DEBUG: Loading trac.web.auth from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,226 Trac[loader] DEBUG: Loading trac.web.main from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,226 Trac[loader] DEBUG: Loading trac.web.session from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,226 Trac[loader] DEBUG: Loading trac.wiki.admin from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,226 Trac[loader] DEBUG: Loading trac.wiki.interwiki from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,232 Trac[loader] DEBUG: Loading trac.wiki.macros from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,232 Trac[loader] DEBUG: Loading trac.wiki.web_api from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,233 Trac[loader] DEBUG: Loading trac.wiki.web_ui from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,233 Trac[loader] DEBUG: Loading tracopt.mimeview.enscript from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,234 Trac[loader] DEBUG: Loading tracopt.mimeview.php from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,234 Trac[loader] DEBUG: Loading tracopt.mimeview.silvercity from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,242 Trac[loader] DEBUG: Skipping "tracopt.mimeview.silvercity = tracopt.mimeview.silvercity [silvercity]": ("DistributionNotFound: SilverCity>=0.9.4" not found)
+2015-10-05 15:18:28,243 Trac[loader] DEBUG: Loading tracopt.perm.authz_policy from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,247 Trac[loader] DEBUG: Skipping "tracopt.perm.authz_policy = tracopt.perm.authz_policy [configobj]": ("DistributionNotFound: ConfigObj" not found)
+2015-10-05 15:18:28,252 Trac[loader] DEBUG: Loading tracopt.perm.config_perm_provider from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,254 Trac[loader] DEBUG: Loading tracopt.ticket.clone from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,254 Trac[loader] DEBUG: Loading tracopt.ticket.commit_updater from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,259 Trac[loader] DEBUG: Loading tracopt.ticket.deleter from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,261 Trac[loader] DEBUG: Loading tracopt.versioncontrol.git.git_fs from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,271 Trac[loader] DEBUG: Loading tracopt.versioncontrol.svn.svn_fs from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,272 Trac[loader] DEBUG: Loading tracopt.versioncontrol.svn.svn_prop from /home/karla/ProjetoFinal/Tonho/env/lib/python2.7/site-packages
+2015-10-05 15:18:28,273 Trac[loader] DEBUG: Loading tractab from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracTab-0.2.0dev-py2.7.egg
+2015-10-05 15:18:28,273 Trac[loader] DEBUG: Loading tracusermanager.account from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracUserManagerPlugin-0.5dev-py2.7.egg
+2015-10-05 15:18:28,275 Trac[loader] DEBUG: Loading tracusermanager.admin from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracUserManagerPlugin-0.5dev-py2.7.egg
+2015-10-05 15:18:28,275 Trac[loader] DEBUG: Loading tracusermanager.api from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracUserManagerPlugin-0.5dev-py2.7.egg
+2015-10-05 15:18:28,275 Trac[loader] DEBUG: Loading tracusermanager.permissions from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracUserManagerPlugin-0.5dev-py2.7.egg
+2015-10-05 15:18:28,278 Trac[loader] DEBUG: Loading tracusermanager.profile from /home/karla/ProjetoFinal/Tonho/trac/plugins/TracUserManagerPlugin-0.5dev-py2.7.egg
+2015-10-05 15:18:28,281 Trac[default_workflow] DEBUG: Workflow actions at initialization: defaultdict(<function <lambda> at 0x7fd07af9bde8>, {u'resolve': {'operations': [u'set_resolution'], 'name': u'resolve', 'default': 0, 'newstate': u'closed', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], 'permissions': [u'TICKET_MODIFY']}, u'accept': {'operations': [u'set_owner_to_self'], 'name': u'accept', 'default': 0, 'newstate': u'accepted', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], 'permissions': [u'TICKET_MODIFY']}, u'leave': {'operations': [u'leave_status'], 'name': u'leave', 'default': 1, 'newstate': u'*', 'oldstates': [u'*'], 'permissions': []}, u'reopen': {'operations': [u'del_resolution'], 'name': u'reopen', 'default': 0, 'newstate': u'reopened', 'oldstates': [u'closed'], 'permissions': [u'TICKET_CREATE']}, u'reassign': {'operations': [u'set_owner'], 'name': u'reassign', 'default': 0, 'newstate': u'assigned', 'oldstates': [u'new', u'assigned', u'accepted', u'reopened'], 'permissions': [u'TICKET_MODIFY']}, '_reset': {'operations': ['reset_workflow'], 'name': 'reset', 'default': 0, 'newstate': 'new', 'oldstates': [], 'permissions': ['TICKET_ADMIN']}})
+
+2015-10-05 15:18:30,700 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2015-10-05 15:18:30,700 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/'">
+2015-10-05 15:18:30,711 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2015-10-05 15:18:30,716 Trac[api] DEBUG: action controllers for ticket workflow: ['ConfigurableTicketWorkflow']
+2015-10-05 15:18:30,717 Trac[chrome] DEBUG: Prepare chrome data for request
+2015-10-05 15:18:30,718 Trac[perm] DEBUG: No policy allowed anonymous performing ACCTMGR_CONFIG_ADMIN on None
+2015-10-05 15:18:30,718 Trac[perm] DEBUG: No policy allowed anonymous performing TRAC_ADMIN on <Resource u'admin:general/basics'>
+2015-10-05 15:18:30,718 Trac[perm] DEBUG: No policy allowed anonymous performing TRAC_ADMIN on <Resource u'admin:general/logging'>
+2015-10-05 15:18:30,718 Trac[perm] DEBUG: No policy allowed anonymous performing PERMISSION_GRANT on <Resource u'admin:general/perm'>
+2015-10-05 15:18:30,718 Trac[perm] DEBUG: No policy allowed anonymous performing PERMISSION_REVOKE on <Resource u'admin:general/perm'>
+2015-10-05 15:18:30,719 Trac[perm] DEBUG: No policy allowed anonymous performing TRAC_ADMIN on <Resource u'admin:general/plugin'>
+2015-10-05 15:18:30,719 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_ADMIN on <Resource u'admin:ticket/components'>
+2015-10-05 15:18:30,719 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_ADMIN on <Resource u'admin:ticket/milestones'>
+2015-10-05 15:18:30,719 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_ADMIN on <Resource u'admin:ticket/versions'>
+2015-10-05 15:18:30,719 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_ADMIN on <Resource u'admin:ticket/priority'>
+2015-10-05 15:18:30,719 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_ADMIN on <Resource u'admin:ticket/resolution'>
+2015-10-05 15:18:30,719 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_ADMIN on <Resource u'admin:ticket/severity'>
+2015-10-05 15:18:30,719 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_ADMIN on <Resource u'admin:ticket/type'>
+2015-10-05 15:18:30,720 Trac[perm] DEBUG: No policy allowed anonymous performing VERSIONCONTROL_ADMIN on <Resource u'admin:versioncontrol/repository'>
+2015-10-05 15:18:30,720 Trac[perm] DEBUG: No policy allowed anonymous performing TRAC_ADMIN on None
+2015-10-05 15:18:30,726 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_CREATE on None
+2015-10-05 15:18:30,729 Trac[perm] DEBUG: No policy allowed anonymous performing WIKI_MODIFY on <Resource u'wiki:WikiStart'>
+2015-10-05 15:18:30,729 Trac[attachment] DEBUG: LegacyAttachmentPolicy denied anonymous access to <Resource u'wiki:WikiStart, attachment'>. User needs WIKI_MODIFY
+2015-10-05 15:18:30,729 Trac[perm] DEBUG: LegacyAttachmentPolicy denies anonymous performing ATTACHMENT_CREATE on <Resource u'wiki:WikiStart, attachment'>
+2015-10-05 15:18:30,729 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /, wiki_view.html
+2015-10-05 15:18:30,791 Trac[perm] DEBUG: No policy allowed anonymous performing EMAIL_VIEW on None
+2015-10-05 15:18:30,884 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2015-10-05 15:18:30,907 Trac[perm] DEBUG: No policy allowed anonymous performing WIKI_CREATE on <Resource u'wiki:WikiStart'>
+2015-10-05 15:18:30,908 Trac[perm] DEBUG: No policy allowed anonymous performing WIKI_ADMIN on <Resource u'wiki:WikiStart'>
+2015-10-05 15:18:31,083 Trac[perm] DEBUG: No policy allowed anonymous performing WIKI_DELETE on <Resource u'wiki:WikiStart'>
+2015-10-05 15:18:31,083 Trac[perm] DEBUG: No policy allowed anonymous performing WIKI_RENAME on <Resource u'wiki:WikiStart'>
+2015-10-05 15:18:31,118 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/trac.css'">
+2015-10-05 15:18:31,119 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:31,137 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/wiki.css'">
+2015-10-05 15:18:31,138 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:31,164 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery.js'">
+2015-10-05 15:18:31,164 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:31,191 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/babel.js'">
+2015-10-05 15:18:31,191 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:31,211 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/style.css'">
+2015-10-05 15:18:31,212 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:31,236 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/styles.css'">
+2015-10-05 15:18:31,236 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:31,237 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/trac.js'">
+2015-10-05 15:18:31,237 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:31,283 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/search.js'">
+2015-10-05 15:18:31,284 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:31,311 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/topbar1.css'">
+2015-10-05 15:18:31,314 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:31,345 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/bootstrap-responsive.min.css'">
+2015-10-05 15:18:31,345 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:31,346 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/font-awesome.css'">
+2015-10-05 15:18:31,347 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:31,370 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/blue.css'">
+2015-10-05 15:18:31,371 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:31,374 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/css/base.css'">
+2015-10-05 15:18:31,375 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:31,394 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/code.css'">
+2015-10-05 15:18:31,395 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:31,485 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/folding.js'">
+2015-10-05 15:18:31,486 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:31,637 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/site/img/noise.png'">
+2015-10-05 15:18:31,638 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:31,664 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/extlink.gif'">
+2015-10-05 15:18:31,665 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:31,858 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/trac.ico'">
+2015-10-05 15:18:31,858 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:38,573 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/tractab/SPLICE'">
+2015-10-05 15:18:38,575 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2015-10-05 15:18:38,576 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:38,577 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, maculele
+2015-10-05 15:18:38,578 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, None
+2015-10-05 15:18:38,579 Trac[main] ERROR: Internal Server Error: 
+Traceback (most recent call last):
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/main.py", line 551, in _dispatch_request
+    dispatcher.dispatch(req)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/main.py", line 264, in dispatch
+    iterable=chrome.use_chunked_encoding)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/chrome.py", line 1066, in render_template
+    template = self.load_template(filename, method=method)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/chrome.py", line 1031, in load_template
+    return self.templates.load(filename, cls=cls)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/genshi/template/loader.py", line 246, in load
+    raise TemplateNotFound(filename, search_path)
+TemplateNotFound: Template "maculele" not found
+2015-10-05 15:18:38,579 Trac[perm] DEBUG: No policy allowed anonymous performing TRAC_ADMIN on None
+2015-10-05 15:18:38,586 Trac[chrome] DEBUG: Prepare chrome data for request
+2015-10-05 15:18:38,587 Trac[perm] DEBUG: No policy allowed anonymous performing ACCTMGR_CONFIG_ADMIN on None
+2015-10-05 15:18:38,587 Trac[perm] DEBUG: No policy allowed anonymous performing TRAC_ADMIN on <Resource u'admin:general/basics'>
+2015-10-05 15:18:38,587 Trac[perm] DEBUG: No policy allowed anonymous performing TRAC_ADMIN on <Resource u'admin:general/logging'>
+2015-10-05 15:18:38,587 Trac[perm] DEBUG: No policy allowed anonymous performing PERMISSION_GRANT on <Resource u'admin:general/perm'>
+2015-10-05 15:18:38,587 Trac[perm] DEBUG: No policy allowed anonymous performing PERMISSION_REVOKE on <Resource u'admin:general/perm'>
+2015-10-05 15:18:38,587 Trac[perm] DEBUG: No policy allowed anonymous performing TRAC_ADMIN on <Resource u'admin:general/plugin'>
+2015-10-05 15:18:38,587 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_ADMIN on <Resource u'admin:ticket/components'>
+2015-10-05 15:18:38,588 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_ADMIN on <Resource u'admin:ticket/milestones'>
+2015-10-05 15:18:38,588 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_ADMIN on <Resource u'admin:ticket/versions'>
+2015-10-05 15:18:38,588 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_ADMIN on <Resource u'admin:ticket/priority'>
+2015-10-05 15:18:38,588 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_ADMIN on <Resource u'admin:ticket/resolution'>
+2015-10-05 15:18:38,588 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_ADMIN on <Resource u'admin:ticket/severity'>
+2015-10-05 15:18:38,588 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_ADMIN on <Resource u'admin:ticket/type'>
+2015-10-05 15:18:38,588 Trac[perm] DEBUG: No policy allowed anonymous performing VERSIONCONTROL_ADMIN on <Resource u'admin:versioncontrol/repository'>
+2015-10-05 15:18:38,589 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_CREATE on None
+2015-10-05 15:18:38,626 Trac[perm] DEBUG: No policy allowed anonymous performing EMAIL_VIEW on None
+2015-10-05 15:18:38,650 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2015-10-05 15:18:38,742 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/jquery-ui/jquery-ui.css'">
+2015-10-05 15:18:38,742 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:38,770 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/css/jquery-ui-addons.css'">
+2015-10-05 15:18:38,771 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:38,771 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui-addons.js'">
+2015-10-05 15:18:38,772 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:38,774 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui.js'">
+2015-10-05 15:18:38,774 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:38,811 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/chrome/common/js/jquery-ui-i18n.js'">
+2015-10-05 15:18:38,812 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:42,576 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/login'">
+2015-10-05 15:18:42,576 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2015-10-05 15:18:42,576 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /login, login.html
+2015-10-05 15:18:42,577 Trac[session] DEBUG: Retrieving session for ID '8d3fd7a85d8ed7caa001ee48'
+2015-10-05 15:18:42,584 Trac[chrome] DEBUG: Prepare chrome data for request
+2015-10-05 15:18:42,585 Trac[perm] DEBUG: No policy allowed anonymous performing ACCTMGR_CONFIG_ADMIN on None
+2015-10-05 15:18:42,586 Trac[perm] DEBUG: No policy allowed anonymous performing TRAC_ADMIN on <Resource u'admin:general/basics'>
+2015-10-05 15:18:42,586 Trac[perm] DEBUG: No policy allowed anonymous performing TRAC_ADMIN on <Resource u'admin:general/logging'>
+2015-10-05 15:18:42,586 Trac[perm] DEBUG: No policy allowed anonymous performing PERMISSION_GRANT on <Resource u'admin:general/perm'>
+2015-10-05 15:18:42,586 Trac[perm] DEBUG: No policy allowed anonymous performing PERMISSION_REVOKE on <Resource u'admin:general/perm'>
+2015-10-05 15:18:42,586 Trac[perm] DEBUG: No policy allowed anonymous performing TRAC_ADMIN on <Resource u'admin:general/plugin'>
+2015-10-05 15:18:42,586 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_ADMIN on <Resource u'admin:ticket/components'>
+2015-10-05 15:18:42,586 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_ADMIN on <Resource u'admin:ticket/milestones'>
+2015-10-05 15:18:42,586 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_ADMIN on <Resource u'admin:ticket/versions'>
+2015-10-05 15:18:42,587 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_ADMIN on <Resource u'admin:ticket/priority'>
+2015-10-05 15:18:42,587 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_ADMIN on <Resource u'admin:ticket/resolution'>
+2015-10-05 15:18:42,587 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_ADMIN on <Resource u'admin:ticket/severity'>
+2015-10-05 15:18:42,587 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_ADMIN on <Resource u'admin:ticket/type'>
+2015-10-05 15:18:42,600 Trac[perm] DEBUG: No policy allowed anonymous performing VERSIONCONTROL_ADMIN on <Resource u'admin:versioncontrol/repository'>
+2015-10-05 15:18:42,600 Trac[perm] DEBUG: No policy allowed anonymous performing TRAC_ADMIN on None
+2015-10-05 15:18:42,601 Trac[perm] DEBUG: No policy allowed anonymous performing TICKET_CREATE on None
+2015-10-05 15:18:42,602 Trac[perm] DEBUG: No policy allowed anonymous performing EMAIL_VIEW on None
+2015-10-05 15:18:42,605 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: filter_stream start
+2015-10-05 15:18:50,821 Trac[main] DEBUG: Dispatching <RequestWithSession "POST '/login'">
+2015-10-05 15:18:50,821 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2015-10-05 15:18:50,821 Trac[build\bdist.win32\egg\acct_mgr\web_ui] DEBUG: LoginModule._remote_user: Authentication attempted for 'admin'
+2015-10-05 15:18:50,824 Trac[build\bdist.win32\egg\acct_mgr\web_ui] DEBUG: LoginModule.authenticate: Set 'REMOTE_USER' = 'admin'
+2015-10-05 15:18:50,866 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-10-05 15:18:50,897 Trac[main] DEBUG: Dispatching <RequestWithSession "GET '/tractab/SPLICE'">
+2015-10-05 15:18:50,897 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2015-10-05 15:18:50,898 Trac[session] DEBUG: Retrieving session for ID u'admin'
+2015-10-05 15:18:50,899 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, maculele
+2015-10-05 15:18:50,899 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: post_process_request, /tractab/SPLICE, None
+2015-10-05 15:18:50,899 Trac[main] ERROR: Internal Server Error: 
+Traceback (most recent call last):
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/main.py", line 551, in _dispatch_request
+    dispatcher.dispatch(req)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/main.py", line 264, in dispatch
+    iterable=chrome.use_chunked_encoding)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/chrome.py", line 1066, in render_template
+    template = self.load_template(filename, method=method)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/trac/web/chrome.py", line 1031, in load_template
+    return self.templates.load(filename, cls=cls)
+  File "/home/karla/ProjetoFinal/Tonho/env/local/lib/python2.7/site-packages/genshi/template/loader.py", line 246, in load
+    raise TemplateNotFound(filename, search_path)
+TemplateNotFound: Template "maculele" not found
+2015-10-05 15:18:51,066 Trac[chrome] DEBUG: Prepare chrome data for request
+2015-10-05 15:18:51,070 Trac[build\bdist.win32\egg\ticketref\web_ui] DEBUG: TicketRefsTemplate: filter_stream start
