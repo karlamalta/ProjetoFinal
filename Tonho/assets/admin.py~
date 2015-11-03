@@ -267,7 +267,6 @@ class UseCaseAlternativeScenariosAdmin(admin.ModelAdmin):
 
 class UseCaseAdmin(admin.ModelAdmin):
     fields = ['title','description','owner','feature','actors','precondition', 'postcondition','includesTo','extendsFrom']
-    
     inlines = [ UseCaseMainStepsAdminInline, UseCaseAlternativeScenariosAdminInline]
     filter_horizontal = ("owner","feature","includesTo","extendsFrom")
     formfield_overrides = {

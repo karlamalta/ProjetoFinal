@@ -16,13 +16,11 @@ from assets.util import render_to_latex
 from django.http import HttpResponse
 from django.core.files.temp import NamedTemporaryFile
 
-#from nested_inlines.admin import NestedModelAdmin, NestedStackedInline, NestedTabularInline
-
 import os
 import zipfile
 import StringIO
 import codecs
-#import nested_admin
+
 
 
 class FeatureExcludeAdminInline(admin.TabularInline):

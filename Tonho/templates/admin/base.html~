@@ -58,7 +58,7 @@
             </form>
             <div id="mainnav" class="nav">
     <ul>
-      <li class="first"><a href="/splice/wiki">Wiki</a></li><li><a href="/splice/timeline">Timeline</a></li><li><a href="/splice/roadmap">Roadmap</a></li><li><a href="/splice/report">View Tickets</a></li><li><a href="/splice/newticket">New Ticket</a></li><li><a href="/splice/search">Search</a></li><li><a href="/splice/admin" title="Administration">Admin</a></li><li class="last active"><a href="/splice-tonho/admin">SPLICE</a></li>
+      <li class="first"><a href="/trac/wiki">Wiki</a></li><li><a href="/splice/timeline">Timeline</a></li><li><a href="/splice/roadmap">Roadmap</a></li><li><a href="/splice/report">View Tickets</a></li><li><a href="/splice/newticket">New Ticket</a></li><li><a href="/splice/search">Search</a></li><li><a href="/splice/admin" title="Administration">Admin</a></li><li class="last active"><a href="/splice-tonho/admin">SPLICE</a></li>
     </ul>
   </div>
         </div>

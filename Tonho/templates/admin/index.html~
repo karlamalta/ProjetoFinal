@@ -20,7 +20,6 @@
 {% block content %}
 <div class="row-fluid">
     <div id="content-main" class="span12">
-        <h1>Um título</h1>
         <div class="tabbable">
             {% for app in app_list %}
                 {% include "admin/bootstrapped_extra/app_name.html" %}

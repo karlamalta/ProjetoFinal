@@ -1,0 +1,37 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_static bootstrapped_goodies_tags %}
+{% load mptt_tags %}
+
+{% block extrastyle %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{% static "admin/css/dashboard.css" %}" />{% endblock %}
+
+{% block coltype %}colMS{% endblock %}
+
+{% block bodyclass %}dashboard{% endblock %}
+
+{% block breadcrumbs %}
+<ul class="breadcrumb">
+<li>{% trans 'FeDRE' %}</li>
+</ul>
+{% endblock %}
+
+{% block navbar %}
+{% endblock %}
+
+
+{% block content %}
+
+{% recursetree features.all %}
+    <li>
+        <label for="id_{{ name }}_{{ node.pk }}">{{ node.name }}</label>
+        {% if not node.is_leaf_node %}
+            <ul>
+                {{ children }}
+            </ul>
+        {% endif %}
+    </li>
+{% endrecursetree %}
+
+{% endblock %}
+
+{% block sidebar %}
+{% endblock %}
