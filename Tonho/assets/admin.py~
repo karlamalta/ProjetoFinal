@@ -16,13 +16,11 @@ from assets.util import render_to_latex
 from django.http import HttpResponse
 from django.core.files.temp import NamedTemporaryFile
 
-#from nested_inlines.admin import NestedModelAdmin, NestedStackedInline, NestedTabularInline
-
 import os
 import zipfile
 import StringIO
 import codecs
-#import nested_admin
+
 
 
 class FeatureExcludeAdminInline(admin.TabularInline):
@@ -38,14 +36,23 @@ class FeatureRequireAdminInline(admin.TabularInline):
     model = Feature.requires.through
     verbose_name_plural = 'Required features'
     verbose_name = 'Required feature'
-    #I gor the fk_name using the django shell, by inspecting the objet Feature
+    #I got the fk_name using the django shell, by inspecting the objet Feature
     fk_name = 'from_feature'
     extra = 0
-    #form = RequiredFeaturesForm    
+    #form = RequiredFeaturesForm  
+
+class FeatureSimilarAdminInline(admin.TabularInline):
+    model = Feature.similar.through
+    verbose_name_plural = 'Similar features'
+    verbose_name = 'Similar feature'
+    #I got the fk_name using the django shell, by inspecting the objet Feature
+    fk_name = 'from_feature'
+    extra = 0
+    #form = SimilarFeaturesForm   
     
 class FeatureAdmin(admin.ModelAdmin):
     fields = ['name', 'description', 'type', 'variability'  , 'binding_time' , 'parent' , 'glossary']
-    inlines = [ FeatureRequireAdminInline, FeatureExcludeAdminInline, ]
+    inlines = [ FeatureSimilarAdminInline, FeatureRequireAdminInline, FeatureExcludeAdminInline, ]
     list_display = ('name', 'description')
     search_fields = ('name', 'description')
     filter_horizontal = ("glossary",)

@@ -21,9 +21,15 @@ class Product(models.Model):
 
 VARIABILITY_CHOICES = (('mandatory', 'Mandatory'),
                     ('optional', 'Optional'),
-                    ('alternative', 'Alternative'))
+                    ('xor', 'XOR'),
+                    ('or', 'OR'))
 TYPE_CHOICES = (('abstract', 'Abstract'),
                     ('concrete', 'Concrete'))
+
+PRIORITY_CHOICES = (('low', 'Low'),
+                    ('medium', 'Medium'),
+                    ('high', 'High'))
+
 class Feature(MPTTModel):
     name = models.CharField(max_length=200)
     description = models.TextField(blank=True)
@@ -31,9 +37,12 @@ class Feature(MPTTModel):
     
     variability = models.CharField(max_length=20, choices=VARIABILITY_CHOICES)
     type = models.CharField(max_length=20, choices=TYPE_CHOICES)
+    priority = models.CharField(max_length=20, choices=PRIORITY_CHOICES)
     binding_time = models.ForeignKey('configuration.BindingTime')
 
     parent  = TreeForeignKey('self', blank=True, null=True, related_name='children')
+    similar = models.ManyToManyField("self", blank=True, symmetrical=True, 
+                                      related_name='similar_features')
     requires = models.ManyToManyField("self", blank=True, symmetrical=False, 
                                       related_name='requires_features')
     excludes = models.ManyToManyField("self", blank=True, symmetrical=False, 

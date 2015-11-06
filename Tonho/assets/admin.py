@@ -36,14 +36,23 @@ class FeatureRequireAdminInline(admin.TabularInline):
     model = Feature.requires.through
     verbose_name_plural = 'Required features'
     verbose_name = 'Required feature'
-    #I gor the fk_name using the django shell, by inspecting the objet Feature
+    #I got the fk_name using the django shell, by inspecting the objet Feature
     fk_name = 'from_feature'
     extra = 0
-    #form = RequiredFeaturesForm    
+    #form = RequiredFeaturesForm  
+
+class FeatureSimilarAdminInline(admin.TabularInline):
+    model = Feature.similar.through
+    verbose_name_plural = 'Similar features'
+    verbose_name = 'Similar feature'
+    #I got the fk_name using the django shell, by inspecting the objet Feature
+    fk_name = 'from_feature'
+    extra = 0
+    #form = SimilarFeaturesForm   
     
 class FeatureAdmin(admin.ModelAdmin):
-    fields = ['name', 'description', 'type', 'variability'  , 'binding_time' , 'parent' , 'glossary']
-    inlines = [ FeatureRequireAdminInline, FeatureExcludeAdminInline, ]
+    fields = ['name', 'description', 'priority', 'type', 'variability'  , 'binding_time' , 'parent' , 'glossary']
+    inlines = [ FeatureSimilarAdminInline, FeatureRequireAdminInline, FeatureExcludeAdminInline, ]
     list_display = ('name', 'description')
     search_fields = ('name', 'description')
     filter_horizontal = ("glossary",)
