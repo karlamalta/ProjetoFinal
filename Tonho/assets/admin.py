@@ -51,7 +51,7 @@ class FeatureSimilarAdminInline(admin.TabularInline):
     #form = SimilarFeaturesForm   
     
 class FeatureAdmin(admin.ModelAdmin):
-    fields = ['name', 'description', 'priority', 'type', 'variability'  , 'binding_time' , 'parent' , 'glossary']
+    fields = ['name', 'description', 'priority', 'type', 'variability'  , 'binding_time' , 'parent' , 'glossary', 'use_case_diagram']
     inlines = [ FeatureSimilarAdminInline, FeatureRequireAdminInline, FeatureExcludeAdminInline, ]
     list_display = ('name', 'description')
     search_fields = ('name', 'description')

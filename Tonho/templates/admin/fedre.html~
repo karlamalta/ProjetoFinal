@@ -9,14 +9,17 @@
 {% block bodyclass %}dashboard{% endblock %}
 
 {% block breadcrumbs %}
-
+<ul class="breadcrumb">
+<li>{% trans 'FeDRE' %}</li>
+</ul>
 {% endblock %}
 
 {% block navbar %}
 {% endblock %}
 
-
 {% block content %}
+
+
 
 {% recursetree features.all %}
     <li>
@@ -28,6 +31,11 @@
         {% endif %}
     </li>
 {% endrecursetree %}
+
+<form method="POST">{% csrf_token %}
+    <input type="hidden" name="index" value= {{ index }}>
+    <button type="submit" class="save btn btn-default">Done</button>
+</form>
 
 {% endblock %}
 

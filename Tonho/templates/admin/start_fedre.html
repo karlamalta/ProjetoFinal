@@ -19,22 +19,11 @@
 
 {% block content %}
 
-
-
-{% recursetree features.all %}
-    <li>
-        <label for="id_{{ name }}_{{ node.pk }}">{{ node.name }}</label>
-        {% if not node.is_leaf_node %}
-            <ul>
-                {{ children }}
-            </ul>
-        {% endif %}
-    </li>
-{% endrecursetree %}
-
+<h1>Start FeDRE</h1>
+<p>Requires features' specification</p>
 <form method="POST">{% csrf_token %}
-    <input type="hidden" name="index" value= {{ index }}>
-    <button type="submit" class="save btn btn-default">Branch Done</button>
+    <input type="hidden" name="index" value=0>
+    <button type="submit" class="save btn btn-default">Click to Start</button>
 </form>
 
 {% endblock %}

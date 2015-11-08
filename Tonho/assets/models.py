@@ -41,6 +41,9 @@ class Feature(MPTTModel):
     binding_time = models.ForeignKey('configuration.BindingTime')
 
     parent  = TreeForeignKey('self', blank=True, null=True, related_name='children')
+
+    use_case_diagram = models.ImageField("Use Case Diagram", null=True, blank=True, upload_to="diagrams")
+
     similar = models.ManyToManyField("self", blank=True, symmetrical=True, 
                                       related_name='similar_features')
     requires = models.ManyToManyField("self", blank=True, symmetrical=False, 

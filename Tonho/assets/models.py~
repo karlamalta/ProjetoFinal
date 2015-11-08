@@ -26,9 +26,9 @@ VARIABILITY_CHOICES = (('mandatory', 'Mandatory'),
 TYPE_CHOICES = (('abstract', 'Abstract'),
                     ('concrete', 'Concrete'))
 
-PRIORITY_CHOICES = (('low', 'LOW'),
-                    ('medium', 'MEDIUM'),
-                    ('high', 'HIGH'))
+PRIORITY_CHOICES = (('low', 'Low'),
+                    ('medium', 'Medium'),
+                    ('high', 'High'))
 
 class Feature(MPTTModel):
     name = models.CharField(max_length=200)
@@ -41,6 +41,9 @@ class Feature(MPTTModel):
     binding_time = models.ForeignKey('configuration.BindingTime')
 
     parent  = TreeForeignKey('self', blank=True, null=True, related_name='children')
+
+    use_case_diagram = ImageField("Use Case Diagram", null=True, blank=True, upload_to="diagrams")
+
     similar = models.ManyToManyField("self", blank=True, symmetrical=True, 
                                       related_name='similar_features')
     requires = models.ManyToManyField("self", blank=True, symmetrical=False, 
