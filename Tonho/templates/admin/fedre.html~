@@ -19,7 +19,7 @@
 
 {% block content %}
 
-
+<h3>Branch {{index}}</h3>
 
 {% recursetree features.all %}
     <li>
@@ -32,9 +32,33 @@
     </li>
 {% endrecursetree %}
 
+<h5>Features that must have use case:</h5>
+
+{% for f in must_have_use_case %}
+    <li>
+        {{ f.name }}
+    </li>
+{% endfor %}
+
+<p>Features that may have use case:</p>
+
+{% for f in may_have_use_case %}
+    <li>
+        {{ f.name }}
+    </li>
+{% endfor %}
+
+<p>Features that should not have use case:</p>
+
+{% for f in should_not_have_use_case %}
+    <li>
+        {{ f.name }}
+    </li>
+{% endfor %}
+
 <form method="POST">{% csrf_token %}
     <input type="hidden" name="index" value= {{ index }}>
-    <button type="submit" class="save btn btn-default">Done</button>
+    <button type="submit" class="save btn btn-default">Branch Done</button>
 </form>
 
 {% endblock %}

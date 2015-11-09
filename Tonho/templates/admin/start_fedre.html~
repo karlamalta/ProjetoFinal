@@ -22,7 +22,7 @@
 <h1>Start FeDRE</h1>
 <p>Requires features' specification</p>
 <form method="POST">{% csrf_token %}
-    <input type="hidden" name="index" value=2>
+    <input type="hidden" name="index" value=0>
     <button type="submit" class="save btn btn-default">Click to Start</button>
 </form>
 
