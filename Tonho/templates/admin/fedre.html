@@ -20,6 +20,7 @@
 {% block content %}
 
 <h3>Branch {{index}}</h3>
+<h5>Features of current branch:</h5>
 
 {% recursetree features.all %}
     <li>
@@ -55,6 +56,27 @@
         {{ f.name }}
     </li>
 {% endfor %}
+
+<h5>FeDRE Steps:</h5>
+
+<p>1. Identify what specific use cases for each feature or group of features are needed;</p>
+
+<p>2. Create use case graphical representation for each feature or group of features;</p>
+<p>
+Draw use case diagrams online: <a href="http://yuml.me/diagram/usecase/draw" target="_blank">yUML</a>
+</p>
+
+<p>3. Upload use case diagram for each feature or group of features;</p>
+<p>
+Features page: <a href="/admin/assets/feature/" target="_blank">SPLICE</a>
+</p>
+
+<p>4. Complete the use case template for each use case identified in step 1;</p>
+<p>
+Use cases page: <a href="/admin/assets/usecase/" target="_blank">SPLICE</a>
+</p>
+
+<p>5. Finish current branch by clicking Branch Done below:</p>
 
 <form method="POST">{% csrf_token %}
     <input type="hidden" name="index" value= {{ index }}>
